@@ -1,0 +1,603 @@
+item_id,form,value
+4,translation,hello
+4,pronunciation,SabaaHoo
+5,translation,hello
+5,pronunciation,marHabaa
+6,translation,2 hello’s
+6,pronunciation,marHabtein
+7,translation,100 hello’s
+7,pronunciation,miiyet marHabaa
+8,translation,1000 hello’s
+8,pronunciation,alf marHabaa
+9,translation,hello
+9,pronunciation,bonjour
+10,translation,2 hello’s
+10,pronunciation,bonjourein
+11,translation,100 hello’s
+11,pronunciation,miiyet bonjour
+12,translation,1000 hello’s
+12,pronunciation,alf bonjour
+13,translation,peace be upon you
+13,pronunciation,as salamo 3alaykom
+14,translation,and upon you be peace
+14,pronunciation,wa 3alaykome ssalaam
+15,translation,welcome / and / the place/the ground you’re on
+15,pronunciation,ahlan wa sahlan
+16,translation,good the morning (more formal)
+16,pronunciation,SabaaH lkheir
+17,translation,good the light (more formal)
+17,pronunciation,SabaaH nnuur
+18,translation,good the roses (to friends)
+18,pronunciation,SabaaH lward
+19,translation,good the jasmine (to friends)
+19,pronunciation,SabaaH lyaasmiin
+20,translation,good night
+20,pronunciation,tusbaH / tusbaHei / tusbaHoo 3ala kheir
+21,translation,good night to you too
+21,pronunciation,wu enta / ente / entoo bkheir
+22,translation,honoured/enchanté
+22,pronunciation,tsharrafnaa (root = sharraf)
+23,translation,we were honoured to have you (m) with
+23,pronunciation,us sharrafetnaa
+24,translation,we were honoured to have you (f) with
+24,pronunciation,us sharraftiinaa
+25,translation,we were honoured to have you (pl) with
+25,pronunciation,us sharraftuunaa
+26,translation,and to me is the honour too
+26,pronunciation,w elei shsharaf kamein
+27,translation,and me too
+27,pronunciation,w anaa kamein
+28,translation,honoured to know you
+28,pronunciation,tsharrafet bema3reftak / -ek / -etkon
+29,translation,opportunity happy
+29,pronunciation,FurSah Sa3iideh
+30,translation,opportunity happier
+30,pronunciation,FurSah as3ad
+31,translation,(have a) happy day
+31,pronunciation,yoom sa3iid
+32,translation,(have a) happier day
+32,pronunciation,yoomak / -ek / -kon as3ad
+33,translation,happy to see you (f)
+33,pronunciation,mabsuuTah ktiir shuufek
+34,translation,Is it ok? (going situation)
+34,pronunciation,meishei al-haal?
+35,translation,What’s the situation?
+35,pronunciation,kayf al-haal?
+36,translation,How am I?
+36,pronunciation,kiifnei
+37,translation,How are you (m)?
+37,pronunciation,kiifak?
+38,translation,How are you (f)?
+38,pronunciation,kiiﬁk?
+39,translation,How is he?
+39,pronunciation,kiifoo?
+40,translation,How is she?
+40,pronunciation,kiifaa?
+41,translation,How are we?
+41,pronunciation,kiifnaa?
+42,translation,How are you (pl)?
+42,pronunciation,kiifkon?
+43,translation,How are they?
+43,pronunciation,kiifon?
+44,translation,What’s up?
+44,pronunciation,shuu akhbaarak / -ek / -kon?
+45,translation,how are you? (your situation)
+45,pronunciation,kiif Haalek?
+46,translation,"What’s happening, what’s not happening?"
+46,pronunciation,Shuu ﬁi ma ﬁi
+47,translation,there is nothing new
+47,pronunciation,maﬁ shii jdiid
+48,translation,everything is ok/good
+48,pronunciation,kell shii tameim/mniiH
+49,translation,thank you
+49,pronunciation,shukran elek / -ak / -kon
+50,translation,you’re welcome
+50,pronunciation,tekram / -e / -oo
+51,translation,you’re welcome (thank you for your eyes)
+51,pronunciation,tekram 3yuunak / -ek / -kon
+52,translation,see you later
+52,pronunciation,bshuufak / -ek / -kon ba3dein
+53,translation,hopefully
+53,pronunciation,nshallah
+54,translation,I wish
+54,pronunciation,yaa reit
+55,translation,your safety / health
+55,pronunciation,saleimtak
+56,translation,may god be with you
+56,pronunciation,allah ma3ak
+57,translation,I give you kisses
+57,pronunciation,bawsak
+58,translation,you have class/manners
+58,pronunciation,kellakzo
+59,translation,"by the name of God (for good, like mashallah)"
+59,pronunciation,smallah
+60,translation,good job (may God give you health)
+60,pronunciation,ya3Tiik l3aafyeh
+61,translation,anwer: idem to you
+61,pronunciation,allah y3aaﬁik
+62,translation,congratulations (blessed)
+62,pronunciation,mabruuk
+63,translation,thank you (may god bless you)
+63,pronunciation,alla ybeirek ﬁik / ﬁike / ﬁikon
+64,translation,"take it, it’s yours (thanks for a compliment on looks)"
+64,pronunciation,m’adame
+65,translation,happy birthday (every feast and you’ll be okay)
+65,pronunciation,kell 3iid w enta bkheir
+66,translation,and a 100 years more (I wish you will reach 100)
+66,pronunciation,3a’beile lmiiyeh
+67,translation,what?
+67,pronunciation,shuu?
+68,translation,how?
+68,pronunciation,kiif?
+69,translation,how much/many?
+69,pronunciation,addei(sh)? eddei(sh)? (+ verb + plural noun)
+70,translation,how many?
+70,pronunciation,kam? (+ singular noun + verb)
+71,translation,why?
+71,pronunciation,leish?
+72,translation,when?
+72,pronunciation,aymta? aymata? aymtiin?
+73,translation,which?
+73,pronunciation,ayya?
+74,translation,who?
+74,pronunciation,miin
+75,translation,whose (for + who)?
+75,pronunciation,lamiin (la + miin)?
+76,translation,"where / at whose (public place, “au”)?"
+76,pronunciation,wein?
+77,translation,"where / at whose (personal place, “chez”)?"
+77,pronunciation,3end miin?
+78,translation,"where to / to whose (public place, “au”)?"
+78,pronunciation,lawein?
+79,translation,"where to / to whose (personal place, “chez”)?"
+79,pronunciation,la3end miin?
+80,translation,"from where / from whose (public place, “au”)?"
+80,pronunciation,men wein / mennein / mnein?
+81,translation,"from where / from whose (personal place, “chez”)?"
+81,pronunciation,men 3end miin?
+82,translation,from
+82,pronunciation,men
+83,translation,for / to (time)
+83,pronunciation,la
+84,translation,on / to (destination)
+84,pronunciation,3ala / 3a
+85,translation,with
+85,pronunciation,ma3
+86,translation,"at / with (public place, “au”)"
+86,pronunciation,bi
+87,translation,"at / with (personal place, “chez”)"
+87,pronunciation,3end
+88,translation,outside
+88,pronunciation,barraa
+89,translation,inside
+89,pronunciation,juuwaa
+90,translation,No possession for “outside” and “inside”.
+91,translation,close to
+91,pronunciation,‘ariib men / ‘ariibeh men / ‘raab men
+92,translation,far from
+92,pronunciation,b3iid 3an / b3iideh 3an / b’aad 3an
+93,translation,Only the last word becomes possessive for “close to” and “far from”.
+94,translation,before
+94,pronunciation,‘abel / ‘abl
+95,translation,after / yet / still / more
+95,pronunciation,ba3ed / ba3d
+96,translation,"Combined with noun: before/after + noun Combined with verb: before/after + maa + inﬁnitive, but maa is not negative here. ex. ‘abel maa eikul, beshrab = before eating, I drink"
+97,translation,between / among
+97,pronunciation,bein
+98,translation,behind
+98,pronunciation,waraa
+99,translation,in front of
+99,pronunciation,‘eddeim
+100,translation,down / under / below
+100,pronunciation,taHet / taHt
+101,translation,up / above / over
+101,pronunciation,foo’
+102,translation,beside
+102,pronunciation,Hadd / janb / janeb
+103,translation,facing / opposite
+103,pronunciation,bewejj [bewish]
+104,translation,very close / sticking to
+104,pronunciation,beleze’
+105,translation,around / sorta
+105,pronunciation,Haweilei / Hweila
+106,translation,close / near
+106,pronunciation,’ariib
+107,translation,soon
+107,pronunciation,’ariiban
+108,translation,approximately
+108,pronunciation,ta’riiban
+109,translation,about
+109,pronunciation,3an
+110,translation,until / not even
+110,pronunciation,Hatta (no possession)
+111,translation,except
+111,pronunciation,ellaa
+112,translation,except
+112,pronunciation,maa 3addaa
+113,translation,except me
+113,pronunciation,maa 3adeiyei
+114,translation,except you (m)
+114,pronunciation,maa 3adeik
+115,translation,except you (f)
+115,pronunciation,maa 3adeike
+116,translation,except him
+116,pronunciation,maa 3adeih
+117,translation,except her
+117,pronunciation,maa 3adeihaa
+118,translation,except us
+118,pronunciation,maa 3adeinaa
+119,translation,except you (pl)
+119,pronunciation,maa 3adeiKon
+120,translation,except them
+120,pronunciation,maa 3adeihon
+121,translation,beside
+121,pronunciation,Hadd
+122,translation,beside me
+122,pronunciation,Haddei
+123,translation,beside you (m)
+123,pronunciation,Haddak
+124,translation,beside you (f)
+124,pronunciation,Haddek
+125,translation,beside him
+125,pronunciation,Haddoo
+126,translation,beside her
+126,pronunciation,Haddaa
+127,translation,beside us
+127,pronunciation,Haddnaa
+128,translation,beside you (pl)
+128,pronunciation,Haddkon
+129,translation,beside them
+129,pronunciation,Haddon
+130,translation,about
+130,pronunciation,3an
+131,translation,about me
+131,pronunciation,3annei
+132,translation,about you (m)
+132,pronunciation,3annak
+133,translation,about you (f)
+133,pronunciation,3annek
+134,translation,about him
+134,pronunciation,3annoo
+135,translation,about her
+135,pronunciation,3annaa
+136,translation,about us
+136,pronunciation,3annaa
+137,translation,about you (pl)
+137,pronunciation,3annkon
+138,translation,about them
+138,pronunciation,3annon
+139,translation,from
+139,pronunciation,men
+140,translation,from me
+140,pronunciation,mennei
+141,translation,from you (m)
+141,pronunciation,mennak
+142,translation,from you (f)
+142,pronunciation,mennek
+143,translation,from him
+143,pronunciation,mennoo
+144,translation,from her
+144,pronunciation,mennaa
+145,translation,from us
+145,pronunciation,mennaa
+146,translation,from you (pl)
+146,pronunciation,mennkon
+147,translation,from them
+147,pronunciation,mennon
+148,translation,with
+148,pronunciation,ma3
+149,translation,with me
+149,pronunciation,ma3ei
+150,translation,with you (m)
+150,pronunciation,ma3ak
+151,translation,with you (f)
+151,pronunciation,ma3ek
+152,translation,with him
+152,pronunciation,ma3oo
+153,translation,with her
+153,pronunciation,ma3aa
+154,translation,with us
+154,pronunciation,ma3naa
+155,translation,with you (pl)
+155,pronunciation,ma3kon
+156,translation,with them
+156,pronunciation,ma3on
+157,translation,up / above / over
+157,pronunciation,foo’
+158,translation,up / above / over me
+158,pronunciation,faw’ei
+159,translation,up / above / over you (m)
+159,pronunciation,faw’ak
+160,translation,up / above / over you (f)
+160,pronunciation,faw’ek
+161,translation,up / above / over him
+161,pronunciation,faw’oo
+162,translation,up / above / over her
+162,pronunciation,faw’oo
+163,translation,up / above / over us
+163,pronunciation,faw’naa
+164,translation,up / above / over you (pl)
+164,pronunciation,faw’kon
+165,translation,up / above / over them
+165,pronunciation,faw’on
+166,translation,in front of
+166,pronunciation,‘eddeim
+167,translation,in front of me
+167,pronunciation,‘eddeimei
+168,translation,in front of you (m)
+168,pronunciation,‘eddeimak
+169,translation,in front of you (f)
+169,pronunciation,‘eddeimek
+170,translation,in front of him
+170,pronunciation,‘eddeimoo
+171,translation,in front of her
+171,pronunciation,‘eddeimaa
+172,translation,in front of us
+172,pronunciation,‘eddeimnaa
+173,translation,in front of you (pl)
+173,pronunciation,‘eddeimkon
+174,translation,in front of them
+174,pronunciation,‘eddeimon
+175,translation,after / still
+175,pronunciation,ba3d / ba3ed
+176,translation,after me
+176,pronunciation,ba3dei
+177,translation,after you (m)
+177,pronunciation,ba3dak
+178,translation,after you (f)
+178,pronunciation,ba3dek
+179,translation,after him
+179,pronunciation,ba3doo
+180,translation,after her
+180,pronunciation,ba3daa
+181,translation,after us
+181,pronunciation,ba3dnaa
+182,translation,after you (pl)
+182,pronunciation,ba3dkon
+183,translation,after them
+183,pronunciation,ba3don
+184,translation,around
+184,pronunciation,Haweilei
+185,translation,around me
+185,pronunciation,Hawaalayyei
+186,translation,around you (m)
+186,pronunciation,Hawaaleik
+187,translation,around you (f)
+187,pronunciation,Hawaaleike
+188,translation,around him
+188,pronunciation,Hawaalayke / Hawaaleih
+189,translation,around her
+189,pronunciation,Hawaalayaa
+190,translation,around us
+190,pronunciation,Hawaalaynaa
+191,translation,around you (pl)
+191,pronunciation,Hawaalaykon
+192,translation,around them
+192,pronunciation,Hawaalayon
+193,translation,to
+193,pronunciation,la
+194,translation,to me
+194,pronunciation,elei
+195,translation,to you (m)
+195,pronunciation,elak
+196,translation,to you (f)
+196,pronunciation,elek
+197,translation,to him
+197,pronunciation,eloo
+198,translation,to her
+198,pronunciation,elaa
+199,translation,to us
+199,pronunciation,elnaa
+200,translation,to you (pl)
+200,pronunciation,elkon
+201,translation,to them
+201,pronunciation,elon
+202,translation,on / to
+202,pronunciation,3ala
+203,translation,on / to me
+203,pronunciation,3layyei
+204,translation,on / to you (m)
+204,pronunciation,3leik
+205,translation,on / to you (f)
+205,pronunciation,3layke
+206,translation,on / to him
+206,pronunciation,3leih / 3layoo
+207,translation,on / to her
+207,pronunciation,3layaa
+208,translation,on / to us
+208,pronunciation,3laynaa
+209,translation,on / to you (pl)
+209,pronunciation,3laykon
+210,translation,on / to them
+210,pronunciation,3layon
+211,translation,behind
+211,pronunciation,waraa
+212,translation,behind me
+212,pronunciation,waraayei
+213,translation,behind you (m)
+213,pronunciation,waraak
+214,translation,behind you (f)
+214,pronunciation,waraake
+215,translation,behind him
+215,pronunciation,waraah
+216,translation,behind her
+216,pronunciation,waraahaa
+217,translation,behind us
+217,pronunciation,waraanaa
+218,translation,behind you (pl)
+218,pronunciation,waraakon
+219,translation,behind them
+219,pronunciation,waraahon
+220,translation,in / at / with / by
+220,pronunciation,be
+221,translation,in / at / with / by me
+221,pronunciation,benei
+222,translation,in / at / with / by you (m)
+222,pronunciation,beik
+223,translation,in / at / with / by you (f)
+223,pronunciation,beke
+224,translation,in / at / with / by him
+224,pronunciation,beih / buuh
+225,translation,in / at / with / by her
+225,pronunciation,behaa
+226,translation,in / at / with / by us
+226,pronunciation,benaa
+227,translation,in / at / with / by you (pl)
+227,pronunciation,bekon
+228,translation,in / at / with / by them
+228,pronunciation,behon
+229,translation,between / among
+229,pronunciation,bein
+230,translation,between / among me
+230,pronunciation,baynei
+231,translation,between / among you (m)
+231,pronunciation,baynak
+232,translation,between / among you (f)
+232,pronunciation,baynek
+233,translation,between / among him
+233,pronunciation,baynoo
+234,translation,between / among her
+234,pronunciation,baynaa
+235,translation,between / among us
+235,pronunciation,baynnaa
+236,translation,between / among you (pl)
+236,pronunciation,baynkon
+237,translation,between / among them
+237,pronunciation,baynon
+238,translation,between us
+238,pronunciation,bayneitnaa
+239,translation,between you (pl)
+239,pronunciation,bayneitkon
+240,translation,between them
+240,pronunciation,bayneiton
+241,translation,all of me (all of that person)
+241,pronunciation,kellnei
+242,translation,all of you (m)
+242,pronunciation,kellak
+243,translation,all of you (f)
+243,pronunciation,kellek
+244,translation,all of him
+244,pronunciation,kelloo
+245,translation,all of her
+245,pronunciation,kellaa
+246,translation,all of us
+246,pronunciation,kellnaa
+247,translation,all of you (pl)
+247,pronunciation,kellkon
+248,translation,all of them
+248,pronunciation,kellon
+112,possessive_1s,maa 3adeiyei
+112,possessive_2sm,maa 3adeik
+112,possessive_2sf,maa 3adeike
+112,possessive_3sm,maa 3adeih
+112,possessive_3sf,maa 3adeihaa
+112,possessive_1p,maa 3adeinaa
+112,possessive_2p,maa 3adeiKon
+112,possessive_3p,maa 3adeihon
+121,possessive_1s,Haddei
+121,possessive_2sm,Haddak
+121,possessive_2sf,Haddek
+121,possessive_3sm,Haddoo
+121,possessive_3sf,Haddaa
+121,possessive_1p,Haddnaa
+121,possessive_2p,Haddkon
+121,possessive_3p,Haddon
+130,possessive_1s,3annei
+130,possessive_2sm,3annak
+130,possessive_2sf,3annek
+130,possessive_3sm,3annoo
+130,possessive_3sf,3annaa
+130,possessive_1p,3annaa
+130,possessive_2p,3annkon
+130,possessive_3p,3annon
+139,possessive_1s,mennei
+139,possessive_2sm,mennak
+139,possessive_2sf,mennek
+139,possessive_3sm,mennoo
+139,possessive_3sf,mennaa
+139,possessive_1p,mennaa
+139,possessive_2p,mennkon
+139,possessive_3p,mennon
+148,possessive_1s,ma3ei
+148,possessive_2sm,ma3ak
+148,possessive_2sf,ma3ek
+148,possessive_3sm,ma3oo
+148,possessive_3sf,ma3aa
+148,possessive_1p,ma3naa
+148,possessive_2p,ma3kon
+148,possessive_3p,ma3on
+157,possessive_1s,faw’ei
+157,possessive_2sm,faw’ak
+157,possessive_2sf,faw’ek
+157,possessive_3sm,faw’oo
+157,possessive_3sf,faw’oo
+157,possessive_1p,faw’naa
+157,possessive_2p,faw’kon
+157,possessive_3p,faw’on
+166,possessive_1s,‘eddeimei
+166,possessive_2sm,‘eddeimak
+166,possessive_2sf,‘eddeimek
+166,possessive_3sm,‘eddeimoo
+166,possessive_3sf,‘eddeimaa
+166,possessive_1p,‘eddeimnaa
+166,possessive_2p,‘eddeimkon
+166,possessive_3p,‘eddeimon
+175,possessive_1s,ba3dei
+175,possessive_2sm,ba3dak
+175,possessive_2sf,ba3dek
+175,possessive_3sm,ba3doo
+175,possessive_3sf,ba3daa
+175,possessive_1p,ba3dnaa
+175,possessive_2p,ba3dkon
+175,possessive_3p,ba3don
+184,possessive_1s,Hawaalayyei
+184,possessive_2sm,Hawaaleik
+184,possessive_2sf,Hawaaleike
+184,possessive_3sm,Hawaalayke / Hawaaleih
+184,possessive_3sf,Hawaalayaa
+184,possessive_1p,Hawaalaynaa
+184,possessive_2p,Hawaalaykon
+184,possessive_3p,Hawaalayon
+193,possessive_1s,elei
+193,possessive_2sm,elak
+193,possessive_2sf,elek
+193,possessive_3sm,eloo
+193,possessive_3sf,elaa
+193,possessive_1p,elnaa
+193,possessive_2p,elkon
+193,possessive_3p,elon
+202,possessive_1s,3layyei
+202,possessive_2sm,3leik
+202,possessive_2sf,3layke
+202,possessive_3sm,3leih / 3layoo
+202,possessive_3sf,3layaa
+202,possessive_1p,3laynaa
+202,possessive_2p,3laykon
+202,possessive_3p,3layon
+211,possessive_1s,waraayei
+211,possessive_2sm,waraak
+211,possessive_2sf,waraake
+211,possessive_3sm,waraah
+211,possessive_3sf,waraahaa
+211,possessive_1p,waraanaa
+211,possessive_2p,waraakon
+211,possessive_3p,waraahon
+220,possessive_1s,benei
+220,possessive_2sm,beik
+220,possessive_2sf,beke
+220,possessive_3sm,beih / buuh
+220,possessive_3sf,behaa
+220,possessive_1p,benaa
+220,possessive_2p,bekon
+220,possessive_3p,behon
+229,possessive_1s,baynei
+229,possessive_2sm,baynak
+229,possessive_2sf,baynek
+229,possessive_3sm,baynoo
+229,possessive_3sf,baynaa
+229,possessive_1p,baynnaa
+229,possessive_2p,baynkon
+229,possessive_3p,baynon
+229,between_1p,bayneitnaa
+229,between_2p,bayneitkon
+229,between_3p,bayneiton
