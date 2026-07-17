@@ -1,6 +1,6 @@
 import { PrimaryActionButton } from '@/components/ui/PrimaryActionButton';
 
-const primaryActions = ['Learn', 'Review', 'Statistics'];
+const primaryActions = ['Browse', 'Review', 'Statistics'];
 
 export function HomePage() {
   return (
