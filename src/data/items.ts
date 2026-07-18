@@ -1,26 +1,32 @@
-export const words = [
+import type { Item } from '@/types/types';
+
+export const items: Item[] = [
   {
-    id: "hello",
-    topicId: "greetings",
-    english: "Hello",
-    arabic: "marhaba",
+    id: 'hello',
+    type: 'word',
+    topicId: 'greetings',
+    english: 'Hello',
+    lebanese: 'marhaba'
   },
   {
-    id: "hi",
-    topicId: "greetings",
-    english: "Hi",
-    arabic: "ahlan",
+    id: 'hi',
+    type: 'word',
+    topicId: 'greetings',
+    english: 'Hi',
+    lebanese: 'ahlan'
   },
   {
-    id: "good-morning",
-    topicId: "greetings",
-    english: "Good morning",
-    arabic: "sabah el kheir",
+    id: 'good-morning',
+    type: 'word',
+    topicId: 'greetings',
+    english: 'Good morning',
+    lebanese: 'sabah el kheir'
   },
   {
-    id: "how-are-you",
-    topicId: "greetings",
-    english: "How are you?",
-    arabic: "kifak?",
+    id: 'how-are-you',
+    type: 'word',
+    topicId: 'greetings',
+    english: 'How are you?',
+    lebanese: 'kifak?'
   }
 ];

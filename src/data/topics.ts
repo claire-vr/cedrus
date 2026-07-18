@@ -1,22 +1,24 @@
-export const topics = [
+import type { Topic } from '@/types/types';
+
+export const topics: Topic[] = [
   {
-    id: "greetings",
-    name: "Greetings",
+    id: 'greetings',
+    name: 'Greetings'
   },
   {
-    id: "questions",
-    name: "Questions",
+    id: 'questions',
+    name: 'Questions'
   },
   {
-    id: "prepositions",
-    name: "Prepositions",
+    id: 'prepositions',
+    name: 'Prepositions'
   },
   {
-    id: "people",
-    name: "People",
+    id: 'people',
+    name: 'People'
   },
   {
-    id: "places",
-    name: "Places",
-  },
+    id: 'places',
+    name: 'Places'
+  }
 ];

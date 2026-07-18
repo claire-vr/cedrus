@@ -1,23 +1,23 @@
-import { Link } from "react-router-dom";
-import { topics } from "../data/topics";
+import { TopicCard } from '@/components/TopicCard';
+import { topics } from '@/data/topics';
+import { PageHeader } from '@/components/PageHeader';
+import { PageContainer } from '@/components/PageContainer';
+import { items } from '@/data/items';
 
 export function TopicsPage() {
   return (
-    <section className="mx-auto max-w-4xl px-5 py-12">
-      <h1 className="text-4xl font-bold">Browse Topics</h1>
+    <PageContainer>
+      <PageHeader title="Browse Topics" subtitle={`${topics.length} topics`} />
 
-    <ul className="mt-8 space-y-3">
+      <div className="mt-8 space-y-4">
         {topics.map((topic) => (
-            <li key={topic.id}>
-                <Link
-                    to={`/topics/${topic.id}`}
-                    className="block rounded-xl border border-gray-200 bg-white p-4 shadow-sm transition hover:shadow-md"
-                >
-                    {topic.name}
-                </Link>
-                </li>
+          <TopicCard
+            key={topic.id}
+            topic={topic}
+            itemCount={items.filter((item) => item.topicId === topic.id).length}
+          />
         ))}
-    </ul>
-    </section>
+      </div>
+    </PageContainer>
   );
 }
