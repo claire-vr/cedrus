@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">Cedrus icon</title>
-  <desc id="desc">A stylized cedar tree with a red horizon.</desc>
-  <rect width="512" height="512" rx="112" fill="#f7faf4"/>
-  <path d="M112 328h288" stroke="#c5282f" stroke-width="24" stroke-linecap="round"/>
-  <path d="M256 92 146 236h58l-78 92h260l-78-92h58L256 92Z" fill="#2f5438"/>
-  <path d="M256 92v236" stroke="#f7faf4" stroke-width="18" stroke-linecap="round" opacity=".72"/>
-  <path d="M218 388h76l-18 52h-40l-18-52Z" fill="#8f1e24"/>
-</svg>

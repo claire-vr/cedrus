@@ -1,8 +1,10 @@
 import { PrimaryActionButton } from '@/components/ui/PrimaryActionButton';
+import { useNavigate } from 'react-router-dom';
 
 const primaryActions = ['Browse', 'Review', 'Statistics'];
 
 export function HomePage() {
+  const navigate = useNavigate();
   return (
     <section className="mx-auto grid min-h-[calc(100vh-4rem)] w-full max-w-6xl items-center px-5 py-12 sm:px-8 lg:grid-cols-[1fr_0.88fr] lg:gap-12">
       <div className="max-w-2xl">
@@ -19,7 +21,15 @@ export function HomePage() {
 
       <div className="mt-10 grid gap-4 sm:grid-cols-3 lg:mt-0 lg:grid-cols-1">
         {primaryActions.map((action) => (
-          <PrimaryActionButton key={action}>{action}</PrimaryActionButton>
+          <PrimaryActionButton
+            key={action}
+            onClick={() => {
+              if (action === 'Browse') navigate('/topics');
+              if (action === 'Review') navigate('/review');
+            }}
+          >
+            {action}
+          </PrimaryActionButton>
         ))}
       </div>
     </section>

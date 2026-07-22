@@ -2,31 +2,31 @@ import type { Item } from '@/types/types';
 
 export const items: Item[] = [
   {
-    id: 'hello',
-    type: 'word',
+    id: 'greeting-hello-marhaba',
     topicId: 'greetings',
+    type: 'word',
     english: 'Hello',
-    lebanese: 'marhaba'
+    lebanese: 'marHabaa'
   },
   {
-    id: 'hi',
-    type: 'word',
+    id: 'greeting-good-morning',
     topicId: 'greetings',
-    english: 'Hi',
-    lebanese: 'ahlan'
-  },
-  {
-    id: 'good-morning',
     type: 'word',
-    topicId: 'greetings',
     english: 'Good morning',
-    lebanese: 'sabah el kheir'
+    lebanese: 'SabaaH lkheir'
   },
   {
-    id: 'how-are-you',
-    type: 'word',
+    id: 'greeting-good-night',
     topicId: 'greetings',
+    type: 'word',
+    english: 'Good night',
+    lebanese: 'tusbaH 3ala kheir'
+  },
+  {
+    id: 'greeting-how-are-you',
+    topicId: 'greetings',
+    type: 'dialogue',
     english: 'How are you?',
-    lebanese: 'kifak?'
+    lebanese: 'kiifak?'
   }
 ];
