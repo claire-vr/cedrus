@@ -5,6 +5,7 @@ import { SettingsPage } from '@/pages/SettingsPage';
 import { TopicPage } from '@/pages/TopicPage';
 import { TopicsPage } from '@/pages/TopicsPage';
 import ReviewPage from '../pages/ReviewPage';
+import { ReviewTopicsPage } from '@/pages/ReviewTopicsPage';
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       },
       {
         path: 'review',
+        element: <ReviewTopicsPage />
+      },
+      {
+        path: 'review/:topicId',
         element: <ReviewPage />
       }
     ]
