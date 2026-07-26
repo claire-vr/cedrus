@@ -1,9 +1,13 @@
 export function registerServiceWorker() {
-  if (!import.meta.env.PROD || !('serviceWorker' in navigator)) {
+  if (!('serviceWorker' in navigator)) {
     return;
   }
 
-  window.addEventListener('load', () => {
-    void navigator.serviceWorker.register('/service-worker.js');
+  window.addEventListener('load', async () => {
+    const registrations = await navigator.serviceWorker.getRegistrations();
+
+    for (const registration of registrations) {
+      await registration.unregister();
+    }
   });
 }
