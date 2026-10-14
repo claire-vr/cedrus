@@ -48,19 +48,27 @@ export function VerbPage() {
             </p>
           )}
         </div>
-        <button
-          type="button"
-          onClick={() => setPractice((p) => !p)}
-          aria-pressed={practice}
-          className={[
-            'rounded-full px-4 py-2 text-sm font-semibold transition',
-            practice
-              ? 'bg-lebanon-redDark text-white'
-              : 'bg-white text-cedar-700 ring-1 ring-cedar-300 hover:bg-cedar-100'
-          ].join(' ')}
-        >
-          {practice ? 'Show all forms' : 'Practice: hide forms'}
-        </button>
+        <div className="flex flex-wrap gap-2">
+          <Link
+            to={`/verbs/drill?verb=${verb.id}`}
+            className="rounded-full bg-cedar-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-cedar-900"
+          >
+            Drill this verb
+          </Link>
+          <button
+            type="button"
+            onClick={() => setPractice((p) => !p)}
+            aria-pressed={practice}
+            className={[
+              'rounded-full px-4 py-2 text-sm font-semibold transition',
+              practice
+                ? 'bg-lebanon-redDark text-white'
+                : 'bg-white text-cedar-700 ring-1 ring-cedar-300 hover:bg-cedar-100'
+            ].join(' ')}
+          >
+            {practice ? 'Show all forms' : 'Practice: hide forms'}
+          </button>
+        </div>
       </header>
 
       {practice && (

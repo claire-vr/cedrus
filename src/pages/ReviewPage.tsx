@@ -1,71 +1,59 @@
-import { useEffect, useMemo, useState } from 'react';
-import { items } from '@/data/database';
-import { useParams } from 'react-router-dom';
-import { shuffle } from '@/utils/shuffle';
+import { useMemo, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import { PracticeSession } from '@/components/practice/PracticeSession';
+import { getTopic, items } from '@/data/database';
+import { vocabularyCard } from '@/lib/cards';
+import { pickSession, statusOf } from '@/lib/progress';
 
+/** /review/:topicId, or /review/due for everything that is due. */
 export default function ReviewPage() {
   const { topicId } = useParams();
+  const [round, setRound] = useState(0);
+  const allDue = topicId === 'due';
+  const topic = getTopic(topicId);
 
-  const reviewItems = useMemo(() => {
-    return items.filter((item) => item.topicId === topicId && item.lebanese);
-  }, [topicId]);
+  const session = useMemo(() => {
+    const pool = items
+      .filter((item) => item.lebanese)
+      .filter((item) =>
+        allDue ? statusOf(item.id) === 'due' : item.topicId === topicId
+      )
+      .map(vocabularyCard);
+    return pickSession(pool);
+    // `round` makes "Another round" pick a fresh set.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [topicId, allDue, round]);
 
-  const [remaining, setRemaining] = useState<typeof reviewItems>([]);
-  const [showAnswer, setShowAnswer] = useState(false);
-
-  useEffect(() => {
-    setRemaining(shuffle(reviewItems));
-    setShowAnswer(false);
-  }, [reviewItems]);
-
-  const item = remaining[0];
-
-  if (!item) {
-    return (
-      <main className="mx-auto max-w-xl px-6 py-10">
-        <p>Loading...</p>
-      </main>
-    );
-  }
-
-  function next() {
-    setRemaining((current) => {
-      if (current.length <= 1) {
-        return shuffle(reviewItems);
-      }
-
-      return current.slice(1);
-    });
-
-    setShowAnswer(false);
-  }
+  const title = allDue ? 'Due for review' : (topic?.name ?? 'Review');
 
   return (
-    <main className="mx-auto flex min-h-[calc(100vh-4rem)] max-w-xl flex-col px-6 py-10">
-      <h1 className="mb-8 text-center text-3xl font-bold">Review</h1>
-
-      <div
-        onClick={() => !showAnswer && setShowAnswer(true)}
-        className="flex flex-1 cursor-pointer flex-col justify-center rounded-2xl border border-cedar-300 bg-white p-10 shadow-soft"
-      >
-        <p className="text-center text-4xl font-bold">{item.english}</p>
-
-        <div className="mt-16 text-center">
-          {showAnswer ? (
-            <p className="text-3xl text-lebanon-redDark">{item.lebanese}</p>
-          ) : (
-            <p className="text-lg text-gray-400">Tap anywhere to reveal</p>
-          )}
-        </div>
+    <main className="mx-auto flex min-h-[calc(100vh-4rem)] max-w-xl flex-col px-5 py-6">
+      <div className="mb-4 flex items-center justify-between">
+        <Link to="/review" className="text-sm text-gray-500 hover:text-black">
+          ← Review
+        </Link>
+        <h1 className="text-lg font-semibold text-cedar-900">{title}</h1>
       </div>
 
-      {showAnswer && (
-        <button
-          onClick={next}
-          className="mt-8 rounded-xl bg-cedar-800 py-4 text-xl font-semibold text-white"
-        >
-          Next →
-        </button>
+      {session.extra && (
+        <p className="mb-4 rounded-xl bg-cedar-100 px-4 py-3 text-sm text-cedar-900">
+          Nothing is due here right now. This is an extra practice round.
+        </p>
+      )}
+
+      {session.cards.length === 0 ? (
+        <p className="mt-10 text-center text-gray-500">
+          Nothing to review here right now.
+        </p>
+      ) : (
+        <PracticeSession
+          key={`${topicId}-${round}`}
+          cards={session.cards}
+          mode="reveal"
+          backTo="/review"
+          backLabel="Topics"
+          onRestart={() => setRound((r) => r + 1)}
+        />
       )}
     </main>
   );

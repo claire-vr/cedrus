@@ -57,20 +57,34 @@ export function VerbsPage() {
         subtitle={`${allVerbs.length} verbs from your notes`}
       />
 
-      <Link
-        to="/verbs/rules"
-        className="mb-6 flex items-center justify-between rounded-2xl border border-lebanon-red/20 bg-white px-5 py-4 transition hover:border-lebanon-red/40"
-      >
-        <span>
-          <span className="block font-semibold text-lebanon-redDark">
-            Verb rules
+      <div className="mb-6 grid gap-3 sm:grid-cols-2">
+        <Link
+          to="/verbs/drill"
+          className="flex items-center justify-between rounded-2xl bg-cedar-700 px-5 py-4 text-white transition hover:bg-cedar-900"
+        >
+          <span>
+            <span className="block font-semibold">Conjugation drill</span>
+            <span className="text-sm text-cedar-100">
+              Type the right form, with spaced repetition
+            </span>
           </span>
-          <span className="text-sm text-gray-500">
-            {verbRules.length} rules on conjugation, participles and more
+          <span className="text-2xl text-cedar-300">›</span>
+        </Link>
+        <Link
+          to="/verbs/rules"
+          className="flex items-center justify-between rounded-2xl border border-lebanon-red/20 bg-white px-5 py-4 transition hover:border-lebanon-red/40"
+        >
+          <span>
+            <span className="block font-semibold text-lebanon-redDark">
+              Verb rules
+            </span>
+            <span className="text-sm text-gray-500">
+              {verbRules.length} rules on conjugation, participles and more
+            </span>
           </span>
-        </span>
-        <span className="text-2xl text-gray-300">›</span>
-      </Link>
+          <span className="text-2xl text-gray-300">›</span>
+        </Link>
+      </div>
 
       <label className="sr-only" htmlFor="verb-search">
         Search verbs

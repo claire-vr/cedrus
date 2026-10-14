@@ -9,6 +9,7 @@ import { ReviewTopicsPage } from '@/pages/ReviewTopicsPage';
 import { VerbsPage } from '@/pages/VerbsPage';
 import { VerbPage } from '@/pages/VerbPage';
 import { VerbRulesPage } from '@/pages/VerbRulesPage';
+import { DrillPage } from '@/pages/DrillPage';
 
 export const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ export const router = createBrowserRouter([
       {
         path: 'verbs/rules',
         element: <VerbRulesPage />
+      },
+      {
+        path: 'verbs/drill',
+        element: <DrillPage />
       },
       {
         path: 'verbs/:verbId',
