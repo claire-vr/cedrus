@@ -66,9 +66,8 @@ To add or change words:
 ## Project Structure
 
 ```text
-design/         Source artwork (not shipped with the app)
 database/       The content: vocabulary.csv, forms.csv, rules.csv, examples.csv
-                (+ Cedrus database.numbers for editing)
+                (+ Cedrus database.numbers for editing, archive/ for old versions)
 src/
   app/          Application shell and router setup
   components/   Reusable UI and layout components
@@ -77,6 +76,12 @@ src/
   styles/       Global Tailwind styles
 ```
 
-## PWA
+## PWA and offline use
 
-Cedrus includes a web app manifest, cedar-themed install icons, and a small service worker registration that runs in production. The service worker caches the app shell so production builds can be installed and reopened quickly.
+Cedrus can be added to the iPhone home screen (Safari → Share → Add to Home Screen) and works offline.
+
+- `pwa/service-worker.js` is a template. At build time the small plugin in `vite.config.ts` fills in the list of files to save and a version number, and writes `dist/service-worker.js`.
+- The first visit with a connection saves the whole app, including all words (they are bundled into the app).
+- Page loads try the network first (4 s timeout) and fall back to the saved copy, so a new deploy shows up the next time the app is opened online.
+- The service worker only runs on the published site; `npm run dev` removes it so you always see your latest changes.
+- `vercel.json` sends every route to `index.html` (so refreshing /topics/food works) and stops `service-worker.js` from being cached.

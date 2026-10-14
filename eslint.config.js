@@ -28,9 +28,13 @@ export default tseslint.config(
     }
   },
   {
-    files: ['public/service-worker.js'],
+    files: ['pwa/service-worker.js'],
     languageOptions: {
-      globals: globals.serviceworker
+      globals: {
+        ...globals.serviceworker,
+        // Filled in at build time by the plugin in vite.config.ts.
+        __PRECACHE__: 'readonly'
+      }
     }
   },
   prettier
