@@ -1,7 +1,7 @@
 import { TopicCard } from '@/components/TopicCard';
 import { PageHeader } from '@/components/PageHeader';
 import { PageContainer } from '@/components/PageContainer';
-import { itemsInTopic, topics } from '@/data/database';
+import { itemsInTopic, rulesForTopic, topics } from '@/data/database';
 
 export function TopicsPage() {
   return (
@@ -14,6 +14,7 @@ export function TopicsPage() {
             key={topic.id}
             topic={topic}
             itemCount={itemsInTopic(topic.id).length}
+            ruleCount={rulesForTopic(topic.name).length}
             // Verbs have their own section with conjugation tables.
             to={topic.id === 'verbs' ? '/verbs' : `/topics/${topic.id}`}
           />

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { objectLabels, personLabels } from '@/data/verbs';
+import { formLabel } from '@/data/verbs';
 import type { VerbForm } from '@/types/verbs';
 
 type ConjugationTableProps = {
@@ -22,9 +22,7 @@ export function ConjugationTable({
       <table className="w-full text-left">
         <tbody className="divide-y divide-cedar-100">
           {forms.map((form, index) => {
-            const label = form.tense.startsWith('possessive')
-              ? { english: objectLabels[form.person] ?? form.person }
-              : personLabels[form.person];
+            const label = formLabel(form);
             const isBase = form.person === 'infinitive';
             const show = !hidden || isBase || revealed.has(index);
             return (
@@ -37,15 +35,13 @@ export function ConjugationTable({
                   className="w-2/5 px-5 py-3 align-top font-normal"
                 >
                   <span className="block font-semibold text-cedar-900">
-                    {isBase
-                      ? 'base'
-                      : label?.hint
-                        ? label.english
-                        : form.person}
+                    {label.main}
                   </span>
-                  <span className="block text-sm text-gray-500">
-                    {label?.hint ?? label?.english ?? ''}
-                  </span>
+                  {label.hint && (
+                    <span className="block text-sm text-gray-500">
+                      {label.hint}
+                    </span>
+                  )}
                 </th>
                 <td className="px-5 py-3 align-top">
                   {show ? (

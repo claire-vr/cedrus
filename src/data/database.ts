@@ -46,9 +46,15 @@ const formRows = load('forms', ['item', 'form', 'person', 'lebanese']);
 const ruleRows = load('rules', ['topic', 'rule']);
 const exampleRows = load('examples', ['topic', 'english', 'lebanese']);
 
-// ---- topics, in the order they first appear in vocabulary.csv ----
+// ---- topics ----
+// Order: topics that only have rules (e.g. "Language rules") first, then the
+// order in which topics first appear in vocabulary.csv.
+const vocabularyTopics = vocabularyRows.map((row) => row.topic).filter(Boolean);
+const rulesOnlyTopics = ruleRows
+  .map((row) => row.topic)
+  .filter((topic) => topic && !vocabularyTopics.includes(topic));
 export const topics: Topic[] = [
-  ...new Set(vocabularyRows.map((row) => row.topic).filter(Boolean))
+  ...new Set([...rulesOnlyTopics, ...vocabularyTopics])
 ].map((name) => ({ id: slugify(name), name }));
 
 // ---- items with their forms ----
@@ -78,6 +84,7 @@ export const items: Item[] = vocabularyRows
       topic: row.topic,
       english: row.english,
       lebanese: row.lebanese,
+      arabic: row.arabic ?? '',
       type: row.type ?? '',
       notes: row.notes ?? '',
       forms: formsByItem.get(row.english) ?? []

@@ -7,7 +7,7 @@ export default function ReviewPage() {
   const { topicId } = useParams();
 
   const reviewItems = useMemo(() => {
-    return items.filter((item) => item.topicId === topicId);
+    return items.filter((item) => item.topicId === topicId && item.lebanese);
   }, [topicId]);
 
   const [remaining, setRemaining] = useState<typeof reviewItems>([]);

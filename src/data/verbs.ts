@@ -92,20 +92,55 @@ export const personLabels: Record<string, { english: string; hint?: string }> =
     henne: { english: 'they' },
     'male, singular': { english: 'masculine', hint: 'anaa / enta / huuwe' },
     'female, singular': { english: 'feminine', hint: 'anaa / ente / hiiye' },
-    plural: { english: 'plural', hint: 'nehna / entoo / henne' }
+    plural: { english: 'plural', hint: 'nehna / entoo / henne' },
+    'male, plural': { english: 'masculine plural' },
+    'female, plural': { english: 'feminine plural' },
+    singular: { english: 'singular' },
+    dual: { english: 'dual (two)' },
+    'plural (general)': { english: 'plural (in general)' },
+    'plural (counting)': { english: 'plural (when counting)' }
   };
 
-/** For possessive forms of prepositions: "with me", "with you (m)" … */
-export const objectLabels: Record<string, string> = {
-  anaa: 'me',
-  enta: 'you (m)',
-  ente: 'you (f)',
-  huuwe: 'him',
+/** Possessive forms ("with me", "my door", "at mine"…). */
+export const possessiveLabels: Record<string, string> = {
+  anaa: 'me · my',
+  enta: 'you · your (m)',
+  ente: 'you · your (f)',
+  huuwe: 'him · his',
   hiiye: 'her',
-  nehna: 'us',
-  entoo: 'you (pl)',
-  henne: 'them'
+  nehna: 'us · our',
+  entoo: 'you · your (pl)',
+  henne: 'them · their'
 };
+
+const pronouns = new Set([
+  'anaa',
+  'enta',
+  'ente',
+  'huuwe',
+  'hiiye',
+  'nehna',
+  'entoo',
+  'henne'
+]);
+
+/** Bold label and small hint for one row of a forms table. */
+export function formLabel(form: { tense: string; person: string }) {
+  if (form.person === 'infinitive') return { main: 'base', hint: 'base form' };
+  if (form.tense.startsWith('possessive')) {
+    return { main: form.person, hint: possessiveLabels[form.person] ?? '' };
+  }
+  const label = personLabels[form.person];
+  if (pronouns.has(form.person)) {
+    return { main: form.person, hint: label?.english ?? '' };
+  }
+  // Only participles get the "anaa / enta / huuwe" hint; for nouns and
+  // adjectives the English name (masculine, dual …) is the label itself.
+  return {
+    main: label?.english ?? form.person,
+    hint: form.tense === 'active participle' ? (label?.hint ?? '') : ''
+  };
+}
 
 // Which rules (by their "about" column in rules.csv) belong with which tense.
 const ruleTopicsByTense: Record<string, string[]> = {

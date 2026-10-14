@@ -1,5 +1,10 @@
 import { Link } from 'react-router-dom';
-import { topics } from '@/data/database';
+import { itemsInTopic, topics } from '@/data/database';
+
+// Only topics with words to review (not rules-only ones like Language rules).
+const reviewTopics = topics.filter((topic) =>
+  itemsInTopic(topic.id).some((item) => item.lebanese)
+);
 
 export function ReviewTopicsPage() {
   return (
@@ -8,7 +13,7 @@ export function ReviewTopicsPage() {
       <p className="mb-8 text-gray-600">Select a topic to review.</p>
 
       <div className="space-y-4">
-        {topics.map((topic) => (
+        {reviewTopics.map((topic) => (
           <Link
             key={topic.id}
             to={`/review/${topic.id}`}

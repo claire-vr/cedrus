@@ -14,7 +14,7 @@ One row per word or expression.
 | type     | expression, question word, preposition, pronoun, adjective, verb …                                                   |
 | notes    | Optional remark shown under the word.                                                                                |
 
-The topic "Verbs" opens the verbs section with conjugation tables.
+The topic "Verbs" opens the verbs section with conjugation tables. Topics appear in Browse in the order they first appear in this file; a topic that only has rules (like "Language rules") is listed first.
 
 ## forms.csv
 
@@ -48,7 +48,7 @@ Conjugations and other forms of a vocabulary item, one row per form.
 ## Sources (merged October 2026)
 
 - Cedurs_database.numbers: pronouns, adjectives, verbs, verb rules and examples.
-- CALF.pages: Greetings, Questions and Prepositions (current spelling with 7 and 2), including the possessive forms, rules and example sentences.
+- CALF.pages: every chapter (current spelling with 7 and 2), including its tables, rules and example sentences. Relatives' first names in the family table were left out because the site is public.
 - The July CSV extraction and the hand-typed greetings in the app were checked against this; everything in them is included.
 
-Earlier versions are in the git history.
+Earlier versions are kept in `archive/`.

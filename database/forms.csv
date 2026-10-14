@@ -1,28 +1,82 @@
 item,form,person,lebanese
-except (maa 3addaa),possessive,anaa,maa 3adeiyei
-except (maa 3addaa),possessive,enta,maa 3adeik
-except (maa 3addaa),possessive,ente,maa 3adeike
-except (maa 3addaa),possessive,huuwe,maa 3adeih
-except (maa 3addaa),possessive,hiiye,maa 3adeihaa
-except (maa 3addaa),possessive,nehna,maa 3adeinaa
-except (maa 3addaa),possessive,entoo,maa 3adeiKon
-except (maa 3addaa),possessive,henne,maa 3adeihon
-beside (7add),possessive,anaa,7addei
-beside (7add),possessive,enta,7addak
-beside (7add),possessive,ente,7addek
-beside (7add),possessive,huuwe,7addoo
-beside (7add),possessive,hiiye,7addaa
-beside (7add),possessive,nehna,7addnaa
-beside (7add),possessive,entoo,7addkon
-beside (7add),possessive,henne,7addon
-about,possessive,anaa,3annei
-about,possessive,enta,3annak
-about,possessive,ente,3annek
-about,possessive,huuwe,3annoo
-about,possessive,hiiye,3annaa
-about,possessive,nehna,3annaa
-about,possessive,entoo,3annkon
-about,possessive,henne,3annon
+this (near),gender & number,"male, singular",haydaa
+this (near),gender & number,"female, singular",haydei
+this (near),gender & number,plural,haydool / hool / hawdei
+that (far),gender & number,"male, singular",haydaak
+that (far),gender & number,"female, singular",haydiik
+that (far),gender & number,plural,haydooliik / hooliik / hawdiik
+door,possessive,anaa,beibei
+door,possessive,enta,beibak
+door,possessive,ente,beibek
+door,possessive,huuwe,beiboo
+door,possessive,hiiye,beibaa
+door,possessive,nehna,beibnaa
+door,possessive,entoo,beibkon
+door,possessive,henne,beibon
+name,possessive,anaa,esmei
+name,possessive,enta,esmak
+name,possessive,ente,esmek
+name,possessive,huuwe,esmoo
+name,possessive,hiiye,esmaa
+name,possessive,nehna,esemnaa
+name,possessive,entoo,esemkon
+name,possessive,henne,esmon
+car,possessive,anaa,siiyaartei
+car,possessive,enta,siiyaartak
+car,possessive,ente,siiyaartek
+car,possessive,huuwe,siiyaartoo
+car,possessive,hiiye,siiyaaretaa
+car,possessive,nehna,siiyaaretnaa
+car,possessive,entoo,siiyaaretkon
+car,possessive,henne,siiyaareton
+school,possessive,anaa,madrastei
+school,possessive,enta,madrastak
+school,possessive,ente,madrastek
+school,possessive,huuwe,madrastoo
+school,possessive,hiiye,madrasetaa
+school,possessive,nehna,madrasetnaa
+school,possessive,entoo,madrasetkon
+school,possessive,henne,madraseton
+at (someone’s place),possessive,anaa,3endei
+at (someone’s place),possessive,enta,3endak
+at (someone’s place),possessive,ente,3endek
+at (someone’s place),possessive,huuwe,3endoo
+at (someone’s place),possessive,hiiye,3endaa
+at (someone’s place),possessive,nehna,3endnaa
+at (someone’s place),possessive,entoo,3endkon
+at (someone’s place),possessive,henne,3endon
+to (someone’s place),possessive,anaa,la3endei
+to (someone’s place),possessive,enta,la3endak
+to (someone’s place),possessive,ente,la3endek
+to (someone’s place),possessive,huuwe,la3endoo
+to (someone’s place),possessive,hiiye,la3endaa
+to (someone’s place),possessive,nehna,la3endnaa
+to (someone’s place),possessive,entoo,la3endkon
+to (someone’s place),possessive,henne,la3endon
+from (someone’s place),possessive,anaa,min3endei
+from (someone’s place),possessive,enta,min3endak
+from (someone’s place),possessive,ente,min3endek
+from (someone’s place),possessive,huuwe,min3endoo
+from (someone’s place),possessive,hiiye,min3endaa
+from (someone’s place),possessive,nehna,min3endnaa
+from (someone’s place),possessive,entoo,min3endkon
+from (someone’s place),possessive,henne,min3endon
+for (someone),possessive,anaa,(la) elei
+for (someone),possessive,enta,(la) elak
+for (someone),possessive,ente,(la) elek
+for (someone),possessive,huuwe,(la) eloo
+for (someone),possessive,hiiye,(la) elaa
+for (someone),possessive,nehna,(la) elnaa
+for (someone),possessive,entoo,(la) elkon
+for (someone),possessive,henne,(la) elon
+for,possessive,anaa,taba3ei
+for,possessive,enta,taba3ak
+for,possessive,ente,taba3ek
+for,possessive,huuwe,taba3oo
+for,possessive,hiiye,taba3aa
+for,possessive,nehna,taba3naa
+for,possessive,entoo,taba3kon
+for,possessive,henne,taba3on
 from,possessive,anaa,mennei
 from,possessive,enta,mennak
 from,possessive,ente,mennek
@@ -39,14 +93,25 @@ with,possessive,hiiye,ma3aa
 with,possessive,nehna,ma3naa
 with,possessive,entoo,ma3kon
 with,possessive,henne,ma3on
-up / above / over,possessive,anaa,faw2ei
-up / above / over,possessive,enta,faw2ak
-up / above / over,possessive,ente,faw2ek
-up / above / over,possessive,huuwe,faw2oo
-up / above / over,possessive,hiiye,faw2oo
-up / above / over,possessive,nehna,faw2naa
-up / above / over,possessive,entoo,faw2kon
-up / above / over,possessive,henne,faw2on
+between / among,possessive,anaa,baynei
+between / among,possessive,enta,baynak
+between / among,possessive,ente,baynek
+between / among,possessive,huuwe,baynoo
+between / among,possessive,hiiye,baynaa
+between / among,possessive,nehna,baynnaa
+between / among,possessive,entoo,baynkon
+between / among,possessive,henne,baynon
+between / among,possessive (bayneit-),nehna,bayneitnaa
+between / among,possessive (bayneit-),entoo,bayneitkon
+between / among,possessive (bayneit-),henne,bayneiton
+behind,possessive,anaa,waraayei
+behind,possessive,enta,waraak
+behind,possessive,ente,waraake
+behind,possessive,huuwe,waraah
+behind,possessive,hiiye,waraahaa
+behind,possessive,nehna,waraanaa
+behind,possessive,entoo,waraakon
+behind,possessive,henne,waraahon
 in front of,possessive,anaa,2eddeimei
 in front of,possessive,enta,2eddeimak
 in front of,possessive,ente,2eddeimek
@@ -55,6 +120,38 @@ in front of,possessive,hiiye,2eddeimaa
 in front of,possessive,nehna,2eddeimnaa
 in front of,possessive,entoo,2eddeimkon
 in front of,possessive,henne,2eddeimon
+up / above / over,possessive,anaa,faw2ei
+up / above / over,possessive,enta,faw2ak
+up / above / over,possessive,ente,faw2ek
+up / above / over,possessive,huuwe,faw2oo
+up / above / over,possessive,hiiye,faw2oo
+up / above / over,possessive,nehna,faw2naa
+up / above / over,possessive,entoo,faw2kon
+up / above / over,possessive,henne,faw2on
+about,possessive,anaa,3annei
+about,possessive,enta,3annak
+about,possessive,ente,3annek
+about,possessive,huuwe,3annoo
+about,possessive,hiiye,3annaa
+about,possessive,nehna,3annaa
+about,possessive,entoo,3annkon
+about,possessive,henne,3annon
+except (maa 3addaa),possessive,anaa,maa 3adeiyei
+except (maa 3addaa),possessive,enta,maa 3adeik
+except (maa 3addaa),possessive,ente,maa 3adeike
+except (maa 3addaa),possessive,huuwe,maa 3adeih
+except (maa 3addaa),possessive,hiiye,maa 3adeihaa
+except (maa 3addaa),possessive,nehna,maa 3adeinaa
+except (maa 3addaa),possessive,entoo,maa 3adeiKon
+except (maa 3addaa),possessive,henne,maa 3adeihon
+beside (7add),possessive,anaa,7addei
+beside (7add),possessive,enta,7addak
+beside (7add),possessive,ente,7addek
+beside (7add),possessive,huuwe,7addoo
+beside (7add),possessive,hiiye,7addaa
+beside (7add),possessive,nehna,7addnaa
+beside (7add),possessive,entoo,7addkon
+beside (7add),possessive,henne,7addon
 after / still,possessive,anaa,ba3dei
 after / still,possessive,enta,ba3dak
 after / still,possessive,ente,ba3dek
@@ -87,14 +184,6 @@ on / to,possessive,hiiye,3layaa
 on / to,possessive,nehna,3laynaa
 on / to,possessive,entoo,3laykon
 on / to,possessive,henne,3layon
-behind,possessive,anaa,waraayei
-behind,possessive,enta,waraak
-behind,possessive,ente,waraake
-behind,possessive,huuwe,waraah
-behind,possessive,hiiye,waraahaa
-behind,possessive,nehna,waraanaa
-behind,possessive,entoo,waraakon
-behind,possessive,henne,waraahon
 in / at / with / by,possessive,anaa,benei
 in / at / with / by,possessive,enta,beik
 in / at / with / by,possessive,ente,beke
@@ -103,17 +192,6 @@ in / at / with / by,possessive,hiiye,behaa
 in / at / with / by,possessive,nehna,benaa
 in / at / with / by,possessive,entoo,bekon
 in / at / with / by,possessive,henne,behon
-between / among,possessive,anaa,baynei
-between / among,possessive,enta,baynak
-between / among,possessive,ente,baynek
-between / among,possessive,huuwe,baynoo
-between / among,possessive,hiiye,baynaa
-between / among,possessive,nehna,baynnaa
-between / among,possessive,entoo,baynkon
-between / among,possessive,henne,baynon
-between / among,possessive (bayneit-),nehna,bayneitnaa
-between / among,possessive (bayneit-),entoo,bayneitkon
-between / among,possessive (bayneit-),henne,bayneiton
 all of,possessive,anaa,kellnei
 all of,possessive,enta,kellak
 all of,possessive,ente,kellek
@@ -122,13 +200,711 @@ all of,possessive,hiiye,kellaa
 all of,possessive,nehna,kellnaa
 all of,possessive,entoo,kellkon
 all of,possessive,henne,kellon
-sport,noun,singular,ryaaDah
-sport,adjective,"male, singular",ryaaDah
-sport,adjective,"female, singular",ryaaDei
-sport,adjective,plural,ryaaDiiyeh
+engineer,gender & number,"male, singular",mhandes
+engineer,gender & number,"female, singular",mhandseh
+engineer,gender & number,"male, plural",mhandsiin
+engineer,gender & number,"female, plural",mhandseit
+lawyer,gender & number,"male, singular",mu7aamei
+lawyer,gender & number,"female, singular",mu7aamiiyeh
+lawyer,gender & number,"male, plural",mu7aamiin
+lawyer,gender & number,"female, plural",mu7aamiiyeit
+electrician,gender & number,"male, singular",kahrabjei
+electrician,gender & number,"female, singular",kahrabjiiyeh
+electrician,gender & number,"male, plural",kahrabjiiyiin
+electrician,gender & number,"female, plural",kahrabjiiyeit
+plumber,gender & number,"male, singular",sangharei
+plumber,gender & number,"female, singular",sanghariiyeh
+plumber,gender & number,"male, plural",sanghariiyiin
+plumber,gender & number,"female, plural",sanghariiyeit
+wallpainter,gender & number,"male, singular",Tarraash
+wallpainter,gender & number,"female, singular",Tarraasheh
+wallpainter,gender & number,"male, plural",Tarraashiin
+wallpainter,gender & number,"female, plural",Tarraasheit
+carpenter,gender & number,"male, singular",najjaar
+carpenter,gender & number,"female, singular",najjaarah
+carpenter,gender & number,"male, plural",najjaariin
+carpenter,gender & number,"female, plural",najjaareit/aa
+nurse,gender & number,"male, singular",mumarreD
+nurse,gender & number,"female, singular",mumarreDah
+nurse,gender & number,"male, plural",mumarreDiin/aa
+nurse,gender & number,"female, plural",mumarreDeit
+manager/employer,gender & number,"male, singular",mudiir
+manager/employer,gender & number,"female, singular",mudiireh
+manager/employer,gender & number,"male, plural",mudiiriin/aa
+manager/employer,gender & number,"female, plural",mudiireit
+organized man,gender & number,"male, singular",munaZZam
+organized man,gender & number,"female, singular",munaZZameh
+employee,gender & number,"male, singular",mwazzaf
+employee,gender & number,"female, singular",mwazzafeh
+employee,gender & number,"male, plural",mwazzafiin
+employee,gender & number,"female, plural",mwazzafeit
+teacher/handy man,gender & number,"male, singular",m3allem
+teacher/handy man,gender & number,"female, singular",m3allmeh
+teacher/handy man,gender & number,"male, plural",m3allmiin
+teacher/handy man,gender & number,"female, plural",m3allmeit
+teacher/prof/Mr.,gender & number,"male, singular",esteiz
+teacher/prof/Mr.,gender & number,"female, singular",esteizeh
+teacher/prof/Mr.,gender & number,"male, plural",aseitzeh
+teacher/prof/Mr.,gender & number,"female, plural",esteizeit
+student,gender & number,"male, singular",Taaleb
+student,gender & number,"female, singular",Taalbeh
+student,gender & number,"male, plural",Tullaab
+student,gender & number,"female, plural",Taalbeit
+doctor/wise person,gender & number,"male, singular",7akiim
+doctor/wise person,gender & number,"female, singular",7akiimeh
+doctor/wise person,gender & number,"male, plural",7ekamaa
+doctor/wise person,gender & number,"female, plural",7akiimeit
+doctor (Tabiib),gender & number,"male, singular",Tabiib
+doctor (Tabiib),gender & number,"female, singular",Tabiibeh
+doctor (Tabiib),gender & number,"male, plural",aTebbaa
+doctor (Tabiib),gender & number,"female, plural",Tabiibeit
+doctor (dokteur),gender & number,"male, singular",dokteur
+doctor (dokteur),gender & number,"female, singular",dokteurah
+doctor (dokteur),gender & number,"male, plural",dakeitrah
+doctor (dokteur),gender & number,"female, plural",dokteureit
+famous,gender & number,"male, singular",mashhuur
+famous,gender & number,"female, singular",mashhuurah
+famous,gender & number,"male, plural",mashhuuriin
+famous,gender & number,"female, plural",mashhuureit
+ambassador (safiir),gender & number,"male, singular",safiir
+ambassador (safiir),gender & number,"female, singular",safiireh
+journalist,gender & number,"male, singular",sa7aafei
+journalist,gender & number,"female, singular",sa7aafiiyeh
+journalist,gender & number,"male, plural",sa7aafiiyiin
+family,number,singular,3ayleh
+family,number,plural,3ayal
+parents,number,singular,ahel (already plural)
+parents,number,plural,ahaalei
+father,number,singular,bayy
+father,number,plural,bayyeit
+dad,number,singular,baabaa
+mother,number,singular,emm
+mother,number,plural,emmeit
+child,number,singular,walad
+child,number,plural,wleid
+son,number,singular,eben
+son,number,plural,wleid
+boy,number,singular,Sabei
+boy,number,plural,Subyein
+daughter / girl,number,singular,benet
+daughter / girl,number,plural,baneit
+brother,number,singular,khayy
+brother,number,plural,ekhweh (siblings)
+sister,number,singular,ekhet
+sister,number,plural,ekhweh
+grandfather,number,singular,jedd
+grandfather,number,plural,jduud (ancesters)
+poppy,number,singular,jeddoo
+grandmother / lady,number,singular,sett
+grandmother / lady,number,plural,setteit
+granny,number,singular,teita
+grandson,number,singular,7afiid
+grandson,number,plural,a7feid
+granddaughter,number,singular,7afiideh
+granddaughter,number,plural,7afiideit
+uncle (father's side),number,singular,3amm
+uncle (father's side),number,plural,3muum
+aunt (father's side),number,singular,3ammeh
+aunt (father's side),number,plural,3ammeit
+uncle (mother's side),number,singular,khaal
+uncle (mother's side),number,plural,khweil
+aunt (mother's side),number,singular,khaaleh
+aunt (mother's side),number,plural,khaaleit
+son of uncle (father's),number,singular,eben 3amm
+son of uncle (father's),number,plural,wleid 3amm
+son of aunt (father's),number,singular,eben 3ammeh
+son of aunt (father's),number,plural,wleid 3amm
+son of uncle (mother's),number,singular,eben khaal
+son of uncle (mother's),number,plural,wleid khaal
+son of aunt (mother's),number,singular,eben khaaleh
+son of aunt (mother's),number,plural,wleid khaal
+daughter of uncle (father's),number,singular,benet 3amm
+daughter of uncle (father's),number,plural,wleid 3amm
+daughter of aunt (father's),number,singular,benet 3ammeh
+daughter of aunt (father's),number,plural,wleid 3amm
+daughter of uncle (mother's),number,singular,benet khaal
+daughter of uncle (mother's),number,plural,wleid khaal
+daughter of aunt (mother's),number,singular,benet khaaleh
+daughter of aunt (mother's),number,plural,wleid khaal
+young man,number,singular,shaab
+young man,number,plural,shabeib
+young woman,number,singular,sabiiyeh
+young woman,number,plural,sabaaya
+single man (not married),number,singular,a3zab
+single man (not married),number,plural,3ezzeibei
+single woman (not married),number,singular,a3zbaa
+single woman (not married),number,plural,3ezzeibiiyeh
+engaged man / fiancé,number,singular,khaaTeb
+engaged man / fiancé,number,plural,khuTTaab
+engaged woman / fiancé (khaaTbeh),number,singular,khaaTbeh
+engaged woman / fiancé (khaaTbeh),number,plural,khaaTbiin
+engaged woman / fiancé (makhTuubeh),number,singular,makhTuubeh
+engaged woman / fiancé (makhTuubeh),number,plural,makhTuubiin
+husband,number,singular,zawj
+husband,number,plural,zweij
+wife (zawjeh),number,singular,zawjeh
+wife (zawjeh),number,plural,zawjeit
+wife (madaam),number,singular,madaam
+wife (madaam),number,plural,madaamtei
+woman / wife,number,singular,marraa
+woman / wife,number,plural,neswein
+married (m),number,singular,mzawwaj
+married (m),number,plural,mzawwajiin
+married (f),number,singular,mzawwajeh
+married (f),number,plural,mzawwajiin
+man (rejjeil),number,singular,rejjeil
+man (rejjeil),number,plural,rjeil
+man (zalamei),number,singular,zalamei
+man (zalamei),number,plural,zelem
+parents of my husband,number,singular,ahel zawjei
+parents of my wife,number,singular,ahel martei
+father in law,number,singular,3amm
+father in law,number,plural,3muum
+mother in law,number,singular,marret 3amm
+son in law,number,singular,Suher
+son in law,number,plural,Shuurah
+husband of my daughter,number,singular,zawj bentei
+husband of my daughter,number,plural,zweij baneitei
+daughter in law,number,singular,kenneh
+daughter in law,number,plural,kenneit
+wife of my son,number,singular,maret ebnei
+wife of my son,number,plural,neswein wleidei
+divorced (m),number,singular,mTalla2
+divorced (m),number,plural,mTalla2iin
+divorced (f),number,singular,mTalla2ah
+divorced (f),number,plural,mTalla2eit
+friend (m),number,singular,rfii2
+friend (m),number,plural,rfei2
+friend (f),number,singular,rfii2ah
+friend (f),number,plural,rfii2aat
+(boy)friend / owner,number,singular,Saa7eb
+(boy)friend / owner,number,plural,as7aab
+(girl)friend / owner,number,singular,Saa7beh
+(girl)friend / owner,number,plural,Saa7beit
+mate (m),number,singular,Sadii2
+mate (m),number,plural,aSdeqaa2
+mate (f),number,singular,Sadii2ah
+mate (f),number,plural,Sadii2aat
+colleague (zamiil),number,singular,zamiil
+colleague (zamiil),number,plural,zumalaa
+colleague (zamiileh),number,singular,zamiileh
+colleague (zamiileh),number,plural,zamiileit
+partner (f) (shriik),number,singular,shriik
+partner (f) (shriik),number,plural,shurakaa
+partner (f) (shriikeh),number,singular,shriikeh
+partner (f) (shriikeh),number,plural,shriikeit
+neighbour (m),number,singular,jaar
+neighbour (m),number,plural,jiiraan
+neighbour (f),number,singular,jaarah
+neighbour (f),number,plural,jaareit
+famous (m),number,singular,mashhuur
+famous (m),number,plural,mashhuuriin
+famous (f),number,singular,mashhuurah
+famous (f),number,plural,mashhuureit
+baker (m),number,singular,furraan
+baker (m),number,plural,furraaneh
+baker (f),number,singular,furraaneh
+baker (f),number,plural,furraaneh
+prince,number,singular,2amiir
+princess,number,singular,2amiirah
+person,number,singular,shakheS
+person,number,plural,ashkhaaS
+the rest (m),number,singular,lbei’ei
+the rest (m),number,plural,lbei’yiin
+the rest (f),number,singular,lba’iiyeh
+the rest (f),number,plural,lbei’yiin
+Lebanon,nationality,"male, singular",lebneinei
+Lebanon,nationality,"female, singular",lebneiniiyeh
+Lebanon,nationality,"male, plural",lebneiniiyiin
+Lebanon,nationality,"female, plural",lebneiniiyeit
+Saoudi Arabia,nationality,"male, singular",su3uudei
+Saoudi Arabia,nationality,"female, singular",su3uudiiyeh
+Saoudi Arabia,nationality,"male, plural",su3uudiiyiin
+Saoudi Arabia,nationality,"female, plural",su3uudiiyeit
+Norway,nationality,"male, singular",naruujei
+Norway,nationality,"female, singular",naruujiiyeh
+Norway,nationality,"male, plural",naruujiiyiin
+Norway,nationality,"female, plural",naruujiiyeit
+France,nationality,"male, singular",faransei
+France,nationality,"female, singular",faransiiyeh
+France,nationality,"male, plural",faransiiyiin
+France,nationality,"female, plural",faransiiyeit
+Palestine,nationality,"male, singular",falasTiinei
+Palestine,nationality,"female, singular",falastiiniiyeh
+Palestine,nationality,"male, plural",falasTiiniiyiin
+Palestine,nationality,"female, plural",falasTiiniiyeit
+Iraq,nationality,"male, singular",3eraa2ei
+Iraq,nationality,"female, singular",3eraa2iiyeh
+Iraq,nationality,"male, plural",3eraa2iiyiuin
+Iraq,nationality,"female, plural",3eraa2iiyeit
+Morocco,nationality,"male, singular",maghrebei
+Morocco,nationality,"female, singular",maghrebiiyeh
+Morocco,nationality,"male, plural",maghrebiiyiin
+Morocco,nationality,"female, plural",maghrebiiyeit
+Syria,nationality,"male, singular",suurei
+Syria,nationality,"female, singular",suuriiyeh
+Syria,nationality,"male, plural",suuriiyiin
+Syria,nationality,"female, plural",suuriiyeit
+kuwait,nationality,"male, singular",kwaytei
+kuwait,nationality,"female, singular",kwaytiiyeh
+kuwait,nationality,"male, plural",kwaytiiyiin
+kuwait,nationality,"female, plural",kwaytiiyeit
+Qatar,nationality,"male, singular",qaTarei
+Qatar,nationality,"female, singular",qaTariiyeh
+Qatar,nationality,"male, plural",qaTariiyiin
+Qatar,nationality,"female, plural",qaTariiyeit
+Sudan,nationality,"male, singular",suudeinei
+Sudan,nationality,"female, singular",suudeiniiyeh
+Sudan,nationality,"male, plural",suudeiniiyiin
+Sudan,nationality,"female, plural",suudeiniiyeit
+Somalia,nationality,"male, singular",Suumaalei
+Somalia,nationality,"female, singular",Suumaaliiyeh
+Somalia,nationality,"male, plural",Suumaaliiyiin
+Somalia,nationality,"female, plural",Suumaaliiyeit
+Egypt,nationality,"male, singular",maSrei
+Egypt,nationality,"female, singular",maSriiyeh
+Egypt,nationality,"male, plural",maSriiyiin
+Egypt,nationality,"female, plural",maSriiyeit
+Lybia,nationality,"male, singular",liibei
+Lybia,nationality,"female, singular",liibiiyeh
+Lybia,nationality,"male, plural",liibiiyiin
+Lybia,nationality,"female, plural",liibiiyeit
+Canada,nationality,"male, singular",kanadei
+Canada,nationality,"female, singular",kanadiiyeh
+Canada,nationality,"male, plural",kanadiiyiin
+Canada,nationality,"female, plural",kanadiiyeit
+America,nationality,"male, singular",amerekei
+America,nationality,"female, singular",ameriikiiyeh
+America,nationality,"male, plural",ameriikiiyiin
+America,nationality,"female, plural",ameriikiiyeit
+Belgium,nationality,"male, singular",beljiikei
+Belgium,nationality,"female, singular",beljiikiiyeh
+Belgium,nationality,"male, plural",beljiikiiyiin
+Belgium,nationality,"female, plural",beljiikiiyeit
+Greece,nationality,"male, singular",yuuneinei
+Greece,nationality,"female, singular",yuuneiniiyeh
+Greece,nationality,"male, plural",yuuneiniiyiin
+Greece,nationality,"female, plural",yuuneiniiyeit
+Europe,nationality,"male, singular",oropei
+Europe,nationality,"female, singular",oropiiyeh
+Europe,nationality,"male, plural",oropiiyiin
+Europe,nationality,"female, plural",oropiiyeit
+Asia,nationality,"male, singular",asyawei
+mountain,nationality,"male, singular",jabalei
+mountain,nationality,"female, singular",jabaliiyeh
+mountain,nationality,"male, plural",jabaliiyiin
+mountain,nationality,"female, plural",jabaliiyeit
+country,nationality,"male, singular",baladei
+country,nationality,"female, singular",baladiiyeh
+country,nationality,"male, plural",baladiiyiin
+country,nationality,"female, plural",baladiiyeit
+place,nationality,"male, singular",ma7allei
+place,nationality,"female, singular",ma7alliiyeh
+place,nationality,"male, plural",ma7alliiyiin
+place,nationality,"female, plural",ma7alliiyeit
+big / old (in age) *,gender & number,"male, singular",kbiir
+big / old (in age) *,gender & number,"female, singular",kbiireh
+big / old (in age) *,gender & number,plural,kbaar
+small / young (in age) *,gender & number,"male, singular",Zghiir
+small / young (in age) *,gender & number,"female, singular",Zghiireh
+small / young (in age) *,gender & number,plural,Zghaar
+new (for objects),gender & number,"male, singular",jdiid
+new (for objects),gender & number,"female, singular",jdiideh
+new (for objects),gender & number,plural,jdeid
+old (for objects),gender & number,"male, singular",2adiim
+old (for objects),gender & number,"female, singular",2adiimeh
+old (for objects),gender & number,plural,2adeim
+tall / long,gender & number,"male, singular",Tawiil
+tall / long,gender & number,"female, singular",Tawiileh
+tall / long,gender & number,plural,Twaal
+short,gender & number,"male, singular",2aSiir
+short,gender & number,"female, singular",2aSiireh
+short,gender & number,plural,2Saar
+high,gender & number,"male, singular",3aalei
+high,gender & number,"female, singular",3aalyeh
+high,gender & number,plural,3aalyiin
+low / mean,gender & number,"male, singular",waaTei
+low / mean,gender & number,"female, singular",waaTyeh
+low / mean,gender & number,plural,waaTyiin
+heavy,gender & number,"male, singular",t2iil
+heavy,gender & number,"female, singular",t2iileh
+heavy,gender & number,plural,t2eil / t2aal
+light,gender & number,"male, singular",khafiif
+light,gender & number,"female, singular",khafiifeh
+light,gender & number,plural,kheif
+spacious / broad / loose,gender & number,"male, singular",weise3
+spacious / broad / loose,gender & number,"female, singular",weis3ah
+spacious / broad / loose,gender & number,plural,weis3iin
+broad / wide,gender & number,"male, singular",3ariiD
+broad / wide,gender & number,"female, singular",3ariiDah
+broad / wide,gender & number,plural,3raaD
+tight / narrow,gender & number,"male, singular",Dayye2
+tight / narrow,gender & number,"female, singular",Dayy2ah
+tight / narrow,gender & number,plural,Dayy2iin
+strong,gender & number,"male, singular",2awei
+strong,gender & number,"female, singular",2awiiyeh
+strong,gender & number,plural,2aweiyaa / 2aweiyiin
+weak,gender & number,"male, singular",D3iif
+weak,gender & number,"female, singular",D3iifeh
+weak,gender & number,plural,D3aaf
+ugly,gender & number,"male, singular",beshe3
+ugly,gender & number,"female, singular",besh3ah
+ugly,gender & number,plural,besh3iin
+beautiful,gender & number,"male, singular",7eloo
+beautiful,gender & number,"female, singular",7elweh
+beautiful,gender & number,plural,7elwiin
+fat,gender & number,"male, singular",naaSeh
+fat,gender & number,"female, singular",naaS7ah
+fat,gender & number,plural,naaS7iin
+bitter,gender & number,"male, singular",murr
+bitter,gender & number,"female, singular",murrah
+bitter,gender & number,plural,murriin
+difficult,gender & number,"male, singular",Sa3eb
+difficult,gender & number,"female, singular",Sa3beh
+difficult,gender & number,plural,Sa3biin
+easy,gender & number,"male, singular",sahel/hayyen
+easy,gender & number,"female, singular",sahleh/hayyneh
+easy,gender & number,plural,sahliin/hayyniin
+expensive,gender & number,"male, singular",ghaalei
+expensive,gender & number,"female, singular",ghaalyeh
+expensive,gender & number,plural,ghaalyiin
+cheap,gender & number,"male, singular",rkhiiS
+cheap,gender & number,"female, singular",rkhiiSah
+cheap,gender & number,plural,rkhaaS
+thick / heavy energy,gender & number,"male, singular",smiik
+thick / heavy energy,gender & number,"female, singular",smiikeh
+thick / heavy energy,gender & number,plural,smeik
+thin / sensitive,gender & number,"male, singular",r2ii2
+thin / sensitive,gender & number,"female, singular",r2ii2ah
+thin / sensitive,gender & number,plural,r2aa2
+good,gender & number,"male, singular",mnii7
+good,gender & number,"female, singular",mnii7ah
+good,gender & number,plural,mnei7
+bad,gender & number,"male, singular",sayye2
+bad,gender & number,"female, singular",sayy2ah
+bad,gender & number,plural,sayy2iin
+clean,gender & number,"male, singular",nDiif
+clean,gender & number,"female, singular",nDiifeh
+clean,gender & number,plural,nDaaf
+dirty,gender & number,"male, singular",wesekh
+dirty,gender & number,"female, singular",weskhah
+dirty,gender & number,plural,weskhiin
+active,gender & number,"male, singular",nashiiT
+active,gender & number,"female, singular",nashiiTah
+active,gender & number,plural,nashiiTiin
+lazy,gender & number,"male, singular",kislein
+lazy,gender & number,"female, singular",kisleineh
+lazy,gender & number,plural,kisleiniin
+tired,gender & number,"male, singular",te3bein
+tired,gender & number,"female, singular",te3beineh
+tired,gender & number,plural,te3beiniin
+sick,gender & number,"male, singular",mariiD
+sick,gender & number,"female, singular",mariiDah
+sick,gender & number,plural,muraDa
+happy,gender & number,"male, singular",mabsuuT
+happy,gender & number,"female, singular",mabsuuTah
+happy,gender & number,plural,mabsuuTiin
+upset,gender & number,"male, singular",za3lein
+upset,gender & number,"female, singular",za3leineh
+upset,gender & number,plural,za3leiniin
+black,gender & number,"male, singular",aswad
+black,gender & number,"female, singular",sawdaa
+black,gender & number,plural,suud
+white,gender & number,"male, singular",abyaD
+white,gender & number,"female, singular",bayDaa
+white,gender & number,plural,biiD
+cold (emotionally) / slow,gender & number,"male, singular",beired
+cold (emotionally) / slow,gender & number,"female, singular",beirdeh
+cold (emotionally) / slow,gender & number,plural,beirdiin
+hot,gender & number,"male, singular",sukhen
+hot,gender & number,"female, singular",sukhneh
+hot,gender & number,plural,sukhniin
+a little,gender & number,"male, singular",shwayy
+a little,gender & number,"female, singular",shwayyeh
+a lot,gender & number,"male, singular",ktiir
+a lot,gender & number,"female, singular",ktiireh
+a lot,gender & number,plural,ktaar
+free / empty,gender & number,"male, singular",faaDei
+free / empty,gender & number,"female, singular",faaDyeh
+free / empty,gender & number,plural,faaDyiin
+full,gender & number,"male, singular",melyein
+full,gender & number,"female, singular",melyeinet
+full,gender & number,plural,melyeiniin
+hard,gender & number,"male, singular",2aasei
+hard,gender & number,"female, singular",2aasyeh
+hard,gender & number,plural,2aasyiin
+soft,gender & number,"male, singular",Tarei
+soft,gender & number,"female, singular",Tariiyeh
+soft,gender & number,plural,Tarayaa / Tariiyiin
+crunchy,gender & number,"male, singular",m2armesh
+crunchy,gender & number,"female, singular",m2armsheh
+crunchy,gender & number,plural,m2armshiin
+selfish,gender & number,"male, singular",aneinei
+selfish,gender & number,"female, singular",aneiniiyeh
+savvy / competent,gender & number,"male, singular",shaaTer
+savvy / competent,gender & number,"female, singular",shaaTrah
+savvy / competent,gender & number,plural,shaaTriin
+private,gender & number,"male, singular",khaaSS
+private,gender & number,"female, singular",khaaSSah
+private,gender & number,plural,khaaSSiin
+late (m2akhkhar),gender & number,"male, singular",m2akhkhar
+late (m2akhkhar),gender & number,"female, singular",m2akhkharah
+late (m2akhkhar),gender & number,plural,m2akhkhariin
+busy,gender & number,"male, singular",mashghuul
+busy,gender & number,"female, singular",mashghuuleh
+busy,gender & number,plural,mashghuuliin
+hungry,gender & number,"male, singular",juu3aan
+hungry,gender & number,"female, singular",juu3aaneh
+hungry,gender & number,plural,juu3aaniin
+open,gender & number,"male, singular",maftuu7
+open,gender & number,"female, singular",maftuu7ah
+open,gender & number,plural,maftuu7iin
+important (mhemm),gender & number,"male, singular",mhemm
+important (mhemm),gender & number,"female, singular",mhemmeh
+important (mhemm),gender & number,plural,mhemmiin
+thirsty,gender & number,"male, singular",3eTshaan
+thirsty,gender & number,"female, singular",3eTshaaneh
+thirsty,gender & number,plural,3eTshaaniin
+intensive,gender & number,"male, singular",mukassaf
+intensive,gender & number,"female, singular",mukassafeh
+intensive,gender & number,plural,mukassafiin
+sport (ryaaDah),noun,singular,ryaaDah
+sport (ryaaDah),adjective,"male, singular",ryaaDah
+sport (ryaaDah),adjective,"female, singular",ryaaDei
+sport (ryaaDah),adjective,plural,ryaaDiiyeh
 champion,adjective,"male, singular",baTal
 champion,adjective,"female, singular",baTaleh
 champion,adjective,plural,abTaal
+day (yoom),number,singular,yoom
+day (yoom),number,dual,yawmein
+day (yoom),number,plural,eyyeim
+day (nhaar),number,singular,nhaar
+day (nhaar),number,dual,nhaarein
+day (nhaar),number,plural,nhaareit
+week (usbuu3),number,singular,usbuu3
+week (usbuu3),number,dual,usbuu3ein
+week (usbuu3),number,plural,asaabii3
+week (jeme3),number,singular,jeme3
+week (jeme3),number,dual,jeme3tein
+week (jeme3),number,plural,jema3 / jmei3
+month,number,singular,shaher
+month,number,dual,shahrein
+month,number,plural,ashhor / shhuur
+year,number,singular,seneh
+year,number,dual,sentein
+year,number,plural,sniin
+head (anything round),number,plural (general),ruus
+head (anything round),number,singular,raas
+head (anything round),number,dual,raasein
+"piece (of pill, medicine)",number,plural (general),7abbeit / 7buub
+"piece (of pill, medicine)",number,singular,7abbeh
+"piece (of pill, medicine)",number,dual,7abbtein
+"piece (of cake, pizza, bread)",number,plural (general),2uTa3
+"piece (of cake, pizza, bread)",number,singular,2uT3ah
+"piece (of cake, pizza, bread)",number,dual,2uTu3tein
+"piece (of cheese, cloth)",number,plural (general),she2af
+"piece (of cheese, cloth)",number,singular,sha2feh
+"piece (of cheese, cloth)",number,dual,sha2eftein
+slice (cheese),number,plural (general),shar7aat
+slice (cheese),number,singular,shar7ah
+slice (cheese),number,dual,share7tein
+"clove (of garlic, orange)",number,plural (general),7SuuS
+"clove (of garlic, orange)",number,singular,7oSS
+"clove (of garlic, orange)",number,dual,7oSSein
+"cone (pinecone, pomegranate)",number,plural (general),kweiz
+"cone (pinecone, pomegranate)",number,singular,kuuz
+"cone (pinecone, pomegranate)",number,dual,kuuzein
+bouquet (of mint),number,plural (general),bei2eit
+bouquet (of mint),number,singular,bei2et
+bouquet (of mint),number,dual,bei2tein
+leaves (papers of the trees),number,plural (general),war2aat
+leaves (papers of the trees),number,singular,war2ah
+leaves (papers of the trees),number,dual,war2tein
+apple,number,plural (general),teffei7
+apple,number,singular,teffei7ah
+apple,number,dual,teffei7tein
+apple,number,plural (counting),teffei7eit
+banana,number,plural (general),mooz
+banana,number,singular,mawzeh
+banana,number,dual,mawztein
+banana,number,plural (counting),moozeit
+watermelon,number,plural (general),baTTikh
+watermelon,number,singular,baTTikhah / raas baTTikh
+watermelon,number,dual,baTTikhtein
+watermelon,number,plural (counting),baTTikheit
+melon,number,plural (general),shemmeim
+melon,number,singular,shemmeimeh / raas shemmeim
+melon,number,dual,shemmeimtein
+melon,number,plural (counting),shemmeimeit
+pear,number,plural (general),njaaS
+pear,number,singular,njaaSah
+pear,number,dual,njaaStein
+pear,number,plural (counting),njaaSaat
+cherry,number,plural (general),karaz
+cherry,number,singular,karazeh
+cherry,number,dual,karaztein
+cherry,number,plural (counting),karaazeit
+peach,number,plural (general),derrei2
+peach,number,singular,derrei2ah
+peach,number,dual,derrei2tein
+peach,number,plural (counting),derrei2eit
+date (fresh),number,plural (general),bala7
+date (fresh),number,singular,bala7ah
+date (fresh),number,dual,bala7tein
+date (fresh),number,plural (counting),bala7aat
+date (dried),number,plural (general),tamer
+date (dried),number,singular,tamrah / 7abbet tamer
+date (dried),number,dual,tamertein
+date (dried),number,plural (counting),tamraat
+orange (laymuuneh),number,plural (general),laymuun
+orange (laymuuneh),number,singular,laymuuneh
+orange (laymuuneh),number,dual,laymuuntein
+orange (laymuuneh),number,plural (counting),laymuuneit
+orange (berd2aaneh),number,plural (general),berd2aan
+orange (berd2aaneh),number,singular,berd2aaneh
+orange (berd2aaneh),number,dual,berd2aantein
+orange (berd2aaneh),number,plural (counting),berd2aaneit
+lemon,number,plural (general),7aamuD
+lemon,number,singular,7aamDah
+lemon,number,dual,7aameDtein
+lemon,number,plural (counting),7aamdeit
+fig,number,plural (general),tiin
+fig,number,singular,tiineh / kuuz tiin
+fig,number,dual,tiintein
+fig,number,plural (counting),tiineit
+coconut,number,plural (general),jawz hend
+coconut,number,singular,jawzet hend
+coconut,number,dual,jawztein hend
+coconut,number,plural (counting),jawzeit hend
+pomegranate,number,plural (general),remmein
+pomegranate,number,singular,rammeineh / kuuz remmein
+pomegranate,number,dual,remmeintein
+pomegranate,number,plural (counting),remmeineit
+grape,number,plural (general),3nei3iid
+grape,number,singular,3enab / 3an2uud
+grape,number,dual,3an2uudein 3enab
+grape,number,plural (counting),3nei2iid
+kiwi,number,plural (general),kiiwii
+kiwi,number,singular,7abbeh kiiwii
+kiwi,number,dual,7abbtein kiiwii
+kiwi,number,plural (counting),7abbeit kiiwii
+plum,number,plural (general),khookh
+plum,number,singular,khawkhah
+plum,number,dual,khawkhtein
+plum,number,plural (counting),khawkheit
+pineapple,number,plural (general),anaanaas
+mango,number,plural (general),mangaa
+mango,number,singular,manghaayeh
+ashtah,number,plural (general),2ashTah
+apricot,number,plural (general),meshmush
+apricot,number,singular,meshemsheh
+guava,number,plural (general),gawaafaa
+guava,number,singular,ghawaafeiyeh
+mandarin,number,plural (general),mandariin
+berries,number,plural (general),tuut
+avocado,number,plural (general),avookaa
+avocado,number,singular,avookaayeh
+avocado,number,dual,avookaytein
+avocado,number,plural (counting),avookaayeit
+strawberry,number,plural (general),freiz
+strawberry,number,singular,freizeh
+strawberry,number,dual,freiztein
+strawberry,number,plural (counting),freizeit
+kaki / parsimmon,number,plural (general),kharmaa
+tomato,number,plural (general),banaduurah
+tomato,number,singular,banaduuraayeh / raas banaduurah
+tomato,number,dual,banaduurtein / raasein banaduurah
+tomato,number,plural (counting),banaduuraat / tleit ruus banaduurah
+cucumber,number,plural (general),khyaar
+cucumber,number,singular,khyaarah
+cucumber,number,dual,khyaartein
+cucumber,number,plural (counting),khyaaraat
+lettuce,number,plural (general),khass
+lettuce,number,singular,khasseh
+lettuce,number,dual,khasstein
+lettuce,number,plural (counting),khasseit
+onion,number,plural (general),baSal
+onion,number,singular,baSaleh
+onion,number,dual,baSaltein
+onion,number,plural (counting),baSaleit
+garlic,number,plural (general),tuum
+garlic,number,singular,tuumeiyeh / raas tuum / 7oSS tuum
+garlic,number,dual,raasein tuum / 7oSSein tuum
+garlic,number,plural (counting),arba3 ruus tuum / arba3 7SuuS tuum
+bell pepper,number,plural (general),flayfleh
+bell pepper,number,singular,flayfleiyeh / 7abbet flayfleh
+bell pepper,number,dual,7abbtein flayfleh
+bell pepper,number,plural (counting),tleit 7abbeit flayfleh
+courgette,number,plural (general),kuusaa
+courgette,number,singular,kuuseiyeh
+courgette,number,dual,kuuseiytein
+courgette,number,plural (counting),kuuseiyeit
+eggplant,number,plural (general),baatenjein
+eggplant,number,singular,batenjeineh
+eggplant,number,dual,baatenjeintein
+eggplant,number,plural (counting),baatenjeineit
+carrot,number,plural (general),jazar
+carrot,number,singular,jazrah
+carrot,number,dual,jazartein
+carrot,number,plural (counting),jazraat
+cauliflower,number,plural (general),2arnabiiT
+cauliflower,number,singular,2arnabiiTah
+cauliflower,number,dual,2arnabiiTtein
+cauliflower,number,plural (counting),2arnabiiTaat
+raddish,number,plural (general),fejel
+raddish,number,singular,fejleh
+raddish,number,dual,fejeltein
+raddish,number,plural (counting),fejleit
+corn,number,plural (general),durah
+corn,number,singular,3arnuus durah
+corn,number,dual,3arnuusein durah
+corn,number,plural (counting),3araaniis durah
+pumpkin,number,plural (general),la2Tiin
+pumpkin,number,singular,la2Tiineh
+pumpkin,number,dual,la2Tiintein
+pumpkin,number,plural (counting),la2Tiineit
+potato,number,plural (general),baTaaTaa
+potato,number,singular,baTaatayeh / raas baTaataa
+potato,number,dual,raasein baTaaTaa
+potato,number,plural (counting),ruus baTaaTaa
+cabbage,number,plural (general),malfuuf
+fennel,number,plural (general),shuumar
+fennel,number,singular,shuumar
+fennel,number,dual,shuumar
+fennel,number,plural (counting),shuumar
+okra,number,plural (general),beimeh
+okra,number,singular,beimeh
+okra,number,dual,beimeh
+okra,number,plural (counting),beimeh
+mint,number,plural (general),na3na3
+mint,number,singular,bei2et na3na3
+mint,number,dual,bei2tein na3na3
+mint,number,plural (counting),bei2eit na3na3
+parsley,number,plural (general),ba2duunes
+parsley,number,singular,bei2et ba2duunes
+parsley,number,dual,bei2tein ba2duunes
+parsley,number,plural (counting),bei2eit ba2duunes
+coriander,number,plural (general),kezbarah
+coriander,number,singular,bei2et kezbarah
+coriander,number,dual,bei2tein kezbarah
+coriander,number,plural (counting),bei2eit kezbarah
+cress,number,plural (general),rasheid
+cress,number,singular,bei2et rasheid
+cress,number,dual,bei2tein rasheid
+cress,number,plural (counting),bei2eit rasheid
+arugula,number,plural (general),rokkaa
+arugula,number,singular,bei2et rokkaa
+arugula,number,dual,bei2tein rokkaa
+arugula,number,plural (counting),bei2eit rokkaa
+mushroom,number,plural (general),fuTor
+mushroom,number,singular,fuTraayeh / 7abbet fuTor
+mushroom,number,dual,7abbtein fuTor
+mushroom,number,plural (counting),7abbeit fuTor
+asperagus,number,plural (general),halyuun
+egg,number,plural (general),bayD
+egg,number,singular,bayDah
+egg,number,dual,bayDtein
+egg,number,plural (counting),bayDaat
 to sleep,present continuous,anaa,bneim
 to sleep,present continuous,enta,betneim
 to sleep,present continuous,ente,betneimei
@@ -1188,5 +1964,5 @@ to sweep,present continuous,hiiye,betkannes
 to sweep,present continuous,nehna,menkannes
 to sweep,present continuous,entoo,betkannsoo
 to sweep,present continuous,henne,bekannsoo
-to carry,present continuous,anaa,be7mul
+to carry (7emel),present continuous,anaa,be7mul
 to laugh,present continuous,nehna,mnuD7ak

@@ -1,7 +1,39 @@
 topic,about,rule
+Language rules,word structure,"An Arabic word always starts with a consonant, followed by a vowel, followed by a consonant: CVC."
+Language rules,word structure,A consonant within an Arabic word is followed either by another consonant or by a vowel: CC or CV.
+Language rules,word structure,"Within an Arabic word, three consonants in a row are not allowed: CCC"
+Language rules,word structure,"Within an Arabic word, two vowels in a row are not allowed: VV"
+Language rules,word structure,Possible word patterns: CVC + CC + V + C; CVC + CV + CC + V; CVC + CV + CV + C.
+Language rules,pronunciation,Most Arabic words end in a non-pronounced vowel.
+Language rules,alef and hamza,"ا (alif) has no pronunciation itself; it is either a long “a” or the bearer of ء. ء above ا = a or u, ء below ا = i."
+Language rules,alef and hamza,“Ahmed” doesn’t actually start with a vowel but with ء.
+Language rules,script,Letters are never capitalized.
+Language rules,script,"There's the نسخ (Naskh, printed script) and رقعة (Ruq2ah, handwritten script)."
+Language rules,gender,"Most words are masculine, except for: female people (“woman”, “mother” …); most countries; most singular words that end in ة (ta2 marbuta); some words connected with the natural world (“wind”, “fire” …); some body parts (“hand”, “leg” …)."
+Alphabet,strong letters,"Some letters are strong letters. In the Latin spelling they are written as capitals: S (Saad), D (Daad), T (Taa2), Z (Zaa2)."
+Possessive pronouns,masculine words,"Masculine (muzokkar) words: only add the suffix. Ex. beib → beibei, beibak …"
+Possessive pronouns,esem,"With “esem” we keep the whole stem for ne7na and entoo, to not have 3 consonants following one another."
+Possessive pronouns,feminine words,"Feminine (mu2anas) words: add -t and the suffix. Ex. siiyaarah → siiyaartei, siiyaartak …"
+Possessive pronouns,feminine words,"Words with fat7ah (a) change to kasrah (e) for hiiye and on, to not have 3 consecutive consonants."
+Possessive pronouns,feminine words,Words with kasrah (e) stay as kasrah (e) for hiiye and on.
+Possessive pronouns,definite article,"No definite article needed if there is a possession. Ex. my aunt's house = beit khaaltei, not lbeit khaaltei"
 Prepositions,outside / inside,No possession for “outside” and “inside”.
 Prepositions,close to / far from,Only the last word becomes possessive for “close to” and “far from”.
 Prepositions,before / after,"Combined with noun: before/after + noun Combined with verb: before/after + maa + infinitive, but maa is not negative here. ex. 2abel maa eikul, beshrab = before eating, I drink"
+Daily,be7aajeh,“be7aajeh la” (in need of) is the same word for everyone; it’s not a verb.
+Professions,feminine and plural,Words ending in ي (ye/ei) change to “iiyeh”.
+Professions,feminine and plural,Words not ending in ي change to “eh/ah”.
+Professions,feminine and plural,"Professions that end with ي (YE/ei), you can use feminine singular for all pronouns except for “he”."
+Adjectives,feminine,"Generally, a strong letter (capital) is followed by -ah, a soft letter is followed by -eh."
+Adjectives,regular rule,Regular rule: drop the last vowel and add -ah or -eh for feminine; drop the last vowel and add -iin for plural.
+Adjectives,irregular rule,Irregular rule: drop first vowel for plural (If there's a vowel at the beginning).
+Adjectives,te marbuuTa,"If the next word is a noun, we link te marbuuTa (ة) with the next word. if the next word is an adjective, we don’t link te marbuuTa (ة) with the next word."
+Numbers,number + noun,"When using a number with a noun, the noun is either singular, double or plural: 1 → singular; 2 → double; 3-10 → plural; 11 and up → singular."
+Numbers,number + noun,"3-10: take away the ending eh/ah from the number. ex. tleiteh —> tleit fanajiin but add a liaison “e” if the next word starts with a silent letter (i.e., if the second letter of the next word is a consonant instead of a vowel)."
+Numbers,number + noun,11 and up: add -ar to the number. Ex. 7da3sh → 7da3shar Taaleb.
+Times,kazaa,"kazaa is always followed by a single of something. Ex. a few cups = kazaa finjein, not kazaa fanajiin."
+Food,counting,"Everything in nature has a single, a dual, a plural in general and a plural when counting. No liquids, because that we count as “cups of …”."
+Food,counting,Plural is always masculine.
 Verbs,active participle,"motion verbs are always past, present and future"
 Verbs,possessive verbs,"3 verbs are not conjugated as normal but with possessive pronouns as suffix instead: badd (to want), 3end (to have) and fii (can). Ex. anaa baddei, enta baddak, ente baddek …"
 Verbs,fii,"“fii” without possession → “there is”; “fii” with possession → “can”. Ex. anaa fiinei (I can), fii (there is)."

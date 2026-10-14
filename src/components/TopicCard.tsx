@@ -5,10 +5,21 @@ import { Card } from '@/components/Card';
 type TopicCardProps = {
   topic: Topic;
   itemCount: number;
+  ruleCount?: number;
   to: string;
 };
 
-export function TopicCard({ topic, itemCount, to }: TopicCardProps) {
+export function TopicCard({
+  topic,
+  itemCount,
+  ruleCount = 0,
+  to
+}: TopicCardProps) {
+  const counts = [
+    itemCount > 0 && `${itemCount} ${itemCount === 1 ? 'item' : 'items'}`,
+    ruleCount > 0 && `${ruleCount} ${ruleCount === 1 ? 'rule' : 'rules'}`
+  ].filter(Boolean);
+
   return (
     <Link to={to} className="block">
       <Card className="transition-all duration-200 hover:-translate-y-1 hover:shadow-lg">
@@ -18,9 +29,7 @@ export function TopicCard({ topic, itemCount, to }: TopicCardProps) {
               {topic.name}
             </h2>
 
-            <p className="mt-2 text-sm text-gray-500">
-              {itemCount} {itemCount === 1 ? 'item' : 'items'}
-            </p>
+            <p className="mt-2 text-sm text-gray-500">{counts.join(' · ')}</p>
           </div>
 
           <span className="text-2xl text-gray-300">›</span>

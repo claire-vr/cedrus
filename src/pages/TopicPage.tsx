@@ -26,7 +26,11 @@ export function TopicPage() {
       <div className="mt-6">
         <PageHeader
           title={topic?.name ?? 'Topic not found'}
-          subtitle={`${topicItems.length} items`}
+          subtitle={
+            topicItems.length > 0
+              ? `${topicItems.length} items`
+              : `${topicRules.length} rules`
+          }
         />
       </div>
 
@@ -37,7 +41,7 @@ export function TopicPage() {
       </div>
 
       {topicRules.length > 0 && (
-        <section className="mt-10">
+        <section className={topicItems.length > 0 ? 'mt-10' : ''}>
           <h2 className="text-lg font-semibold text-cedar-900">Rules</h2>
           <RuleList rules={topicRules} className="mt-3" />
         </section>

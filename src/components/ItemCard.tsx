@@ -15,7 +15,18 @@ export function ItemCard({ item }: ItemCardProps) {
         <h3 className="text-lg font-semibold text-gray-900">{item.english}</h3>
         {item.type && <Badge type={item.type} />}
       </div>
-      <p className="mt-1 text-xl text-lebanon-redDark">{item.lebanese}</p>
+      <div className="mt-1 flex items-baseline gap-4">
+        {item.arabic && (
+          <span
+            lang="ar"
+            dir="rtl"
+            className="text-3xl leading-none text-cedar-900"
+          >
+            {item.arabic}
+          </span>
+        )}
+        <p className="text-xl text-lebanon-redDark">{item.lebanese}</p>
+      </div>
       {item.notes && (
         <p className="mt-1 text-sm italic text-gray-500">{item.notes}</p>
       )}
