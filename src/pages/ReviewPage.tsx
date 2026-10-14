@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { items } from '../data/items';
+import { items } from '@/data/database';
 import { useParams } from 'react-router-dom';
 import { shuffle } from '@/utils/shuffle';
 

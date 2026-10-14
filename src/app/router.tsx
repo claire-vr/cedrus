@@ -4,8 +4,11 @@ import { HomePage } from '@/pages/HomePage';
 import { SettingsPage } from '@/pages/SettingsPage';
 import { TopicPage } from '@/pages/TopicPage';
 import { TopicsPage } from '@/pages/TopicsPage';
-import ReviewPage from '../pages/ReviewPage';
+import ReviewPage from '@/pages/ReviewPage';
 import { ReviewTopicsPage } from '@/pages/ReviewTopicsPage';
+import { VerbsPage } from '@/pages/VerbsPage';
+import { VerbPage } from '@/pages/VerbPage';
+import { VerbRulesPage } from '@/pages/VerbRulesPage';
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +30,18 @@ export const router = createBrowserRouter([
       {
         path: 'topics/:topicId',
         element: <TopicPage />
+      },
+      {
+        path: 'verbs',
+        element: <VerbsPage />
+      },
+      {
+        path: 'verbs/rules',
+        element: <VerbRulesPage />
+      },
+      {
+        path: 'verbs/:verbId',
+        element: <VerbPage />
       },
       {
         path: 'review',

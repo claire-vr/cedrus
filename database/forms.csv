@@ -1,603 +1,1192 @@
-item_id,form,value
-4,translation,hello
-4,pronunciation,SabaaHoo
-5,translation,hello
-5,pronunciation,marHabaa
-6,translation,2 hello’s
-6,pronunciation,marHabtein
-7,translation,100 hello’s
-7,pronunciation,miiyet marHabaa
-8,translation,1000 hello’s
-8,pronunciation,alf marHabaa
-9,translation,hello
-9,pronunciation,bonjour
-10,translation,2 hello’s
-10,pronunciation,bonjourein
-11,translation,100 hello’s
-11,pronunciation,miiyet bonjour
-12,translation,1000 hello’s
-12,pronunciation,alf bonjour
-13,translation,peace be upon you
-13,pronunciation,as salamo 3alaykom
-14,translation,and upon you be peace
-14,pronunciation,wa 3alaykome ssalaam
-15,translation,welcome / and / the place/the ground you’re on
-15,pronunciation,ahlan wa sahlan
-16,translation,good the morning (more formal)
-16,pronunciation,SabaaH lkheir
-17,translation,good the light (more formal)
-17,pronunciation,SabaaH nnuur
-18,translation,good the roses (to friends)
-18,pronunciation,SabaaH lward
-19,translation,good the jasmine (to friends)
-19,pronunciation,SabaaH lyaasmiin
-20,translation,good night
-20,pronunciation,tusbaH / tusbaHei / tusbaHoo 3ala kheir
-21,translation,good night to you too
-21,pronunciation,wu enta / ente / entoo bkheir
-22,translation,honoured/enchanté
-22,pronunciation,tsharrafnaa (root = sharraf)
-23,translation,we were honoured to have you (m) with
-23,pronunciation,us sharrafetnaa
-24,translation,we were honoured to have you (f) with
-24,pronunciation,us sharraftiinaa
-25,translation,we were honoured to have you (pl) with
-25,pronunciation,us sharraftuunaa
-26,translation,and to me is the honour too
-26,pronunciation,w elei shsharaf kamein
-27,translation,and me too
-27,pronunciation,w anaa kamein
-28,translation,honoured to know you
-28,pronunciation,tsharrafet bema3reftak / -ek / -etkon
-29,translation,opportunity happy
-29,pronunciation,FurSah Sa3iideh
-30,translation,opportunity happier
-30,pronunciation,FurSah as3ad
-31,translation,(have a) happy day
-31,pronunciation,yoom sa3iid
-32,translation,(have a) happier day
-32,pronunciation,yoomak / -ek / -kon as3ad
-33,translation,happy to see you (f)
-33,pronunciation,mabsuuTah ktiir shuufek
-34,translation,Is it ok? (going situation)
-34,pronunciation,meishei al-haal?
-35,translation,What’s the situation?
-35,pronunciation,kayf al-haal?
-36,translation,How am I?
-36,pronunciation,kiifnei
-37,translation,How are you (m)?
-37,pronunciation,kiifak?
-38,translation,How are you (f)?
-38,pronunciation,kiiﬁk?
-39,translation,How is he?
-39,pronunciation,kiifoo?
-40,translation,How is she?
-40,pronunciation,kiifaa?
-41,translation,How are we?
-41,pronunciation,kiifnaa?
-42,translation,How are you (pl)?
-42,pronunciation,kiifkon?
-43,translation,How are they?
-43,pronunciation,kiifon?
-44,translation,What’s up?
-44,pronunciation,shuu akhbaarak / -ek / -kon?
-45,translation,how are you? (your situation)
-45,pronunciation,kiif Haalek?
-46,translation,"What’s happening, what’s not happening?"
-46,pronunciation,Shuu ﬁi ma ﬁi
-47,translation,there is nothing new
-47,pronunciation,maﬁ shii jdiid
-48,translation,everything is ok/good
-48,pronunciation,kell shii tameim/mniiH
-49,translation,thank you
-49,pronunciation,shukran elek / -ak / -kon
-50,translation,you’re welcome
-50,pronunciation,tekram / -e / -oo
-51,translation,you’re welcome (thank you for your eyes)
-51,pronunciation,tekram 3yuunak / -ek / -kon
-52,translation,see you later
-52,pronunciation,bshuufak / -ek / -kon ba3dein
-53,translation,hopefully
-53,pronunciation,nshallah
-54,translation,I wish
-54,pronunciation,yaa reit
-55,translation,your safety / health
-55,pronunciation,saleimtak
-56,translation,may god be with you
-56,pronunciation,allah ma3ak
-57,translation,I give you kisses
-57,pronunciation,bawsak
-58,translation,you have class/manners
-58,pronunciation,kellakzo
-59,translation,"by the name of God (for good, like mashallah)"
-59,pronunciation,smallah
-60,translation,good job (may God give you health)
-60,pronunciation,ya3Tiik l3aafyeh
-61,translation,anwer: idem to you
-61,pronunciation,allah y3aaﬁik
-62,translation,congratulations (blessed)
-62,pronunciation,mabruuk
-63,translation,thank you (may god bless you)
-63,pronunciation,alla ybeirek ﬁik / ﬁike / ﬁikon
-64,translation,"take it, it’s yours (thanks for a compliment on looks)"
-64,pronunciation,m’adame
-65,translation,happy birthday (every feast and you’ll be okay)
-65,pronunciation,kell 3iid w enta bkheir
-66,translation,and a 100 years more (I wish you will reach 100)
-66,pronunciation,3a’beile lmiiyeh
-67,translation,what?
-67,pronunciation,shuu?
-68,translation,how?
-68,pronunciation,kiif?
-69,translation,how much/many?
-69,pronunciation,addei(sh)? eddei(sh)? (+ verb + plural noun)
-70,translation,how many?
-70,pronunciation,kam? (+ singular noun + verb)
-71,translation,why?
-71,pronunciation,leish?
-72,translation,when?
-72,pronunciation,aymta? aymata? aymtiin?
-73,translation,which?
-73,pronunciation,ayya?
-74,translation,who?
-74,pronunciation,miin
-75,translation,whose (for + who)?
-75,pronunciation,lamiin (la + miin)?
-76,translation,"where / at whose (public place, “au”)?"
-76,pronunciation,wein?
-77,translation,"where / at whose (personal place, “chez”)?"
-77,pronunciation,3end miin?
-78,translation,"where to / to whose (public place, “au”)?"
-78,pronunciation,lawein?
-79,translation,"where to / to whose (personal place, “chez”)?"
-79,pronunciation,la3end miin?
-80,translation,"from where / from whose (public place, “au”)?"
-80,pronunciation,men wein / mennein / mnein?
-81,translation,"from where / from whose (personal place, “chez”)?"
-81,pronunciation,men 3end miin?
-82,translation,from
-82,pronunciation,men
-83,translation,for / to (time)
-83,pronunciation,la
-84,translation,on / to (destination)
-84,pronunciation,3ala / 3a
-85,translation,with
-85,pronunciation,ma3
-86,translation,"at / with (public place, “au”)"
-86,pronunciation,bi
-87,translation,"at / with (personal place, “chez”)"
-87,pronunciation,3end
-88,translation,outside
-88,pronunciation,barraa
-89,translation,inside
-89,pronunciation,juuwaa
-90,translation,No possession for “outside” and “inside”.
-91,translation,close to
-91,pronunciation,‘ariib men / ‘ariibeh men / ‘raab men
-92,translation,far from
-92,pronunciation,b3iid 3an / b3iideh 3an / b’aad 3an
-93,translation,Only the last word becomes possessive for “close to” and “far from”.
-94,translation,before
-94,pronunciation,‘abel / ‘abl
-95,translation,after / yet / still / more
-95,pronunciation,ba3ed / ba3d
-96,translation,"Combined with noun: before/after + noun Combined with verb: before/after + maa + inﬁnitive, but maa is not negative here. ex. ‘abel maa eikul, beshrab = before eating, I drink"
-97,translation,between / among
-97,pronunciation,bein
-98,translation,behind
-98,pronunciation,waraa
-99,translation,in front of
-99,pronunciation,‘eddeim
-100,translation,down / under / below
-100,pronunciation,taHet / taHt
-101,translation,up / above / over
-101,pronunciation,foo’
-102,translation,beside
-102,pronunciation,Hadd / janb / janeb
-103,translation,facing / opposite
-103,pronunciation,bewejj [bewish]
-104,translation,very close / sticking to
-104,pronunciation,beleze’
-105,translation,around / sorta
-105,pronunciation,Haweilei / Hweila
-106,translation,close / near
-106,pronunciation,’ariib
-107,translation,soon
-107,pronunciation,’ariiban
-108,translation,approximately
-108,pronunciation,ta’riiban
-109,translation,about
-109,pronunciation,3an
-110,translation,until / not even
-110,pronunciation,Hatta (no possession)
-111,translation,except
-111,pronunciation,ellaa
-112,translation,except
-112,pronunciation,maa 3addaa
-113,translation,except me
-113,pronunciation,maa 3adeiyei
-114,translation,except you (m)
-114,pronunciation,maa 3adeik
-115,translation,except you (f)
-115,pronunciation,maa 3adeike
-116,translation,except him
-116,pronunciation,maa 3adeih
-117,translation,except her
-117,pronunciation,maa 3adeihaa
-118,translation,except us
-118,pronunciation,maa 3adeinaa
-119,translation,except you (pl)
-119,pronunciation,maa 3adeiKon
-120,translation,except them
-120,pronunciation,maa 3adeihon
-121,translation,beside
-121,pronunciation,Hadd
-122,translation,beside me
-122,pronunciation,Haddei
-123,translation,beside you (m)
-123,pronunciation,Haddak
-124,translation,beside you (f)
-124,pronunciation,Haddek
-125,translation,beside him
-125,pronunciation,Haddoo
-126,translation,beside her
-126,pronunciation,Haddaa
-127,translation,beside us
-127,pronunciation,Haddnaa
-128,translation,beside you (pl)
-128,pronunciation,Haddkon
-129,translation,beside them
-129,pronunciation,Haddon
-130,translation,about
-130,pronunciation,3an
-131,translation,about me
-131,pronunciation,3annei
-132,translation,about you (m)
-132,pronunciation,3annak
-133,translation,about you (f)
-133,pronunciation,3annek
-134,translation,about him
-134,pronunciation,3annoo
-135,translation,about her
-135,pronunciation,3annaa
-136,translation,about us
-136,pronunciation,3annaa
-137,translation,about you (pl)
-137,pronunciation,3annkon
-138,translation,about them
-138,pronunciation,3annon
-139,translation,from
-139,pronunciation,men
-140,translation,from me
-140,pronunciation,mennei
-141,translation,from you (m)
-141,pronunciation,mennak
-142,translation,from you (f)
-142,pronunciation,mennek
-143,translation,from him
-143,pronunciation,mennoo
-144,translation,from her
-144,pronunciation,mennaa
-145,translation,from us
-145,pronunciation,mennaa
-146,translation,from you (pl)
-146,pronunciation,mennkon
-147,translation,from them
-147,pronunciation,mennon
-148,translation,with
-148,pronunciation,ma3
-149,translation,with me
-149,pronunciation,ma3ei
-150,translation,with you (m)
-150,pronunciation,ma3ak
-151,translation,with you (f)
-151,pronunciation,ma3ek
-152,translation,with him
-152,pronunciation,ma3oo
-153,translation,with her
-153,pronunciation,ma3aa
-154,translation,with us
-154,pronunciation,ma3naa
-155,translation,with you (pl)
-155,pronunciation,ma3kon
-156,translation,with them
-156,pronunciation,ma3on
-157,translation,up / above / over
-157,pronunciation,foo’
-158,translation,up / above / over me
-158,pronunciation,faw’ei
-159,translation,up / above / over you (m)
-159,pronunciation,faw’ak
-160,translation,up / above / over you (f)
-160,pronunciation,faw’ek
-161,translation,up / above / over him
-161,pronunciation,faw’oo
-162,translation,up / above / over her
-162,pronunciation,faw’oo
-163,translation,up / above / over us
-163,pronunciation,faw’naa
-164,translation,up / above / over you (pl)
-164,pronunciation,faw’kon
-165,translation,up / above / over them
-165,pronunciation,faw’on
-166,translation,in front of
-166,pronunciation,‘eddeim
-167,translation,in front of me
-167,pronunciation,‘eddeimei
-168,translation,in front of you (m)
-168,pronunciation,‘eddeimak
-169,translation,in front of you (f)
-169,pronunciation,‘eddeimek
-170,translation,in front of him
-170,pronunciation,‘eddeimoo
-171,translation,in front of her
-171,pronunciation,‘eddeimaa
-172,translation,in front of us
-172,pronunciation,‘eddeimnaa
-173,translation,in front of you (pl)
-173,pronunciation,‘eddeimkon
-174,translation,in front of them
-174,pronunciation,‘eddeimon
-175,translation,after / still
-175,pronunciation,ba3d / ba3ed
-176,translation,after me
-176,pronunciation,ba3dei
-177,translation,after you (m)
-177,pronunciation,ba3dak
-178,translation,after you (f)
-178,pronunciation,ba3dek
-179,translation,after him
-179,pronunciation,ba3doo
-180,translation,after her
-180,pronunciation,ba3daa
-181,translation,after us
-181,pronunciation,ba3dnaa
-182,translation,after you (pl)
-182,pronunciation,ba3dkon
-183,translation,after them
-183,pronunciation,ba3don
-184,translation,around
-184,pronunciation,Haweilei
-185,translation,around me
-185,pronunciation,Hawaalayyei
-186,translation,around you (m)
-186,pronunciation,Hawaaleik
-187,translation,around you (f)
-187,pronunciation,Hawaaleike
-188,translation,around him
-188,pronunciation,Hawaalayke / Hawaaleih
-189,translation,around her
-189,pronunciation,Hawaalayaa
-190,translation,around us
-190,pronunciation,Hawaalaynaa
-191,translation,around you (pl)
-191,pronunciation,Hawaalaykon
-192,translation,around them
-192,pronunciation,Hawaalayon
-193,translation,to
-193,pronunciation,la
-194,translation,to me
-194,pronunciation,elei
-195,translation,to you (m)
-195,pronunciation,elak
-196,translation,to you (f)
-196,pronunciation,elek
-197,translation,to him
-197,pronunciation,eloo
-198,translation,to her
-198,pronunciation,elaa
-199,translation,to us
-199,pronunciation,elnaa
-200,translation,to you (pl)
-200,pronunciation,elkon
-201,translation,to them
-201,pronunciation,elon
-202,translation,on / to
-202,pronunciation,3ala
-203,translation,on / to me
-203,pronunciation,3layyei
-204,translation,on / to you (m)
-204,pronunciation,3leik
-205,translation,on / to you (f)
-205,pronunciation,3layke
-206,translation,on / to him
-206,pronunciation,3leih / 3layoo
-207,translation,on / to her
-207,pronunciation,3layaa
-208,translation,on / to us
-208,pronunciation,3laynaa
-209,translation,on / to you (pl)
-209,pronunciation,3laykon
-210,translation,on / to them
-210,pronunciation,3layon
-211,translation,behind
-211,pronunciation,waraa
-212,translation,behind me
-212,pronunciation,waraayei
-213,translation,behind you (m)
-213,pronunciation,waraak
-214,translation,behind you (f)
-214,pronunciation,waraake
-215,translation,behind him
-215,pronunciation,waraah
-216,translation,behind her
-216,pronunciation,waraahaa
-217,translation,behind us
-217,pronunciation,waraanaa
-218,translation,behind you (pl)
-218,pronunciation,waraakon
-219,translation,behind them
-219,pronunciation,waraahon
-220,translation,in / at / with / by
-220,pronunciation,be
-221,translation,in / at / with / by me
-221,pronunciation,benei
-222,translation,in / at / with / by you (m)
-222,pronunciation,beik
-223,translation,in / at / with / by you (f)
-223,pronunciation,beke
-224,translation,in / at / with / by him
-224,pronunciation,beih / buuh
-225,translation,in / at / with / by her
-225,pronunciation,behaa
-226,translation,in / at / with / by us
-226,pronunciation,benaa
-227,translation,in / at / with / by you (pl)
-227,pronunciation,bekon
-228,translation,in / at / with / by them
-228,pronunciation,behon
-229,translation,between / among
-229,pronunciation,bein
-230,translation,between / among me
-230,pronunciation,baynei
-231,translation,between / among you (m)
-231,pronunciation,baynak
-232,translation,between / among you (f)
-232,pronunciation,baynek
-233,translation,between / among him
-233,pronunciation,baynoo
-234,translation,between / among her
-234,pronunciation,baynaa
-235,translation,between / among us
-235,pronunciation,baynnaa
-236,translation,between / among you (pl)
-236,pronunciation,baynkon
-237,translation,between / among them
-237,pronunciation,baynon
-238,translation,between us
-238,pronunciation,bayneitnaa
-239,translation,between you (pl)
-239,pronunciation,bayneitkon
-240,translation,between them
-240,pronunciation,bayneiton
-241,translation,all of me (all of that person)
-241,pronunciation,kellnei
-242,translation,all of you (m)
-242,pronunciation,kellak
-243,translation,all of you (f)
-243,pronunciation,kellek
-244,translation,all of him
-244,pronunciation,kelloo
-245,translation,all of her
-245,pronunciation,kellaa
-246,translation,all of us
-246,pronunciation,kellnaa
-247,translation,all of you (pl)
-247,pronunciation,kellkon
-248,translation,all of them
-248,pronunciation,kellon
-112,possessive_1s,maa 3adeiyei
-112,possessive_2sm,maa 3adeik
-112,possessive_2sf,maa 3adeike
-112,possessive_3sm,maa 3adeih
-112,possessive_3sf,maa 3adeihaa
-112,possessive_1p,maa 3adeinaa
-112,possessive_2p,maa 3adeiKon
-112,possessive_3p,maa 3adeihon
-121,possessive_1s,Haddei
-121,possessive_2sm,Haddak
-121,possessive_2sf,Haddek
-121,possessive_3sm,Haddoo
-121,possessive_3sf,Haddaa
-121,possessive_1p,Haddnaa
-121,possessive_2p,Haddkon
-121,possessive_3p,Haddon
-130,possessive_1s,3annei
-130,possessive_2sm,3annak
-130,possessive_2sf,3annek
-130,possessive_3sm,3annoo
-130,possessive_3sf,3annaa
-130,possessive_1p,3annaa
-130,possessive_2p,3annkon
-130,possessive_3p,3annon
-139,possessive_1s,mennei
-139,possessive_2sm,mennak
-139,possessive_2sf,mennek
-139,possessive_3sm,mennoo
-139,possessive_3sf,mennaa
-139,possessive_1p,mennaa
-139,possessive_2p,mennkon
-139,possessive_3p,mennon
-148,possessive_1s,ma3ei
-148,possessive_2sm,ma3ak
-148,possessive_2sf,ma3ek
-148,possessive_3sm,ma3oo
-148,possessive_3sf,ma3aa
-148,possessive_1p,ma3naa
-148,possessive_2p,ma3kon
-148,possessive_3p,ma3on
-157,possessive_1s,faw’ei
-157,possessive_2sm,faw’ak
-157,possessive_2sf,faw’ek
-157,possessive_3sm,faw’oo
-157,possessive_3sf,faw’oo
-157,possessive_1p,faw’naa
-157,possessive_2p,faw’kon
-157,possessive_3p,faw’on
-166,possessive_1s,‘eddeimei
-166,possessive_2sm,‘eddeimak
-166,possessive_2sf,‘eddeimek
-166,possessive_3sm,‘eddeimoo
-166,possessive_3sf,‘eddeimaa
-166,possessive_1p,‘eddeimnaa
-166,possessive_2p,‘eddeimkon
-166,possessive_3p,‘eddeimon
-175,possessive_1s,ba3dei
-175,possessive_2sm,ba3dak
-175,possessive_2sf,ba3dek
-175,possessive_3sm,ba3doo
-175,possessive_3sf,ba3daa
-175,possessive_1p,ba3dnaa
-175,possessive_2p,ba3dkon
-175,possessive_3p,ba3don
-184,possessive_1s,Hawaalayyei
-184,possessive_2sm,Hawaaleik
-184,possessive_2sf,Hawaaleike
-184,possessive_3sm,Hawaalayke / Hawaaleih
-184,possessive_3sf,Hawaalayaa
-184,possessive_1p,Hawaalaynaa
-184,possessive_2p,Hawaalaykon
-184,possessive_3p,Hawaalayon
-193,possessive_1s,elei
-193,possessive_2sm,elak
-193,possessive_2sf,elek
-193,possessive_3sm,eloo
-193,possessive_3sf,elaa
-193,possessive_1p,elnaa
-193,possessive_2p,elkon
-193,possessive_3p,elon
-202,possessive_1s,3layyei
-202,possessive_2sm,3leik
-202,possessive_2sf,3layke
-202,possessive_3sm,3leih / 3layoo
-202,possessive_3sf,3layaa
-202,possessive_1p,3laynaa
-202,possessive_2p,3laykon
-202,possessive_3p,3layon
-211,possessive_1s,waraayei
-211,possessive_2sm,waraak
-211,possessive_2sf,waraake
-211,possessive_3sm,waraah
-211,possessive_3sf,waraahaa
-211,possessive_1p,waraanaa
-211,possessive_2p,waraakon
-211,possessive_3p,waraahon
-220,possessive_1s,benei
-220,possessive_2sm,beik
-220,possessive_2sf,beke
-220,possessive_3sm,beih / buuh
-220,possessive_3sf,behaa
-220,possessive_1p,benaa
-220,possessive_2p,bekon
-220,possessive_3p,behon
-229,possessive_1s,baynei
-229,possessive_2sm,baynak
-229,possessive_2sf,baynek
-229,possessive_3sm,baynoo
-229,possessive_3sf,baynaa
-229,possessive_1p,baynnaa
-229,possessive_2p,baynkon
-229,possessive_3p,baynon
-229,between_1p,bayneitnaa
-229,between_2p,bayneitkon
-229,between_3p,bayneiton
+item,form,person,lebanese
+except (maa 3addaa),possessive,anaa,maa 3adeiyei
+except (maa 3addaa),possessive,enta,maa 3adeik
+except (maa 3addaa),possessive,ente,maa 3adeike
+except (maa 3addaa),possessive,huuwe,maa 3adeih
+except (maa 3addaa),possessive,hiiye,maa 3adeihaa
+except (maa 3addaa),possessive,nehna,maa 3adeinaa
+except (maa 3addaa),possessive,entoo,maa 3adeiKon
+except (maa 3addaa),possessive,henne,maa 3adeihon
+beside (7add),possessive,anaa,7addei
+beside (7add),possessive,enta,7addak
+beside (7add),possessive,ente,7addek
+beside (7add),possessive,huuwe,7addoo
+beside (7add),possessive,hiiye,7addaa
+beside (7add),possessive,nehna,7addnaa
+beside (7add),possessive,entoo,7addkon
+beside (7add),possessive,henne,7addon
+about,possessive,anaa,3annei
+about,possessive,enta,3annak
+about,possessive,ente,3annek
+about,possessive,huuwe,3annoo
+about,possessive,hiiye,3annaa
+about,possessive,nehna,3annaa
+about,possessive,entoo,3annkon
+about,possessive,henne,3annon
+from,possessive,anaa,mennei
+from,possessive,enta,mennak
+from,possessive,ente,mennek
+from,possessive,huuwe,mennoo
+from,possessive,hiiye,mennaa
+from,possessive,nehna,mennaa
+from,possessive,entoo,mennkon
+from,possessive,henne,mennon
+with,possessive,anaa,ma3ei
+with,possessive,enta,ma3ak
+with,possessive,ente,ma3ek
+with,possessive,huuwe,ma3oo
+with,possessive,hiiye,ma3aa
+with,possessive,nehna,ma3naa
+with,possessive,entoo,ma3kon
+with,possessive,henne,ma3on
+up / above / over,possessive,anaa,faw2ei
+up / above / over,possessive,enta,faw2ak
+up / above / over,possessive,ente,faw2ek
+up / above / over,possessive,huuwe,faw2oo
+up / above / over,possessive,hiiye,faw2oo
+up / above / over,possessive,nehna,faw2naa
+up / above / over,possessive,entoo,faw2kon
+up / above / over,possessive,henne,faw2on
+in front of,possessive,anaa,2eddeimei
+in front of,possessive,enta,2eddeimak
+in front of,possessive,ente,2eddeimek
+in front of,possessive,huuwe,2eddeimoo
+in front of,possessive,hiiye,2eddeimaa
+in front of,possessive,nehna,2eddeimnaa
+in front of,possessive,entoo,2eddeimkon
+in front of,possessive,henne,2eddeimon
+after / still,possessive,anaa,ba3dei
+after / still,possessive,enta,ba3dak
+after / still,possessive,ente,ba3dek
+after / still,possessive,huuwe,ba3doo
+after / still,possessive,hiiye,ba3daa
+after / still,possessive,nehna,ba3dnaa
+after / still,possessive,entoo,ba3dkon
+after / still,possessive,henne,ba3don
+around,possessive,anaa,7awaalayyei
+around,possessive,enta,7awaaleik
+around,possessive,ente,7awaaleike
+around,possessive,huuwe,7awaalayke / 7awaaleih
+around,possessive,hiiye,7awaalayaa
+around,possessive,nehna,7awaalaynaa
+around,possessive,entoo,7awaalaykon
+around,possessive,henne,7awaalayon
+to,possessive,anaa,elei
+to,possessive,enta,elak
+to,possessive,ente,elek
+to,possessive,huuwe,eloo
+to,possessive,hiiye,elaa
+to,possessive,nehna,elnaa
+to,possessive,entoo,elkon
+to,possessive,henne,elon
+on / to,possessive,anaa,3layyei
+on / to,possessive,enta,3leik
+on / to,possessive,ente,3layke
+on / to,possessive,huuwe,3leih / 3layoo
+on / to,possessive,hiiye,3layaa
+on / to,possessive,nehna,3laynaa
+on / to,possessive,entoo,3laykon
+on / to,possessive,henne,3layon
+behind,possessive,anaa,waraayei
+behind,possessive,enta,waraak
+behind,possessive,ente,waraake
+behind,possessive,huuwe,waraah
+behind,possessive,hiiye,waraahaa
+behind,possessive,nehna,waraanaa
+behind,possessive,entoo,waraakon
+behind,possessive,henne,waraahon
+in / at / with / by,possessive,anaa,benei
+in / at / with / by,possessive,enta,beik
+in / at / with / by,possessive,ente,beke
+in / at / with / by,possessive,huuwe,beih / buuh
+in / at / with / by,possessive,hiiye,behaa
+in / at / with / by,possessive,nehna,benaa
+in / at / with / by,possessive,entoo,bekon
+in / at / with / by,possessive,henne,behon
+between / among,possessive,anaa,baynei
+between / among,possessive,enta,baynak
+between / among,possessive,ente,baynek
+between / among,possessive,huuwe,baynoo
+between / among,possessive,hiiye,baynaa
+between / among,possessive,nehna,baynnaa
+between / among,possessive,entoo,baynkon
+between / among,possessive,henne,baynon
+between / among,possessive (bayneit-),nehna,bayneitnaa
+between / among,possessive (bayneit-),entoo,bayneitkon
+between / among,possessive (bayneit-),henne,bayneiton
+all of,possessive,anaa,kellnei
+all of,possessive,enta,kellak
+all of,possessive,ente,kellek
+all of,possessive,huuwe,kelloo
+all of,possessive,hiiye,kellaa
+all of,possessive,nehna,kellnaa
+all of,possessive,entoo,kellkon
+all of,possessive,henne,kellon
+sport,noun,singular,ryaaDah
+sport,adjective,"male, singular",ryaaDah
+sport,adjective,"female, singular",ryaaDei
+sport,adjective,plural,ryaaDiiyeh
+champion,adjective,"male, singular",baTal
+champion,adjective,"female, singular",baTaleh
+champion,adjective,plural,abTaal
+to sleep,present continuous,anaa,bneim
+to sleep,present continuous,enta,betneim
+to sleep,present continuous,ente,betneimei
+to sleep,present continuous,huuwe,beneim
+to sleep,present continuous,hiiye,betneim
+to sleep,present continuous,nehna,menneim
+to sleep,present continuous,entoo,betneimoo
+to sleep,present continuous,henne,beneimoo
+to sleep,present perfect,infinitive,neim
+to sleep,present perfect,anaa,nemet
+to sleep,present perfect,enta,nemet
+to sleep,present perfect,ente,nemtei
+to sleep,present perfect,huuwe,neim
+to sleep,present perfect,hiiye,neimet
+to sleep,present perfect,nehna,nemnaa
+to sleep,present perfect,entoo,nemtoo
+to sleep,present perfect,henne,neimoo
+to go,present continuous,anaa,bruu7
+to go,present continuous,enta,betruu7
+to go,present continuous,ente,betruu7ei
+to go,present continuous,huuwe,beruu7
+to go,present continuous,hiiye,betruu7
+to go,present continuous,nehna,menruu7
+to go,present continuous,entoo,betruu7oo
+to go,present continuous,henne,beruu7oo
+to go,present perfect,infinitive,raa7
+to go,present perfect,anaa,re7et
+to go,present perfect,enta,re7et
+to go,present perfect,ente,re7tei
+to go,present perfect,huuwe,raa7
+to go,present perfect,hiiye,raa7et
+to go,present perfect,nehna,re7naa
+to go,present perfect,entoo,re7too
+to go,present perfect,henne,raa7oo
+to go,active participle,"male, singular",raaye7
+to go,active participle,"female, singular",raay7ah
+to go,active participle,plural,raay7iin
+to stay,present continuous,anaa,bDall
+to stay,present continuous,enta,betDall
+to stay,present continuous,ente,betDallei
+to stay,present continuous,huuwe,beDall
+to stay,present continuous,hiiye,betDall
+to stay,present continuous,nehna,menDall
+to stay,present continuous,entoo,betDalloo
+to stay,present continuous,henne,beDalloo
+to do / to make,present continuous,anaa,ba3mel
+to do / to make,present continuous,enta,bta3mel
+to do / to make,present continuous,ente,bta3emlei
+to do / to make,present continuous,huuwe,bya3mel
+to do / to make,present continuous,hiiye,bta3mel
+to do / to make,present continuous,nehna,mna3mel
+to do / to make,present continuous,entoo,bta3emloo
+to do / to make,present continuous,henne,bya3emloo
+to do / to make,imperative,enta,3miil / 3maal / 3mool
+to do / to make,imperative,ente,3melei
+to do / to make,imperative,entoo,3meloo
+to do / to make,active participle,"male, singular",3eimel
+to do / to make,active participle,"female, singular",3eimleh
+to do / to make,active participle,plural,3eimliin
+to do / to make / to use,present continuous,anaa,bseiwei
+to do / to make / to use,present continuous,enta,betseiwei
+to do / to make / to use,present continuous,ente,betseiwei
+to do / to make / to use,present continuous,huuwe,beseiwei
+to do / to make / to use,present continuous,hiiye,betseiwei
+to do / to make / to use,present continuous,nehna,menseiwei
+to do / to make / to use,present continuous,entoo,betseiwoo
+to do / to make / to use,present continuous,henne,beseiwoo
+to show,present perfect,anaa,farja
+to look at,present continuous,anaa,betfarraj 3ala
+to look at,present continuous,enta,btetfarraj 3ala
+to look at,present continuous,ente,btetfarrajei 3ala
+to look at,present continuous,huuwe,byetfarraj 3ala
+to look at,present continuous,hiiye,btetfarraj 3ala
+to look at,present continuous,nehna,mnetfarraj 3ala
+to look at,present continuous,entoo,btetfarrajoo 3ala
+to look at,present continuous,henne,byetfarrajoo 3ala
+to look at,present continuous,anaa,betfarraj
+to ride,present continuous,anaa,berkab
+to ride,present continuous,enta,bterkab
+to ride,present continuous,ente,btekabei
+to ride,present continuous,huuwe,byerkab
+to ride,present continuous,hiiye,bterkab
+to ride,present continuous,nehna,mnerkab
+to ride,present continuous,entoo,bterkaboo
+to ride,present continuous,henne,byerkaboo
+to spend (time),present continuous,anaa,bmaDDei
+to spend (time),present continuous,enta,betmaDDei
+to spend (time),present continuous,ente,betmaDDei
+to spend (time),present continuous,huuwe,betmaDDei
+to spend (time),present continuous,hiiye,bemaDDei
+to spend (time),present continuous,nehna,menmaDDei
+to spend (time),present continuous,entoo,betmaDDoo
+to spend (time),present continuous,henne,bemaDDoo
+to meet,present continuous,anaa,belte2ei
+to meet,present continuous,enta,btelte2ei
+to meet,present continuous,ente,btelte2ei
+to meet,present continuous,huuwe,byelte2ei
+to meet,present continuous,hiiye,btelte2ei
+to meet,present continuous,nehna,mnelte2ei
+to meet,present continuous,entoo,btelte2oo
+to meet,present continuous,henne,byelte2oo
+to rest,present continuous,anaa,bertei7
+to rest,present continuous,enta,btertei7
+to rest,present continuous,ente,btertei7ei
+to rest,present continuous,huuwe,byertei7
+to rest,present continuous,hiiye,btertei7
+to rest,present continuous,nehna,mnertei7
+to rest,present continuous,entoo,btertei7oo
+to rest,present continuous,henne,byertei7oo
+to wait,active participle,"male, singular",naaTer
+to wait,active participle,"female, singular",naaTrah
+to wait,active participle,plural,naaTriin
+to hear / to listen,present continuous,anaa,besma3
+to hear / to listen,present continuous,enta,btesma3
+to hear / to listen,present continuous,ente,btesma3ei
+to hear / to listen,present continuous,huuwe,byesma3
+to hear / to listen,present continuous,hiiye,btesma3
+to hear / to listen,present continuous,nehna,mnesma3
+to hear / to listen,present continuous,entoo,btesma3oo
+to hear / to listen,present continuous,henne,byesma3oo
+to hear / to listen,present perfect,infinitive,seme3
+to hear / to listen,present perfect,anaa,sme3et
+to hear / to listen,present perfect,enta,sma3et
+to hear / to listen,present perfect,ente,sma3tei
+to hear / to listen,present perfect,huuwe,seme3
+to hear / to listen,present perfect,hiiye,sem3et
+to hear / to listen,present perfect,nehna,sme3naa
+to hear / to listen,present perfect,entoo,sme3too
+to hear / to listen,present perfect,henne,sem3oo
+to hear / to listen,imperative,enta,sma3
+to be in pain,present continuous,anaa,buuja3
+to be in pain,present continuous,enta,btuuja3
+to be in pain,present continuous,ente,btuuja3ei
+to be in pain,present continuous,huuwe,byuuja3
+to be in pain,present continuous,hiiye,btuuja3
+to be in pain,present continuous,nehna,mnuuja3
+to be in pain,present continuous,entoo,btuuja3oo
+to be in pain,present continuous,henne,byuuja3oo
+we ski,present continuous,nehna,mnetzallaj
+to remember,present continuous,anaa,betzakkar
+to remember,present continuous,enta,btetzakkar
+to remember,present continuous,ente,btetzakkarei
+to remember,present continuous,huuwe,byetzakkar
+to remember,present continuous,hiiye,btetzakkar
+to remember,present continuous,nehna,mnetzakkar
+to remember,present continuous,entoo,btetzakkaroo
+to remember,present continuous,henne,byetzakkaroo
+to rent,present continuous,anaa,besta2jer
+to take care of / to be interested in,present continuous,anaa,behtamm
+to take care of / to be interested in,present continuous,hiiye,btehtamm
+to open,present continuous,anaa,befta7
+to open,present continuous,enta,btefta7
+to open,present continuous,ente,btefta7ei
+to open,present continuous,huuwe,byefta7
+to open,present continuous,hiiye,btefta7
+to open,present continuous,nehna,mnefta7
+to open,present continuous,entoo,btefta7oo
+to open,present continuous,henne,byefta7oo
+to fry,active participle,"male, singular",2alei
+to grill,present continuous,enta,bteshwei
+to grill,active participle,"male, singular",shawei
+to speak,present continuous,anaa,be7kei
+to speak,active participle,"male, singular",7akei
+to speak,active participle,"female, singular",7eikyeh
+to speak,active participle,plural,7eikyiin
+to forget,present continuous,anaa,bensa
+to forget,present continuous,enta,btensa
+to forget,present continuous,ente,btensei
+to forget,present continuous,huuwe,byensa
+to forget,present continuous,hiiye,btensa
+to forget,present continuous,nehna,mnensa
+to forget,present continuous,entoo,btensoo
+to forget,present continuous,henne,byensoo
+to forget,present perfect,anaa,nsiit
+to move / to cheat / to copy,present continuous,anaa,ben2ul
+to move / to cheat / to copy,present continuous,enta,bten2ul
+to move / to cheat / to copy,present continuous,ente,btene2lei
+to move / to cheat / to copy,present continuous,huuwe,byen2ul
+to move / to cheat / to copy,present continuous,hiiye,bten2ul
+to move / to cheat / to copy,present continuous,nehna,mnen2ul
+to move / to cheat / to copy,present continuous,entoo,btene2loo
+to move / to cheat / to copy,present continuous,henne,byene2loo
+to fail,present continuous,anaa,bus2uT
+to fail,present continuous,enta,btus2uT
+to fail,present continuous,ente,btusu2Tei
+to fail,present continuous,huuwe,byus2uT
+to fail,present continuous,hiiye,btus2uT
+to fail,present continuous,nehna,mnus2uT
+to fail,present continuous,entoo,btusu2Too
+to fail,present continuous,henne,byusu2Too
+to fail,present perfect,infinitive,sa2at
+to succeed,present perfect,infinitive,naja7
+to register (in),present continuous,anaa,betsajjal (be)
+to apply / to offer / to move forward,present continuous,anaa,b2addem
+to be (specific use),present perfect,infinitive,kein
+to be (specific use),present continuous,anaa,bkuun
+to be (specific use),present continuous,enta,betkuun
+to be (specific use),present continuous,ente,betkuunei
+to be (specific use),present continuous,huuwe,bekuun
+to be (specific use),present continuous,hiiye,betkuun
+to be (specific use),present continuous,nehna,menkuun
+to be (specific use),present continuous,entoo,betkuunoo
+to be (specific use),present continuous,henne,bekuunoo
+to be (specific use),future,anaa,ra7 kuun
+to be (specific use),future,enta,ra7 etkuun
+to be (specific use),future,ente,ra7 etkuunei
+to be (specific use),future,huuwe,ra7 ykuun
+to be (specific use),future,hiiye,ra7 etkuun
+to be (specific use),future,nehna,ra7 enkuun
+to be (specific use),future,entoo,ra7 etkuunoo
+to be (specific use),future,henne,ra7 ykuunoo
+to want,present continuous,anaa,baddei
+to want,present continuous,enta,baddak
+to want,present continuous,ente,baddek
+to want,present continuous,huuwe,baddoo
+to want,present continuous,hiiye,baddaa
+to want,present continuous,nehna,baddnaa
+to want,present continuous,entoo,baddkon
+to want,present continuous,henne,baddon
+to have,present continuous,anaa,3endei
+to have,present continuous,enta,3endak
+to have,present continuous,ente,3endek
+to have,present continuous,huuwe,3endoo
+to have,present continuous,hiiye,3endaa
+to have,present continuous,nehna,3en(d)naa
+to have,present continuous,entoo,3endkon
+to have,present continuous,henne,3endon
+can,present continuous,anaa,fiinei/fiiyei
+can,present continuous,enta,fiik
+can,present continuous,ente,fiike
+can,present continuous,huuwe,feyoo / fiih
+can,present continuous,hiiye,feyaa
+can,present continuous,nehna,fiinaa
+can,present continuous,entoo,fiikon
+can,present continuous,henne,feyon
+should,present continuous,anaa,leizem
+should,present continuous,enta,leizem
+should,present continuous,ente,leizem
+should,present continuous,huuwe,leizem
+should,present continuous,hiiye,leizem
+should,present continuous,nehna,leizem
+should,present continuous,entoo,leizem
+should,present continuous,henne,leizem
+to know,present continuous,anaa,ba3ref
+to know,present continuous,enta,bta3ref
+to know,present continuous,ente,bta3erfei
+to know,present continuous,huuwe,bya3ref
+to know,present continuous,hiiye,bta3ref
+to know,present continuous,nehna,mna3ref
+to know,present continuous,entoo,bta3erfoo
+to know,present continuous,henne,bya3erfoo
+to give,present continuous,anaa,ba3Tei
+to give,present continuous,enta,bta3Tei
+to give,present continuous,ente,bta3Tei
+to give,present continuous,huuwe,bya3Tei
+to give,present continuous,hiiye,bta3Tei
+to give,present continuous,nehna,mna3Tei
+to give,present continuous,entoo,bta3Too
+to give,present continuous,henne,bya3Too
+to give,imperative,enta,3Tii
+to give,imperative,ente,3Tii
+to give,imperative,entoo,3Too
+to give me,present continuous,enta,bta3Tiinei
+to give me,present continuous,ente,bta3Tiinei
+to give me,present continuous,entoo,bta3Tuunei
+to give me,imperative,enta,3Tiinei
+to give me,imperative,ente,3Tiinei
+to give me,imperative,entoo,3Tuunei
+to cook,present continuous,anaa,buTbukh
+to cook,present continuous,enta,btuTbukh
+to cook,present continuous,ente,btuTubkhei
+to cook,present continuous,huuwe,byuTbukh
+to cook,present continuous,hiiye,btuTbukh
+to cook,present continuous,nehna,mnuTbukh
+to cook,present continuous,entoo,btuTubkhoo
+to cook,present continuous,henne,byuTubkhoo
+to chop,present continuous,anaa,bufrum
+to chop,present continuous,enta,btufrum
+to chop,present continuous,ente,btufurmei
+to chop,present continuous,huuwe,byufrum
+to chop,present continuous,hiiye,btufrum
+to chop,present continuous,nehna,mnufrum
+to chop,present continuous,entoo,btufurmoo
+to chop,present continuous,henne,byufurmoo
+to go up / to get on,present continuous,anaa,buTla3
+to go up / to get on,present continuous,enta,btuTla3
+to go up / to get on,present continuous,ente,btuTla3ei
+to go up / to get on,present continuous,huuwe,byuTla3
+to go up / to get on,present continuous,hiiye,btuTla3
+to go up / to get on,present continuous,nehna,mnuTla3
+to go up / to get on,present continuous,entoo,btuTla3oo
+to go up / to get on,present continuous,henne,byuTla3oo
+to go up / to get on,active participle,"male, singular",Taale3
+to go up / to get on,active participle,"female, singular",Taal3ah
+to go up / to get on,active participle,plural,Taal3iin
+to go down / to get off,present continuous,anaa,benzal
+to go down / to get off,present continuous,enta,btenzal
+to go down / to get off,present continuous,ente,btenzalei
+to go down / to get off,present continuous,huuwe,byenzal
+to go down / to get off,present continuous,hiiye,btenzal
+to go down / to get off,present continuous,nehna,mnenzal
+to go down / to get off,present continuous,entoo,btenzaloo
+to go down / to get off,present continuous,henne,byenzaloo
+to go down / to get off,active participle,"male, singular",neizel
+to go down / to get off,active participle,"female, singular",neizleh
+to go down / to get off,active participle,plural,neizliin
+to travel,present continuous,anaa,bseifer
+to travel,present continuous,enta,betseifer
+to travel,present continuous,ente,betseifrei
+to travel,present continuous,huuwe,beseifer
+to travel,present continuous,hiiye,betseifer
+to travel,present continuous,nehna,menseifer
+to travel,present continuous,entoo,betseifroo
+to travel,present continuous,henne,beseifroo
+to travel,active participle,"male, singular",mseifer
+to travel,active participle,"female, singular",mseifreh
+to travel,active participle,plural,mseifriin
+to ask / to order,present continuous,anaa,buTlub
+to ask / to order,present continuous,enta,btuTlub
+to ask / to order,present continuous,ente,btuTulbei
+to ask / to order,present continuous,huuwe,byuTlub
+to ask / to order,present continuous,hiiye,btuTlub
+to ask / to order,present continuous,nehna,mnuTlub
+to ask / to order,present continuous,entoo,btuTulboo
+to ask / to order,present continuous,henne,byuTulboo
+to dance,present continuous,anaa,bur2uS
+to dance,present continuous,enta,btur2uS
+to dance,present continuous,ente,bturu2Sei
+to dance,present continuous,huuwe,byur2uS
+to dance,present continuous,hiiye,btur2uS
+to dance,present continuous,nehna,mnur2uS
+to dance,present continuous,entoo,bturu2Soo
+to dance,present continuous,henne,byuru2Soo
+to work,present continuous,anaa,beshteghel
+to work,present continuous,enta,bteshteghel
+to work,present continuous,ente,bteshteghlei
+to work,present continuous,huuwe,byeshteghel
+to work,present continuous,hiiye,bteshteghel
+to work,present continuous,nehna,mneshteghel
+to work,present continuous,entoo,bteshteghloo
+to work,present continuous,henne,byeshteghloo
+to write,present continuous,anaa,bektub
+to write,present continuous,enta,btektub
+to write,present continuous,ente,bteketbei
+to write,present continuous,huuwe,byektub
+to write,present continuous,hiiye,btektub
+to write,present continuous,nehna,mnektub
+to write,present continuous,entoo,bteketboo
+to write,present continuous,henne,byeketboo
+to write,active participle,"male, singular",keiteb
+to write,active participle,"female, singular",keitbeh
+to write,active participle,plural,keitbiin
+to study,present continuous,anaa,bedrus
+to study,present continuous,enta,btedrus
+to study,present continuous,ente,btedersei
+to study,present continuous,huuwe,byedrus
+to study,present continuous,hiiye,btedrus
+to study,present continuous,nehna,mnedrus
+to study,present continuous,entoo,btedersoo
+to study,present continuous,henne,byedersoo
+to study,active participle,"male, singular",deires
+to study,active participle,"female, singular",deirseh
+to study,active participle,plural,deirsiin
+to break,present continuous,anaa,beksur
+to break,present continuous,enta,bteksur
+to break,present continuous,ente,btekesrei
+to break,present continuous,huuwe,byeksur
+to break,present continuous,hiiye,bteksur
+to break,present continuous,nehna,mneksur
+to break,present continuous,entoo,btekesroo
+to break,present continuous,henne,byekesroo
+to drink,present continuous,anaa,beshrab
+to drink,present continuous,enta,bteshrab
+to drink,present continuous,ente,bteshrabei
+to drink,present continuous,huuwe,byeshrab
+to drink,present continuous,hiiye,bteshrab
+to drink,present continuous,nehna,mneshrab
+to drink,present continuous,entoo,bteshraboo
+to drink,present continuous,henne,byeshraboo
+to drink,active participle,"male, singular",sheireb
+to drink,active participle,"female, singular",sheirbeh
+to drink,active participle,plural,sheirbiin
+to eat,present continuous,anaa,beikul
+to eat,present continuous,enta,bteikul
+to eat,present continuous,ente,bteiklei
+to eat,present continuous,huuwe,byeikul
+to eat,present continuous,hiiye,bteikul
+to eat,present continuous,nehna,mneikul
+to eat,present continuous,entoo,bteikloo
+to eat,present continuous,henne,byeikloo
+to eat,imperative,enta,kool
+to eat,imperative,ente,kelei
+to eat,imperative,entoo,keloo
+to eat,active participle,"male, singular",(m)eikel
+to eat,active participle,"female, singular",(m)eikleh
+to eat,active participle,plural,(m)eikliin
+to take,present continuous,anaa,beikhud
+to take,present continuous,enta,bteikhud
+to take,present continuous,ente,bteikhdei
+to take,present continuous,huuwe,byeikhud
+to take,present continuous,hiiye,bteikhud
+to take,present continuous,nehna,mneikhud
+to take,present continuous,entoo,bteikhdoo
+to take,present continuous,henne,byeikhdoo
+to live,present continuous,anaa,beskun
+to live,present continuous,enta,btekun
+to live,present continuous,ente,bteseknei
+to live,present continuous,huuwe,byeskun
+to live,present continuous,hiiye,btekun
+to live,present continuous,nehna,mneskun
+to live,present continuous,entoo,bteseknoo
+to live,present continuous,henne,byeseknoo
+to live,active participle,"male, singular",seiken
+to live,active participle,"female, singular",seikneh
+to live,active participle,plural,seikniin
+to feel (deikh),present continuous,anaa,bduukh
+to feel (deikh),present continuous,enta,betduukh
+to feel (deikh),present continuous,ente,betduukhei
+to feel (deikh),present continuous,huuwe,beduukh
+to feel (deikh),present continuous,hiiye,betduukh
+to feel (deikh),present continuous,nehna,menduukh
+to feel (deikh),present continuous,entoo,betduukhoo
+to feel (deikh),present continuous,henne,beduukhoo
+to feel (7ass),present continuous,anaa,b7ess
+to feel (7ass),present continuous,enta,bet7ess
+to feel (7ass),present continuous,ente,bet7essei
+to feel (7ass),present continuous,huuwe,be7ess
+to feel (7ass),present continuous,hiiye,bet7ess
+to feel (7ass),present continuous,nehna,men7ess
+to feel (7ass),present continuous,entoo,bet7essoo
+to feel (7ass),present continuous,henne,be7essoo
+to say,present continuous,anaa,b2uul
+to say,present continuous,enta,bet2uul
+to say,present continuous,ente,bet2uulei
+to say,present continuous,huuwe,be2uul
+to say,present continuous,hiiye,bet2uul
+to say,present continuous,nehna,men2uul
+to say,present continuous,entoo,bet2uuloo
+to say,present continuous,henne,be2uuloo
+to bake,present continuous,anaa,bekhbuz
+to bake,present continuous,enta,btekhbuz
+to bake,present continuous,ente,btekhebzei
+to bake,present continuous,huuwe,byekhbuz
+to bake,present continuous,hiiye,btekhbuz
+to bake,present continuous,nehna,mnekhbuz
+to bake,present continuous,entoo,btekhebzoo
+to bake,present continuous,henne,byekhebzoo
+to lose,present continuous,anaa,bekhsar
+to lose,present continuous,enta,btekhsar
+to lose,present continuous,ente,btekhsarei
+to lose,present continuous,huuwe,byekhsar
+to lose,present continuous,hiiye,btekhsar
+to lose,present continuous,nehna,mnekhsar
+to lose,present continuous,entoo,btekhsaroo
+to lose,present continuous,henne,byekhsaroo
+to buy,present continuous,anaa,beshterei
+to buy,present continuous,enta,bteshterei
+to buy,present continuous,ente,bteshterei
+to buy,present continuous,huuwe,byeshterei
+to buy,present continuous,hiiye,bteshterei
+to buy,present continuous,nehna,mneshterei
+to buy,present continuous,entoo,bteshteroo
+to buy,present continuous,henne,byeshteroo
+to pay,present continuous,anaa,bedfa3
+to pay,present continuous,enta,btedfa3
+to pay,present continuous,ente,btetfa3ei
+to pay,present continuous,huuwe,byedfa3
+to pay,present continuous,hiiye,btedfa3
+to pay,present continuous,nehna,mnedfa3
+to pay,present continuous,entoo,btedfa3oo
+to pay,present continuous,henne,byedfa3oo
+to pay,active participle,"male, singular",deife3
+to pay,active participle,"female, singular",deif3ah
+to pay,active participle,plural,deif3iin
+to spend (money),present continuous,anaa,buSruf
+to spend (money),present continuous,enta,btuSruf
+to spend (money),present continuous,ente,btuSurfei
+to spend (money),present continuous,huuwe,byuSruf
+to spend (money),present continuous,hiiye,btuSruf
+to spend (money),present continuous,nehna,mnuSruf
+to spend (money),present continuous,entoo,btuSurfoo
+to spend (money),present continuous,henne,byuSurfoo
+to come,present continuous,anaa,bejei
+to come,present continuous,enta,btejei
+to come,present continuous,ente,btejei
+to come,present continuous,huuwe,byejei
+to come,present continuous,hiiye,btejei
+to come,present continuous,nehna,mnejei
+to come,present continuous,entoo,btejoo
+to come,present continuous,henne,byejoo
+to come,active participle,"male, singular",jeiyei
+to come,active participle,"female, singular",jeiyeh
+to come,active participle,plural,jeiyiin
+to return,present continuous,anaa,berja3
+to return,present continuous,enta,bterja3
+to return,present continuous,ente,bterja3ei
+to return,present continuous,huuwe,byerja3
+to return,present continuous,hiiye,bterja3
+to return,present continuous,nehna,mnerja3
+to return,present continuous,entoo,bterja3oo
+to return,present continuous,henne,byerja3oo
+to return,active participle,"male, singular",reije3
+to return,active participle,"female, singular",reij3ah
+to return,active participle,plural,reij3iin
+to arrive,present continuous,anaa,buuSal
+to arrive,present continuous,enta,btuuSal
+to arrive,present continuous,ente,btuuSalei
+to arrive,present continuous,huuwe,byuuSal
+to arrive,present continuous,hiiye,btuuSal
+to arrive,present continuous,nehna,mnuuSal
+to arrive,present continuous,entoo,btuuSaloo
+to arrive,present continuous,henne,byuuSaloo
+to arrive,active participle,"male, singular",waaSel
+to arrive,active participle,"female, singular",waaSleh
+to arrive,active participle,plural,waaSliin
+to leave,present continuous,anaa,befell
+to leave,present continuous,enta,betfell
+to leave,present continuous,ente,betfellei
+to leave,present continuous,huuwe,befell
+to leave,present continuous,hiiye,betfell
+to leave,present continuous,nehna,menfell
+to leave,present continuous,entoo,betfelloo
+to leave,present continuous,henne,befelloo
+to leave,active participle,"male, singular",feilel
+to leave,active participle,"female, singular",feilleh
+to leave,active participle,plural,feilliin
+to leave (the bed),present continuous,anaa,b2uum
+to leave (the bed),present continuous,enta,bet2uum
+to leave (the bed),present continuous,ente,bet2uumei
+to leave (the bed),present continuous,huuwe,be2uum
+to leave (the bed),present continuous,hiiye,bet2uum
+to leave (the bed),present continuous,nehna,men2uum
+to leave (the bed),present continuous,entoo,bet2uumoo
+to leave (the bed),present continuous,henne,be2uumoo
+to walk,present continuous,anaa,bemshei
+to walk,active participle,"male, singular",meishei
+to walk,active participle,"female, singular",meishyeh
+to walk,active participle,plural,meishyiin
+to scream,present continuous,anaa,buSrukh
+to scream,present continuous,enta,btuSrukh
+to scream,present continuous,ente,btuSurkhei
+to scream,present continuous,huuwe,byuSrukh
+to scream,present continuous,hiiye,btuSrukh
+to scream,present continuous,nehna,mnuSrukh
+to scream,present continuous,entoo,btuSurkhoo
+to scream,present continuous,henne,byuSurkhoo
+to get smaller,present continuous,anaa,buzghar
+to get smaller,present continuous,enta,btuzghar
+to get smaller,present continuous,ente,btuzgharei
+to get smaller,present continuous,huuwe,byuzghar
+to get smaller,present continuous,hiiye,btuzghar
+to get smaller,present continuous,nehna,mnuzghar
+to get smaller,present continuous,entoo,btuzgharoo
+to get smaller,present continuous,henne,byuzgharoo
+to paint the walls,present continuous,anaa,buTrush
+to paint the walls,present continuous,enta,btuTrush
+to paint the walls,present continuous,ente,btuTurshei
+to paint the walls,present continuous,huuwe,byuTrush
+to paint the walls,present continuous,hiiye,btuTrush
+to paint the walls,present continuous,nehna,mnuTrush
+to paint the walls,present continuous,entoo,btuTurshoo
+to paint the walls,present continuous,henne,byuTurshoo
+to steal,present continuous,anaa,besru2
+to steal,present continuous,enta,btesru2
+to steal,present continuous,ente,bteser2ei
+to steal,present continuous,huuwe,byesru2
+to steal,present continuous,hiiye,btesru2
+to steal,present continuous,nehna,mnesru2
+to steal,present continuous,entoo,bteser2oo
+to steal,present continuous,henne,byeser2oo
+to prefer,present continuous,anaa,bfaDDel
+to prefer,present continuous,enta,betfaDDel
+to prefer,present continuous,ente,betfaDDelei
+to prefer,present continuous,huuwe,befaDDel
+to prefer,present continuous,hiiye,betfaDDel
+to prefer,present continuous,nehna,menfaDDel
+to prefer,present continuous,entoo,betfaDDeloo
+to prefer,present continuous,henne,befaDDeloo
+to clean,present continuous,anaa,bnaDDef
+to clean,present continuous,enta,betnaDDef
+to clean,present continuous,ente,betnaDDfei
+to clean,present continuous,huuwe,benaDDef
+to clean,present continuous,hiiye,betnaDDef
+to clean,present continuous,nehna,mennaDDef
+to clean,present continuous,entoo,betnaDDfoo
+to clean,present continuous,henne,benaDDfoo
+to continue / to be enough,present continuous,anaa,bkaffei
+to continue / to be enough,present continuous,enta,betkaffe
+to continue / to be enough,present continuous,ente,betkaffei
+to continue / to be enough,present continuous,huuwe,bekaffei
+to continue / to be enough,present continuous,hiiye,betkaffe
+to continue / to be enough,present continuous,nehna,menkaffe
+to continue / to be enough,present continuous,entoo,betkaffoo
+to continue / to be enough,present continuous,henne,bekaffoo
+to wear,present continuous,anaa,belbus
+to wear,present continuous,enta,btelbus
+to wear,present continuous,ente,btelebsei
+to wear,present continuous,huuwe,byelbus
+to wear,present continuous,hiiye,btelbus
+to wear,present continuous,nehna,mnelbus
+to wear,present continuous,entoo,btelebsoo
+to wear,present continuous,henne,byelebsoo
+to practice,present continuous,anaa,betmarran
+to practice,present continuous,enta,btetmarran
+to practice,present continuous,ente,btetmarranei
+to practice,present continuous,huuwe,byetmarran
+to practice,present continuous,hiiye,btetmarran
+to practice,present continuous,nehna,mnetmarran
+to practice,present continuous,entoo,btetmarranoo
+to practice,present continuous,henne,byetmarranoo
+to learn,present continuous,anaa,bet3allam
+to learn,present continuous,enta,btet3allam
+to learn,present continuous,ente,btet3allamei
+to learn,present continuous,huuwe,byet3allam
+to learn,present continuous,hiiye,btet3allam
+to learn,present continuous,nehna,mnet3allam
+to learn,present continuous,entoo,btet3allamoo
+to learn,present continuous,henne,byet3allamoo
+to think,present continuous,anaa,bfakker
+to believe,present continuous,anaa,be3te2ed
+to sit,present continuous,anaa,be23ud
+to sit,present continuous,hiiye,bte23ud
+to sit,active participle,"male, singular",2aa3ed
+to sit,active participle,"female, singular",2aa3deh
+to sit,active participle,plural,2aa3diin
+to stand up,present continuous,anaa,buu2af
+to change,present continuous,ente,betshayyrei
+to bring / to get,present continuous,anaa,bjiib
+to bring / to get,present continuous,enta,betjiib
+to bring / to get,present continuous,ente,betjiibei
+to bring / to get,present continuous,huuwe,bejiib
+to bring / to get,present continuous,hiiye,betjiib
+to bring / to get,present continuous,nehna,menjiib
+to bring / to get,present continuous,entoo,betjiiboo
+to bring / to get,present continuous,henne,bejiiboo
+to bring / to get,active participle,"male, singular",jeiyeb
+to bring / to get,active participle,"female, singular",jeibeh
+to bring / to get,active participle,plural,jeiybiin
+to draw,present continuous,anaa,bersum
+to apologize,present continuous,anaa,be3tezer
+to be welcome,present continuous,enta,btekram
+to be welcome,present continuous,ente,btekramei
+to be welcome,present continuous,entoo,btekramoo
+to be welcome,imperative,enta,tekram
+to be welcome,imperative,ente,tekramei
+to be welcome,imperative,entoo,tekramoo
+to go ahead,present continuous,enta,btetfaDDal
+to go ahead,present continuous,ente,btetfaDDalei
+to go ahead,present continuous,entoo,btetfaDDaloo
+to go ahead,imperative,enta,tfaDDal
+to go ahead,imperative,ente,tfaDDalei
+to go ahead,imperative,entoo,tfaDDaloo
+to try (jarrab),present continuous,anaa,bjarreb
+to try (7aawal),present continuous,anaa,b7aawel
+to try (7aawal),present continuous,enta,bet7aawel
+to try (7aawal),present continuous,ente,bet7aawlei
+to try (7aawal),present continuous,huuwe,be7aawel
+to try (7aawal),present continuous,hiiye,bet7aawel
+to try (7aawal),present continuous,nehna,men7aawel
+to try (7aawal),present continuous,entoo,bet7aawloo
+to try (7aawal),present continuous,henne,be7aawloo
+to wake up,present continuous,anaa,bfii2
+to wake up,present continuous,enta,betfii2
+to wake up,present continuous,ente,betfii2ei
+to wake up,present continuous,huuwe,befii2
+to wake up,present continuous,hiiye,betfii2
+to wake up,present continuous,nehna,menfii2
+to wake up,present continuous,entoo,betfii2oo
+to wake up,present continuous,henne,befii2oo
+to choose,present continuous,anaa,bekhtaar
+to choose,present continuous,enta,btekhtaar
+to choose,present continuous,ente,btekhtaarei
+to choose,present continuous,huuwe,byekhtaar
+to choose,present continuous,hiiye,btekhtaar
+to choose,present continuous,nehna,mnekhtaar
+to choose,present continuous,entoo,btekhtaaroo
+to choose,present continuous,henne,byekhtaaroo
+to have breakfast,present continuous,anaa,betrawwa2
+to have breakfast,present continuous,enta,btetrawwa2
+to have breakfast,present continuous,ente,btetrawwa2ei
+to have breakfast,present continuous,huuwe,byetrawwa2
+to have breakfast,present continuous,hiiye,btetrawwa2
+to have breakfast,present continuous,nehna,mnetrawwa2
+to have breakfast,present continuous,entoo,btetrawwa2oo
+to have breakfast,present continuous,henne,byetrawwa2oo
+to have lunch,present continuous,anaa,betghadda
+to have lunch,present continuous,enta,btetghadda
+to have lunch,present continuous,ente,btetghaddei
+to have lunch,present continuous,huuwe,byetghadda
+to have lunch,present continuous,hiiye,btetghadda
+to have lunch,present continuous,nehna,mnetghadda
+to have lunch,present continuous,entoo,btetghaddoo
+to have lunch,present continuous,henne,byetghaddoo
+to have dinner,present continuous,anaa,bet3ashsha
+to have dinner,present continuous,enta,btet3ashsha
+to have dinner,present continuous,ente,btet3ashshei
+to have dinner,present continuous,huuwe,byet3ashsha
+to have dinner,present continuous,hiiye,btet3ashsha
+to have dinner,present continuous,nehna,mnet3ashsha
+to have dinner,present continuous,entoo,btet3ashshoo
+to have dinner,present continuous,henne,byet3ashshoo
+to start,present continuous,anaa,bballesh
+to start,present continuous,enta,betballesh
+to start,present continuous,ente,betballshei (inf: tballesh)
+to start,present continuous,huuwe,beballesh (inf: yballesh)
+to start,present continuous,hiiye,betballesh
+to start,present continuous,nehna,menballesh
+to start,present continuous,entoo,betballshoo
+to start,present continuous,henne,beballshoo
+to put,present continuous,anaa,b7oTT
+to put,present continuous,enta,bet7oTT
+to put,present continuous,ente,bet7oTTei
+to put,present continuous,huuwe,be7oTT
+to put,present continuous,hiiye,bet7oTT
+to put,present continuous,nehna,men7oTT
+to put,present continuous,entoo,bet7oTToo
+to put,present continuous,henne,be7oTToo
+to see / to watch,present continuous,anaa,bshuuf
+to see / to watch,present continuous,enta,betshuuf
+to see / to watch,present continuous,ente,betshuufei
+to see / to watch,present continuous,huuwe,beshuuf
+to see / to watch,present continuous,hiiye,betshuuf
+to see / to watch,present continuous,nehna,menshuuf
+to see / to watch,present continuous,entoo,betshuufoo
+to see / to watch,present continuous,henne,beshuufoo
+to finish (khalaS),present continuous,anaa,bukhlaS
+to finish (khalaS),present continuous,enta,btukhlaS
+to finish (khalaS),present continuous,ente,btukhlaSei
+to finish (khalaS),present continuous,huuwe,byukhlaS
+to finish (khalaS),present continuous,hiiye,btukhlaS
+to finish (khalaS),present continuous,nehna,mnukhlaS
+to finish (khalaS),present continuous,entoo,btukhlaSoo
+to finish (khalaS),present continuous,henne,byukhlaSoo
+to finish (khallaS),present continuous,anaa,bkhalleS
+to finish (khallaS),present continuous,enta,betkhalleS
+to finish (khallaS),present continuous,ente,betkhallSei
+to finish (khallaS),present continuous,huuwe,bekhalleS
+to finish (khallaS),present continuous,hiiye,betkhalleS
+to finish (khallaS),present continuous,nehna,menkhalleS
+to finish (khallaS),present continuous,entoo,betkhallSoo
+to finish (khallaS),present continuous,henne,bekhallSoo
+to be able to,present continuous,anaa,be2der
+to be able to,present continuous,enta,bte2der
+to be able to,present continuous,ente,bte2edrei
+to be able to,present continuous,huuwe,bye2der
+to be able to,present continuous,hiiye,bte2der
+to be able to,present continuous,nehna,mne2der
+to be able to,present continuous,entoo,bte2edroo
+to be able to,present continuous,henne,bye2edroo
+to be able to,active participle,"male, singular",2aader
+to be able to,active participle,"female, singular",2aadrah
+to be able to,active participle,plural,2aadriin
+to read,present continuous,anaa,bu2raa
+to read,present continuous,enta,btu2raa
+to read,present continuous,ente,btu2rei
+to read,present continuous,huuwe,byu2raa
+to read,present continuous,hiiye,btu2raa
+to read,present continuous,nehna,mnu2raa
+to read,present continuous,entoo,btu2roo
+to read,present continuous,henne,byu2roo
+to swim,present continuous,anaa,besba7
+to swim,present continuous,enta,btesba7
+to swim,present continuous,ente,btesba7ei
+to swim,present continuous,huuwe,byesba7
+to swim,present continuous,hiiye,btesba7
+to swim,present continuous,nehna,mnesba7
+to swim,present continuous,entoo,btesba7oo
+to swim,present continuous,henne,byesba7oo
+to ask,present continuous,anaa,bes2al
+to ask,present continuous,enta,btes2al
+to ask,present continuous,ente,btes2alei
+to ask,present continuous,huuwe,byes2al
+to ask,present continuous,hiiye,btes2al
+to ask,present continuous,nehna,mnes2al
+to ask,present continuous,entoo,btes2aloo
+to ask,present continuous,henne,byes2aloo
+to stay up late / to spend the evening,present continuous,anaa,bes-har
+to stay up late / to spend the evening,present continuous,enta,btes-har
+to stay up late / to spend the evening,present continuous,ente,btes-harei
+to stay up late / to spend the evening,present continuous,huuwe,byes-har
+to stay up late / to spend the evening,present continuous,hiiye,btes-har
+to stay up late / to spend the evening,present continuous,nehna,mnes-har
+to stay up late / to spend the evening,present continuous,entoo,btes-haroo
+to stay up late / to spend the evening,present continuous,henne,byes-haroo
+to visit,present continuous,anaa,bzuur
+to visit,present continuous,enta,betzuur
+to visit,present continuous,ente,betzuurei
+to visit,present continuous,huuwe,bezuur
+to visit,present continuous,hiiye,betzuur
+to visit,present continuous,nehna,menzuur
+to visit,present continuous,entoo,betzuuroo
+to visit,present continuous,henne,bezuuroo
+to wash,present continuous,anaa,bghassel
+to wash,present continuous,enta,betghassel
+to wash,present continuous,ente,betghasslei
+to wash,present continuous,huuwe,beghassel
+to wash,present continuous,hiiye,betghassel
+to wash,present continuous,nehna,menghassel
+to wash,present continuous,entoo,betghassloo
+to wash,present continuous,henne,beghassloo
+to watch / to attend / to be ready,present continuous,anaa,bu7Dar
+to watch / to attend / to be ready,present continuous,enta,btu7Dar
+to watch / to attend / to be ready,present continuous,ente,btu7Darei
+to watch / to attend / to be ready,present continuous,huuwe,byu7Dar
+to watch / to attend / to be ready,present continuous,hiiye,btu7Dar
+to watch / to attend / to be ready,present continuous,nehna,mnu7Dar
+to watch / to attend / to be ready,present continuous,entoo,btu7Daroo
+to watch / to attend / to be ready,present continuous,henne,byu7Daroo
+to watch / to attend / to be ready,active participle,"male, singular",7aader
+to watch / to attend / to be ready,active participle,"female, singular",7aaDrah
+to watch / to attend / to be ready,active participle,plural,7aaDriin
+to be ready,present continuous,anaa,bejhaz
+to be ready,present continuous,enta,btejhaz
+to be ready,present continuous,ente,btejhazei
+to be ready,present continuous,huuwe,byejhaz
+to be ready,present continuous,hiiye,btejhaz
+to be ready,present continuous,nehna,mnejhaz
+to be ready,present continuous,entoo,btejhazoo
+to be ready,present continuous,henne,byejhazoo
+to be ready,active participle,"male, singular",jeihez
+to be ready,active participle,"female, singular",jeihzeh
+to be ready,active participle,plural,jeihziin
+to play,present continuous,anaa,bel3ab
+to play,present continuous,enta,btel3ab
+to play,present continuous,ente,btel3abei
+to play,present continuous,huuwe,byel3ab
+to play,present continuous,hiiye,btel3ab
+to play,present continuous,nehna,mnel3ab
+to play,present continuous,entoo,btel3aboo
+to play,present continuous,henne,byel3aboo
+to reach,present continuous,anaa,bTaal
+to reach,present continuous,enta,betTaal
+to reach,present continuous,ente,betTaalei
+to reach,present continuous,huuwe,beTaal
+to reach,present continuous,hiiye,betTaal
+to reach,present continuous,nehna,menTaal
+to reach,present continuous,entoo,betTaaloo
+to reach,present continuous,henne,beTaaloo
+to drive,present continuous,anaa,bsuu2
+to drive,present continuous,enta,betsuu2
+to drive,present continuous,ente,betsuu2ei
+to drive,present continuous,huuwe,besuu2
+to drive,present continuous,hiiye,betsuu2
+to drive,present continuous,nehna,mensuu2
+to drive,present continuous,entoo,betsuu2oo
+to drive,present continuous,henne,besuu2oo
+to answer / to give back / to close the door without closing,present continuous,anaa,bredd
+to answer / to give back / to close the door without closing,present continuous,enta,betredd
+to answer / to give back / to close the door without closing,present continuous,ente,betreddei
+to answer / to give back / to close the door without closing,present continuous,huuwe,beredd
+to answer / to give back / to close the door without closing,present continuous,hiiye,betredd
+to answer / to give back / to close the door without closing,present continuous,nehna,menredd
+to answer / to give back / to close the door without closing,present continuous,entoo,betreddoo
+to answer / to give back / to close the door without closing,present continuous,henne,bereddoo
+to call,present continuous,anaa,btalfen
+to call,present continuous,enta,bettalfen
+to call,present continuous,ente,bettalfnei
+to call,present continuous,huuwe,betalfen
+to call,present continuous,hiiye,bettalfen
+to call,present continuous,nehna,mentalfen
+to call,present continuous,entoo,bettalfnoo
+to call,present continuous,henne,betalfnoo
+to translate,present continuous,anaa,btarjem
+to translate,present continuous,enta,bettarjem
+to translate,present continuous,ente,betterjmei
+to translate,present continuous,huuwe,betarjem
+to translate,present continuous,hiiye,bettarjem
+to translate,present continuous,nehna,mentarjem
+to translate,present continuous,entoo,bettarjmoo
+to translate,present continuous,henne,betarjmoo
+to envy,present continuous,anaa,be7sud
+to envy,present continuous,enta,bte7sud
+to envy,present continuous,ente,bte7esdei
+to envy,present continuous,huuwe,bye7sud
+to envy,present continuous,hiiye,bte7sud
+to envy,present continuous,nehna,mne7sud
+to envy,present continuous,entoo,bte7esdoo
+to envy,present continuous,henne,bye7esdoo
+to wish,present continuous,anaa,betmanna
+to wish,present continuous,enta,btetmanna
+to wish,present continuous,ente,btetmannei
+to wish,present continuous,huuwe,byetmanna
+to wish,present continuous,hiiye,btetmanna
+to wish,present continuous,nehna,mnetmanna
+to wish,present continuous,entoo,btetmannoo
+to wish,present continuous,henne,byetmannoo
+to desire,present continuous,anaa,beshtehei
+to desire,present continuous,enta,bteshtehei
+to desire,present continuous,ente,bteshtehei
+to desire,present continuous,huuwe,byeshtehei
+to desire,present continuous,hiiye,bteshtehei
+to desire,present continuous,nehna,mneshtehei
+to desire,present continuous,entoo,bteshtehoo
+to desire,present continuous,henne,byeshtehoo
+to use,present continuous,anaa,besta3mel
+to use,present continuous,enta,btesta3mel
+to use,present continuous,ente,btesta3mlei
+to use,present continuous,huuwe,byesta3mel
+to use,present continuous,hiiye,btesta3mel
+to use,present continuous,nehna,mnesta3mel
+to use,present continuous,entoo,btesta3mloo
+to use,present continuous,henne,byesta3mloo
+to put back in its place / to pack,present continuous,anaa,bDobb
+to put back in its place / to pack,present continuous,enta,betDobb
+to put back in its place / to pack,present continuous,ente,betDobbei
+to put back in its place / to pack,present continuous,huuwe,beDobb
+to put back in its place / to pack,present continuous,hiiye,betDobb
+to put back in its place / to pack,present continuous,nehna,menDobb
+to put back in its place / to pack,present continuous,entoo,betDobboo
+to put back in its place / to pack,present continuous,henne,beDobboo
+to be afraid,present continuous,anaa,bkhaaf
+to be afraid,present continuous,enta,betkhaaf
+to be afraid,present continuous,ente,betkhaafei
+to be afraid,present continuous,huuwe,bekhaaf
+to be afraid,present continuous,hiiye,betkhaaf
+to be afraid,present continuous,nehna,menkhaaf
+to be afraid,present continuous,entoo,betkhaafoo
+to be afraid,present continuous,henne,bekhaafoo
+to emigrate,present continuous,anaa,bheijer
+to emigrate,present continuous,enta,betheijer
+to emigrate,present continuous,ente,betheijrei
+to emigrate,present continuous,huuwe,beheijer
+to emigrate,present continuous,hiiye,betheijer
+to emigrate,present continuous,nehna,menheijer
+to emigrate,present continuous,entoo,betheijroo
+to emigrate,present continuous,henne,beheijroo
+to insult,present continuous,anaa,bbahdel
+to insult,present continuous,enta,betbahdel
+to insult,present continuous,ente,betbahdlei
+to insult,present continuous,huuwe,bebahdel
+to insult,present continuous,hiiye,betbahdel
+to insult,present continuous,nehna,menbahdel
+to insult,present continuous,entoo,betbahdloo
+to insult,present continuous,henne,bebahdloo
+to like / to fall in love,present continuous,anaa,b7ebb
+to like / to fall in love,present continuous,enta,bet7ebb
+to like / to fall in love,present continuous,ente,bet7ebbei
+to like / to fall in love,present continuous,huuwe,be7ebb
+to like / to fall in love,present continuous,hiiye,bet7ebb
+to like / to fall in love,present continuous,nehna,men7ebb
+to like / to fall in love,present continuous,entoo,bet7ebboo
+to like / to fall in love,present continuous,henne,be7ebboo
+to wash the dishes,present continuous,anaa,bejlei
+to wash the dishes,present continuous,enta,btejlei
+to wash the dishes,present continuous,ente,btejlei
+to wash the dishes,present continuous,huuwe,byejlei
+to wash the dishes,present continuous,hiiye,btejlei
+to wash the dishes,present continuous,nehna,mnejlei
+to wash the dishes,present continuous,entoo,btejloo
+to wash the dishes,present continuous,henne,byejloo
+to train,present continuous,anaa,bdarreb
+to train,present continuous,enta,betdarreb
+to train,present continuous,ente,betdarrbei
+to train,present continuous,huuwe,bedarreb
+to train,present continuous,hiiye,betdarreb
+to train,present continuous,nehna,mendarreb
+to train,present continuous,entoo,betdarrboo
+to train,present continuous,henne,bedarrboo
+to train yourself,present continuous,anaa,betdarrab
+to train yourself,present continuous,enta,btetdarrab
+to train yourself,present continuous,ente,btetdarrabei
+to train yourself,present continuous,huuwe,byetdarrab
+to train yourself,present continuous,hiiye,btetdarrab
+to train yourself,present continuous,nehna,mnetdarrab
+to train yourself,present continuous,entoo,btetdarraboo
+to train yourself,present continuous,henne,byetdarraboo
+to teach,present continuous,anaa,b3allem
+to teach,present continuous,enta,bet3allem
+to teach,present continuous,ente,bet3allmei
+to teach,present continuous,huuwe,be3allem
+to teach,present continuous,hiiye,bet3allem
+to teach,present continuous,nehna,men3allem
+to teach,present continuous,entoo,bet3allmoo
+to teach,present continuous,henne,be3allemoo
+to help,present continuous,anaa,bsei3ed
+to help,present continuous,enta,betsei3ed
+to help,present continuous,ente,betsei3dei
+to help,present continuous,huuwe,besei3ed
+to help,present continuous,hiiye,betsei3ed
+to help,present continuous,nehna,mensei3ed
+to help,present continuous,entoo,betsei3doo
+to help,present continuous,henne,besei3doo
+to receive help / to help each other,present continuous,anaa,betsei3ad
+to receive help / to help each other,present continuous,enta,btetsei3ad
+to receive help / to help each other,present continuous,ente,btetsei3adei
+to receive help / to help each other,present continuous,huuwe,byetsei3ad
+to receive help / to help each other,present continuous,hiiye,btetsei3ad
+to receive help / to help each other,present continuous,nehna,mnetsei3ad
+to receive help / to help each other,present continuous,entoo,btetsei3adoo
+to receive help / to help each other,present continuous,henne,btesei3adoo
+to help me,imperative,enta,sei3ednei
+to help me,imperative,ente,sei3ediinei
+to help me,imperative,entoo,sei3eduunei
+to touch / to hold,present continuous,anaa,bemsuk
+to touch (da2ar),present continuous,anaa,bed2ar
+to touch (lamas),present continuous,anaa,belmus
+to dream,present perfect,anaa,7elmet
+to burn,present continuous,anaa,be7ru2
+to burn,active participle,"male, singular",ma7ruu2
+to burn,active participle,"female, singular",ma7ruu2ah
+to burn,active participle,plural,ma7ruu2iin
+to tidy,present continuous,anaa,bratteb
+to tidy,present continuous,enta,betratteb
+to tidy,present continuous,ente,betrattbei
+to tidy,present continuous,huuwe,beratteb
+to tidy,present continuous,hiiye,betratteb
+to tidy,present continuous,nehna,menratteb
+to tidy,present continuous,entoo,betrattboo
+to tidy,present continuous,henne,berattboo
+to be in a hurry,active participle,"male, singular",mesta3jel
+to be in a hurry,active participle,"female, singular",mesta3ejleh
+to be in a hurry,active participle,plural,mesta3ejliin
+to imagine,present continuous,anaa,betkhayyal
+to imagine,present continuous,enta,btetkhayyal
+to imagine,present continuous,ente,btetkhayyalei
+to imagine,present continuous,huuwe,byetkhayyal
+to imagine,present continuous,hiiye,btetkhayyal
+to imagine,present continuous,nehna,mnetkhayyal
+to imagine,present continuous,entoo,btetkhayyaloo
+to imagine,present continuous,henne,btetkhayyaloo
+to imagine,imperative,enta,tkhayyal
+to imagine,imperative,ente,tkhayyalei
+to imagine,imperative,entoo,tkhayyaloo
+to describe,present continuous,anaa,buuSof
+to describe,present continuous,enta,btuuSof
+to describe,present continuous,ente,btuuSofei
+to describe,present continuous,huuwe,byuuSof
+to describe,present continuous,hiiye,btuuSof
+to describe,present continuous,nehna,mnuuSof
+to describe,present continuous,entoo,btuuSofoo
+to describe,present continuous,henne,byuuSofoo
+to happen / to be,present continuous,anaa,bsiir
+to run,present continuous,huuwe,byerkuD
+to brush,present continuous,anaa,bfarshei
+to brush,present continuous,enta,befarshei
+to beat (the couch),present continuous,anaa,bnaffeD
+to beat (the couch),present continuous,enta,betnaffeD
+to beat (the couch),present continuous,ente,betnaffDei
+to beat (the couch),present continuous,huuwe,benaffeD
+to beat (the couch),present continuous,hiiye,betnaffeD
+to beat (the couch),present continuous,nehna,mennaffeD
+to beat (the couch),present continuous,entoo,betnaffDoo
+to beat (the couch),present continuous,henne,benaffDoo
+to wipe,present continuous,anaa,bmasse7
+to wipe,present continuous,enta,betmasse7
+to wipe,present continuous,ente,betmass7ei
+to wipe,present continuous,huuwe,bemasse7
+to wipe,present continuous,hiiye,betmasse7
+to wipe,present continuous,nehna,menmasse7
+to wipe,present continuous,entoo,betmass7oo
+to wipe,present continuous,henne,bemass7oo
+to sweep,present continuous,anaa,bkannes
+to sweep,present continuous,enta,betkannes
+to sweep,present continuous,ente,betkannsei
+to sweep,present continuous,huuwe,bekannes
+to sweep,present continuous,hiiye,betkannes
+to sweep,present continuous,nehna,menkannes
+to sweep,present continuous,entoo,betkannsoo
+to sweep,present continuous,henne,bekannsoo
+to carry,present continuous,anaa,be7mul
+to laugh,present continuous,nehna,mnuD7ak

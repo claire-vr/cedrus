@@ -3,26 +3,35 @@ export type Topic = {
   name: string;
 };
 
-export type ItemType = 'word' | 'grammar' | 'rule' | 'dialogue';
-
-export type Form = {
-  label: string;
-  lebanese: string;
-};
-
-export type Example = {
-  english: string;
+export type ItemForm = {
+  form: string;
+  person: string;
   lebanese: string;
 };
 
 export type Item = {
   id: string;
-  type: ItemType;
-
+  topicId: string;
+  topic: string;
   english: string;
   lebanese: string;
+  type: string;
+  notes: string;
+  forms: ItemForm[];
+};
 
-  topicId: string;
+export type Rule = {
+  id: number;
+  topic: string;
+  /** What the rule is about, e.g. "active participle" (the old "Topic" column). */
+  about: string;
+  text: string;
+};
 
-  notes?: string;
+export type Example = {
+  topic: string;
+  item: string;
+  english: string;
+  lebanese: string;
+  reference: string;
 };

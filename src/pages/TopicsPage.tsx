@@ -1,20 +1,21 @@
 import { TopicCard } from '@/components/TopicCard';
-import { topics } from '@/data/topics';
 import { PageHeader } from '@/components/PageHeader';
 import { PageContainer } from '@/components/PageContainer';
-import { items } from '@/data/items';
+import { itemsInTopic, topics } from '@/data/database';
 
 export function TopicsPage() {
   return (
     <PageContainer>
-      <PageHeader title="Browse Topics" subtitle={`${topics.length} topics`} />
+      <PageHeader title="Browse" subtitle={`${topics.length} topics`} />
 
-      <div className="mt-8 space-y-4">
+      <div className="mt-2 space-y-4">
         {topics.map((topic) => (
           <TopicCard
             key={topic.id}
             topic={topic}
-            itemCount={items.filter((item) => item.topicId === topic.id).length}
+            itemCount={itemsInTopic(topic.id).length}
+            // Verbs have their own section with conjugation tables.
+            to={topic.id === 'verbs' ? '/verbs' : `/topics/${topic.id}`}
           />
         ))}
       </div>

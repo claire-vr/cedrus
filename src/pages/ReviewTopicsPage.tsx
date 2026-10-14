@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { topics } from '@/data/topics';
+import { topics } from '@/data/database';
 
 export function ReviewTopicsPage() {
   return (

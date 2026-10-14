@@ -5,13 +5,13 @@ import { Card } from '@/components/Card';
 type TopicCardProps = {
   topic: Topic;
   itemCount: number;
+  to: string;
 };
 
-export function TopicCard({ topic, itemCount }: TopicCardProps) {
+export function TopicCard({ topic, itemCount, to }: TopicCardProps) {
   return (
-    <Link to={`/topics/${topic.id}`} className="block">
+    <Link to={to} className="block">
       <Card className="transition-all duration-200 hover:-translate-y-1 hover:shadow-lg">
-        {' '}
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-xl font-semibold text-gray-900">

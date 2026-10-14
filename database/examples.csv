@@ -1,69 +1,111 @@
-id,item_id,english,lebanese
-1,2,what is the meaning?,shuu ye3nei?
-2,2,how are you doing?,kiifak?
-3,2,how many do you want?,addeish baddak?
-4,2,to how many countries?,3ala/la kam balad?
-5,2,from how many places?,men kam maHall?
-6,2,why are you going there?,leish enta raayeH lahooniik?
-7,2,when are they coming?,aymta jeiyiin?
-8,2,which picture do you want?,ayya Suurah baddak?
-9,2,whose fruits did you prefer?,fweiiket miin enta betfaDDel?
-10,2,I go down from the bus,anaa benzal men lbus
-11,2,I work from 8 to 5.,beshteghel men ssei3ah tmeineh la khamseh.
-12,2,this is for my mom,haydaa la emmei
-13,2,I’m on the road,anaa 3ala TTarii’
-14,2,I’m arriving to the supermarket,waaSel 3ala ssupermarché
-15,2,I go down from (on) the stairs,benzal 3ala ddaraj
-16,2,to whom are you bringing this apple?,lamiin jeiyeb haydei teffeiHah?
-17,2,you’re with Claire (on the phone),Claire ma3ak
-18,2,they write with a pen,byeketboo bi ’alam
-19,2,I’m at the school now,anaa bi lmadraseh halla’
-20,2,I’m at Claude’s,anaa 3end Claude.
-21,2,I’m (f) leaving Claire’s.,neizleh min 3end Claire.
-22,2,I’m (f) going to Claire’s.,neizleh (la)3ende Claire.
-23,2,I’m going to the doctor.,raayeH la3ende lHakiim.
-24,2,where are you? (public place),wein enta?
-25,2,where are you? (personal place),3end miin enta?
-26,2,he is everywhere,huuwe wein maa kein
-27,2,from where do you buy those tomatoes?,men wein bteshterei haydooliik lbanaduraat?
-28,2,from who did you buy those?,men 3end miin bteshterei haydooliik?
-29,2,where are you going to next?,lawein raayeH ba3dein?
-30,2,whose are you going to next?,la3end miin enta raayeH ba3dein?
-31,2,why not,leish la
-32,2,only if,ellaa ezaa
-33,3,I’m at home in the kitchen.,anaa be-l-beit be-l-maTbakh.
-34,3,I eat with a fork.,anaa beikul be shawkeh.
-35,3,I go by bus.,bruuH be-l-bas.
-36,3,I’m with Claude.,anaa ma3 Claude.
-37,3,"I have 2 pens (with me), do you want one?","ma3ei ‘alamein, baddak waaHad?"
-38,3,what’s this about?,3an shuu haydaa?
-39,3,I work until 7.,bestheghel Hatta sei3a sabba.
-40,3,I don’t even have one thousand lira.,maa ma3ei Hatta alf lira.
-41,3,Do you want more cake?,baddek ba3ed gâteau?
-42,3,I didn’t eat anything yet.,maa akalet shii ba3ed.
-43,3,I’m still at home,ba3ednei be-l-beit.
-44,3,sorta like that,haweilé heik
-45,3,I work from 9 to 5.,beshteghel sei3a tes3a la se3a khamseh.
-46,3,That is for me.,haydaa la elei.
-47,3,"I work for the restaurant, not in the restaurant.","beshteghel la lmataam, mesh be lmataam."
-48,3,I work on the computer.,beshteghel 3ala lcomputer.
-49,3,She has my money (my money is with her).,muSriiyeitei ma3aa
-50,3,"I work at a bakery, I make bread.","beshteghel bi foron, ba3mel khebez."
-51,3,under the bed,taHete ttakhet
-52,3,face to face,wejj la wejj
-53,3,what’s wrong with me?,shuu benei?
-54,3,what’s wrong with you?,shuu beik?
-55,3,I am still,anaa ba3ednei
-56,3,He is still at home,ba3doo belbeit
-57,3,what’s the difference between …?,shuu lfare’ bein … ?
-58,3,There is a family between you and me (divorce).,ﬁi baynak wu baynei 3ayleh.
-59,3,There is a family between us (divorce).,ﬁi bayneitnaa 3ayleh.
-60,3,There are Lebanese among them.,ﬁi bayneiton lebneiniiyeh.
-61,3,There are tables between you (pl) and them.,ﬁi baynon wu baynkon Taawleit.
-62,3,There is bread and salt between us,ﬁi bayneitnaa khebez wu meleH.
-63,3,There’s a lot of noise around us.,ﬁi ktiir Dajjeh Hawaalaynaa.
-64,3,Not in front of you.,mesh bewejjek.
-65,3,Outside Lebanon there are better things.,barraat Lebnein ﬁi eshyaa aHsan.
-66,3,Inside Lebanon there are beautiful things.,juuweit Lebnein ﬁi eshyaa Helweh.
-67,3,I don’t have water with me,maa ma3ei may
-68,3,how often,kell addeish
+topic,item,english,lebanese,reference
+Questions,,what is the meaning?,shuu ye3nei?,
+Questions,,how are you doing?,kiifak?,
+Questions,,how many do you want?,addeish baddak?,
+Questions,,to how many countries?,3ala/la kam balad?,
+Questions,,from how many places?,men kam ma7all?,
+Questions,,why are you going there?,leish enta raaye7 lahooniik?,
+Questions,,when are they coming?,aymta jeiyiin?,
+Questions,,which picture do you want?,ayya Suurah baddak?,
+Questions,,whose fruits did you prefer?,fweiiket miin enta betfaDDel?,
+Questions,,I go down from the bus,anaa benzal men lbus,
+Questions,,I work from 8 to 5.,beshteghel men ssei3ah tmeineh la khamseh.,
+Questions,,this is for my mom,haydaa la emmei,
+Questions,,I'm on the road,anaa 3ala TTarii2,
+Questions,,I'm arriving to the supermarket,waaSel 3ala ssupermarché,
+Questions,,I go down from (on) the stairs,benzal 3ala ddaraj,
+Questions,,to whom are you bringing this apple?,lamiin jeiyeb haydei teffei7ah?,
+Questions,,you’re with Claire (on the phone),Claire ma3ak,
+Questions,,they write with a pen,byeketboo bi 2alam,
+Questions,,I'm at the school now,anaa bi lmadraseh halla2,
+Questions,,I'm at Claude's,anaa 3end Claude.,
+Questions,,I'm (f) leaving Claire's.,neizleh min 3end Claire.,
+Questions,,I'm (f) going to Claire's.,neizleh (la)3ende Claire.,
+Questions,,I'm going to the doctor.,raaye7 la3ende l7akiim.,
+Questions,,where are you? (public place),wein enta?,
+Questions,,where are you? (personal place),3end miin enta?,
+Questions,,he is everywhere,huuwe wein maa kein,
+Questions,,from where do you buy those tomatoes?,men wein bteshterei haydooliik lbanaduraat?,
+Questions,,from who did you buy those?,men 3end miin bteshterei haydooliik?,
+Questions,,where are you going to next?,lawein raaye7 ba3dein?,
+Questions,,whose are you going to next?,la3end miin enta raaye7 ba3dein?,
+Questions,,why not,leish la,
+Questions,,only if,ellaa ezaa,
+Prepositions,,I'm at home in the kitchen.,anaa be-l-beit be-l-maTbakh.,
+Prepositions,,I eat with a fork.,anaa beikul be shawkeh.,
+Prepositions,,I go by bus.,bruu7 be-l-bas.,
+Prepositions,,I'm with Claude.,anaa ma3 Claude.,
+Prepositions,,"I have 2 pens (with me), do you want one?","ma3ei 2alamein, baddak waa7ad?",
+Prepositions,,what's this about?,3an shuu haydaa?,
+Prepositions,,I work until 7.,bestheghel 7atta sei3a sabba.,
+Prepositions,,I don’t even have one thousand lira.,maa ma3ei 7atta alf lira.,
+Prepositions,,Do you want more cake?,baddek ba3ed gâteau?,
+Prepositions,,I didn’t eat anything yet.,maa akalet shii ba3ed.,
+Prepositions,,I'm still at home,ba3ednei be-l-beit.,
+Prepositions,,sorta like that,haweilé heik,
+Prepositions,,I work from 9 to 5.,beshteghel sei3a tes3a la se3a khamseh.,
+Prepositions,,That is for me.,haydaa la elei.,
+Prepositions,,"I work for the restaurant, not in the restaurant.","beshteghel la lmataam, mesh be lmataam.",
+Prepositions,,I work on the computer.,beshteghel 3ala lcomputer.,
+Prepositions,,She has my money (my money is with her).,muSriiyeitei ma3aa,
+Prepositions,,"I work at a bakery, I make bread.","beshteghel bi foron, ba3mel khebez.",
+Prepositions,,under the bed,ta7ete ttakhet,
+Prepositions,,face to face,wejj la wejj,
+Prepositions,,what's wrong with me?,shuu benei?,
+Prepositions,,what's wrong with you?,shuu beik?,
+Prepositions,,I am still,anaa ba3ednei,
+Prepositions,,He is still at home,ba3doo belbeit,
+Prepositions,,what’s the difference between …?,shuu lfare2 bein … ?,
+Prepositions,,There is a family between you and me (divorce).,fii baynak wu baynei 3ayleh.,
+Prepositions,,There is a family between us (divorce).,fii bayneitnaa 3ayleh.,
+Prepositions,,There are Lebanese among them.,fii bayneiton lebneiniiyeh.,
+Prepositions,,There are tables between you (pl) and them.,fii baynon wu baynkon Taawleit.,
+Prepositions,,There is bread and salt between us,fii bayneitnaa khebez wu mele7.,
+Prepositions,,There’s a lot of noise around us.,fii ktiir Dajjeh 7awaalaynaa.,
+Prepositions,,Not in front of you.,mesh bewejjek.,
+Prepositions,,Outside Lebanon there are better things.,barraat Lebnein fii eshyaa a7san.,
+Prepositions,,Inside Lebanon there are beautiful things.,juuweit Lebnein fii eshyaa 7elweh.,
+Prepositions,,I don’t have water with me,maa ma3ei may,
+Prepositions,,how often,kell addeish,
+Verbs,to go,He is going to France now.,huuwe raaye7 3ala fransaa halla2.,active participle
+Verbs,to go,He has been to France 2 times.,huuwe raaye7 3ala fransaa martein.,active participle
+Verbs,to go,Have you ever been to China?,raay7ah shii marrah 3ala siin?,active participle
+Verbs,to go,I went once,raay7ah marrah.,active participle
+Verbs,to go,Are you (m) going home after class?,raaye7 3ala lbeit ba3de SSaff?,active participle
+Verbs,to go,I'm going to the gym after class.,anaa raay7ah 3ala nneide ba3de SSaff.,active participle
+Verbs,to go,We are going to jaaidah.,raay7iin 3ala j3iitaa.,active participle
+Verbs,to go,But Alex is not going with us.,bass Alex maa raaye7 ma3naa.,active participle
+Verbs,to go,Where is Rola going to this Sunday?,la3end miin raay7ah Rola yoom l a7ad?,active participle
+Verbs,to go,I'm going to her sister's.,raay7ah la3end ekhtaa.,active participle
+Verbs,to go,we’re going no where.,mesh / maa raay7iin la ma7all.,active participle
+Verbs,to do / to make,I don’t feel like doing anything today.,maa elei jleideh/jalad a3mel shii lyoom.,infinitive
+Verbs,to open,I need time to open my business.,be7aajeh la wa2et la efta7 sheghel elei.,infinitive
+Verbs,to be (specific use),he is,huuwe bekuun,present continuous
+Verbs,to be (specific use),he will have,ra7 ykuun,future
+Verbs,to be (specific use),I am,bekuun,present continuous
+Verbs,to have,I had (for non-material),kein 3endei,present perfect
+Verbs,to have,I have (for non-material),bekuun 3endei,present continuous
+Verbs,to have,I will have (for non-material),ra7 ykuun 3endei,future
+Verbs,to have,he has (for non-material),ykuun 3endoo,present continuous
+Verbs,can,"No, because there is a lot of traffic.","laa2, le anno fii ktiir 3aj2ah.",fii = there is
+Verbs,can,I can't,maa fiinei,negation
+Verbs,to cook,They don’t cook anything.,ma byutubkhoo shii.,present continuous
+Verbs,to go up / to get on,We have never gone up to Faraya.,maa Taal3iin abadan 3ala Faraya.,active participle
+Verbs,to go down / to get off,Are you (pl) going down to the market tomorrow?,neizliin bukraa 3ala ssuu2?,active participle
+Verbs,to ask / to order,I want to ask you something (from you).,baddei uTlub mennak/-ek/-kon shii.,infinitive
+Verbs,to ask / to order,Can I order?,fiinei uTlub?,infinitive
+Verbs,to say,he told me,2allei,present perfect
+Verbs,to say,I want to say,baddei 2uul,infinitive
+Verbs,to come,Are you (pl) coming to class on Friday?,jeiyiin ljem3ah 3ala SSaff?,active participle
+Verbs,to come,I’m coming to Claude's tomorrow.,anaa jeiyei la3end Claude bukraa.,active participle
+Verbs,to come,From which place is Marwan coming from today?,men 3end miin jeiyei Marwan lyoom?,active participle
+Verbs,to come,He's coming from the teacher's.,jeiyei men 3end l esteiz.,active participle
+Verbs,to come,anyone can come.,miin maa kein fiih yejei.,infinitive
+Verbs,to return,I will go back home in an hour.,reij3ah 3ala lbeit ba3ed sei3ah.,active participle
+Verbs,to arrive,I have arrived late to class many times.,waaSel ktiir marraat 3ala SSaff m2akhkhar.,active participle
+Verbs,to walk,ça ne marche pas,mesh meishei,active participle
+Verbs,to practice,we are in need of practicing speaking,be7aajeh la netmarran 3ala l7akei,infinitive
+Verbs,to finish (khallaS),I will almost finish,ta2riiban ra7 khallas,future
+Verbs,to die,they all died,kellon meitoo,present perfect
+Verbs,to imagine,I imagine myself.,betkhayyal 7aalei.,present continuous
+Verbs,,in the place where …,ma7all maa …,expression

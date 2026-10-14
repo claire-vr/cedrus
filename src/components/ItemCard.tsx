@@ -1,19 +1,49 @@
 import type { Item } from '@/types/types';
 import { Badge } from '@/components/Badge';
-import { Card } from '@/components/Card';
+import { ConjugationTable } from '@/components/verbs/ConjugationTable';
 
 type ItemCardProps = {
   item: Item;
 };
 
 export function ItemCard({ item }: ItemCardProps) {
+  const formGroups = [...new Set(item.forms.map((form) => form.form))];
+
   return (
-    <Card className="transition-all duration-200 hover:-translate-y-1 hover:shadow-lg">
-      <Badge type={item.type} />
-      <h3 className="mt-5 text-2xl font-semibold tracking-tight text-gray-900">
-        {item.english}
-      </h3>
-      <p className="mt-2 text-lg text-gray-500">{item.lebanese}</p>
-    </Card>
+    <div className="rounded-2xl border border-gray-200 bg-white px-5 py-4 shadow-sm">
+      <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-1">
+        <h3 className="text-lg font-semibold text-gray-900">{item.english}</h3>
+        {item.type && <Badge type={item.type} />}
+      </div>
+      <p className="mt-1 text-xl text-lebanon-redDark">{item.lebanese}</p>
+      {item.notes && (
+        <p className="mt-1 text-sm italic text-gray-500">{item.notes}</p>
+      )}
+
+      {formGroups.length > 0 && (
+        <details className="group mt-3">
+          <summary className="cursor-pointer list-none text-sm font-semibold text-cedar-700 hover:text-cedar-900">
+            <span className="inline-block transition group-open:rotate-90">
+              ›
+            </span>{' '}
+            {formGroups.join(' · ')} ({item.forms.length})
+          </summary>
+          {formGroups.map((group) => (
+            <div key={group} className="mt-2">
+              {formGroups.length > 1 && (
+                <p className="mt-3 text-sm font-semibold capitalize text-gray-600">
+                  {group}
+                </p>
+              )}
+              <ConjugationTable
+                forms={item.forms
+                  .filter((form) => form.form === group)
+                  .map((form) => ({ ...form, tense: form.form }))}
+              />
+            </div>
+          ))}
+        </details>
+      )}
+    </div>
   );
 }

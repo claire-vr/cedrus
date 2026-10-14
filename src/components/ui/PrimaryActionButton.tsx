@@ -1,5 +1,3 @@
-import { useNavigate } from 'react-router-dom';
-
 type PrimaryActionButtonProps = {
   children: string;
   onClick?: () => void;
