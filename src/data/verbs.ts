@@ -113,6 +113,12 @@ export const possessiveLabels: Record<string, string> = {
   henne: 'them · their'
 };
 
+const addresseeLabels: Record<string, string> = {
+  enta: 'to a man',
+  ente: 'to a woman',
+  entoo: 'to a group'
+};
+
 const pronouns = new Set([
   'anaa',
   'enta',
@@ -127,6 +133,13 @@ const pronouns = new Set([
 /** Bold label and small hint for one row of a forms table. */
 export function formLabel(form: { tense: string; person: string }) {
   if (form.person === 'infinitive') return { main: 'base', hint: 'base form' };
+  if (form.tense === 'addressee') {
+    // The same phrase said to a man, a woman or a group.
+    return {
+      main: addresseeLabels[form.person] ?? form.person,
+      hint: form.person
+    };
+  }
   if (form.tense.startsWith('possessive')) {
     return { main: form.person, hint: possessiveLabels[form.person] ?? '' };
   }

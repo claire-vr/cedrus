@@ -20,12 +20,22 @@ export function vocabularyCard(item: Item): PracticeCard {
  */
 const FORMS_ONLY_TOPICS = ['possessive-pronouns'];
 
-/** One possessive form as a Review card. */
-function possessiveCard(item: Item, form: ItemForm): PracticeCard {
+/** Forms that get their own Review cards. */
+function isPracticeForm(form: ItemForm) {
+  return form.form.startsWith('possessive') || form.form === 'addressee';
+}
+
+/** One form as a Review card. */
+function formCard(item: Item, form: ItemForm): PracticeCard {
   const label = formLabel({ tense: form.form, person: form.person });
   return {
     id: `form:${item.id}:${form.form}:${form.person}`,
-    context: `${item.english} · ${item.lebanese}`,
+    // Possessives show the base word to build from (beib → beibei);
+    // addressee phrases don't, since the base already is the answer for a man.
+    context:
+      form.form === 'addressee'
+        ? item.english
+        : `${item.english} · ${item.lebanese}`,
     prompt: label.main,
     cue: label.hint || undefined,
     answer: form.lebanese
@@ -34,20 +44,21 @@ function possessiveCard(item: Item, form: ItemForm): PracticeCard {
 
 /**
  * All Review cards for a set of words: each word itself, plus one card per
- * possessive form (prepositions, possessive pronouns). In forms-only topics
- * the word itself is skipped.
+ * possessive or addressee form. Phrases with addressee forms (to a man / a
+ * woman / a group) and words in forms-only topics are asked only per form.
  */
 export function reviewCards(words: Item[]): PracticeCard[] {
   return words.flatMap((item) => {
     if (!item.lebanese) return [];
-    const possessive = item.forms.filter((form) =>
-      form.form.startsWith('possessive')
-    );
-    const base =
-      FORMS_ONLY_TOPICS.includes(item.topicId) && possessive.length > 0
-        ? []
-        : [vocabularyCard(item)];
-    return [...base, ...possessive.map((form) => possessiveCard(item, form))];
+    const practice = item.forms.filter(isPracticeForm);
+    const formsOnly =
+      practice.length > 0 &&
+      (FORMS_ONLY_TOPICS.includes(item.topicId) ||
+        practice.some((form) => form.form === 'addressee'));
+    return [
+      ...(formsOnly ? [] : [vocabularyCard(item)]),
+      ...practice.map((form) => formCard(item, form))
+    ];
   });
 }
 
