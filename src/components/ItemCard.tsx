@@ -2,6 +2,7 @@ import type { Item } from '@/types/types';
 import { Badge } from '@/components/Badge';
 import { ConjugationTable } from '@/components/verbs/ConjugationTable';
 import { isArabic } from '@/lib/script';
+import { parentOf } from '@/data/database';
 
 type ItemCardProps = {
   item: Item;
@@ -29,6 +30,11 @@ export function ItemCard({ item }: ItemCardProps) {
         {item.type && <Badge type={item.type} />}
       </div>
       <p className="mt-1 text-xl text-lebanon-redDark">{item.lebanese}</p>
+      {parentOf(item) && (
+        <p className="mt-1 text-sm text-cedar-700">
+          ↩ reply to “{item.follows}” ({parentOf(item)?.lebanese})
+        </p>
+      )}
       {item.notes && (
         <p className="mt-1 text-sm italic text-gray-500">{item.notes}</p>
       )}

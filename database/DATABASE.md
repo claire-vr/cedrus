@@ -6,13 +6,14 @@ Four CSV files hold all of the app's content. Edit them through `Cedrus database
 
 One row per word or expression.
 
-| column   | meaning                                                                                                                                             |
-| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| topic    | Section in Browse: Pronouns, Greetings, Questions, Prepositions, Adjectives, Verbs … A new name creates a new topic.                                |
-| english  | The question side: English meaning, or Arabic script (a letter, a digit) to be read. For verbs: "to write". Must be unique when the item has forms. |
-| lebanese | Lebanese in Latin script. For verbs, the base form (katab).                                                                                         |
-| type     | expression, question word, preposition, pronoun, adjective, verb …                                                                                  |
-| notes    | Optional remark shown under the word.                                                                                                               |
+| column   | meaning                                                                                                                                                                                                     |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| topic    | Section in Browse: Pronouns, Greetings, Questions, Prepositions, Adjectives, Verbs … A new name creates a new topic.                                                                                        |
+| english  | The question side: English meaning, or Arabic script (a letter, a digit) to be read. For verbs: "to write". Must be unique when the item has forms.                                                         |
+| lebanese | Lebanese in Latin script. For verbs, the base form (katab).                                                                                                                                                 |
+| type     | expression, question word, preposition, pronoun, adjective, verb …                                                                                                                                          |
+| notes    | Optional remark shown under the word.                                                                                                                                                                       |
+| follows  | Optional: the `english` of the phrase this one answers, in the same topic. Review then always asks the reply right after it (peace be upon you → and upon you be peace). A phrase can have several replies. |
 
 Anything written in Arabic script in `english` is shown large and asked as the question (Alphabet: ب → baa2; Numbers: ٣ → 3 tleiteh).
 

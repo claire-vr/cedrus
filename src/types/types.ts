@@ -17,6 +17,8 @@ export type Item = {
   lebanese: string;
   type: string;
   notes: string;
+  /** English of the phrase this one answers ("and upon you be peace" follows "peace be upon you"). */
+  follows: string;
   forms: ItemForm[];
 };
 

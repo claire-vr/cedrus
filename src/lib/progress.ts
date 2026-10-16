@@ -94,22 +94,54 @@ export function summarize(cardIds: string[], now = Date.now()) {
  * Picks the cards for one round: due cards first (most overdue first), then
  * new cards in random order, up to `limit`. If nothing is due or new, it
  * falls back to a random selection so you can always keep practising.
+ *
+ * Cards that share a `group` (a phrase and its replies) are picked and shown
+ * together, in their original order: the group is due when any of its cards
+ * is due, and new when all of them are new.
  */
-export function pickSession<T extends { id: string }>(
+export function pickSession<T extends { id: string; group?: string }>(
   cards: T[],
   limit = 20,
-  now = Date.now()
+  { dueOnly = false, now = Date.now() } = {}
 ): { cards: T[]; extra: boolean } {
   const progress = loadProgress();
-  const due = cards
-    .filter((card) => statusOf(card.id, progress, now) === 'due')
-    .sort((a, b) => progress[a.id].due - progress[b.id].due);
-  const fresh = shuffle(
-    cards.filter((card) => statusOf(card.id, progress, now) === 'new')
-  );
-  const picked = [...due, ...fresh].slice(0, limit);
-  if (picked.length > 0) return { cards: shuffle(picked), extra: false };
-  return { cards: shuffle(cards).slice(0, limit), extra: true };
+  const units = new Map<string, T[]>();
+  for (const card of cards) {
+    const key = card.group ?? card.id;
+    units.set(key, [...(units.get(key) ?? []), card]);
+  }
+  const all = [...units.values()];
+  const statuses = (unit: T[]) =>
+    unit.map((card) => statusOf(card.id, progress, now));
+  const firstDue = (unit: T[]) =>
+    Math.min(
+      ...unit.map((card) =>
+        statusOf(card.id, progress, now) === 'due'
+          ? progress[card.id].due
+          : Infinity
+      )
+    );
+  const due = all
+    .filter((unit) => statuses(unit).includes('due'))
+    .sort((a, b) => firstDue(a) - firstDue(b));
+  const fresh = dueOnly
+    ? []
+    : shuffle(all.filter((unit) => statuses(unit).every((s) => s === 'new')));
+
+  const take = (pool: T[][]) => {
+    const picked: T[][] = [];
+    let count = 0;
+    for (const unit of pool) {
+      if (count >= limit) break;
+      picked.push(unit);
+      count += unit.length;
+    }
+    return shuffle(picked).flat();
+  };
+
+  const picked = take([...due, ...fresh]);
+  if (picked.length > 0 || dueOnly) return { cards: picked, extra: false };
+  return { cards: take(shuffle(all)), extra: true };
 }
 
 /** Fisher–Yates shuffle (unbiased). */

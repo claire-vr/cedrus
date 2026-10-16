@@ -87,6 +87,7 @@ export const items: Item[] = vocabularyRows
       lebanese: row.lebanese,
       type: row.type ?? '',
       notes: row.notes ?? '',
+      follows: row.follows ?? '',
       forms: formsByItem.get(row.english) ?? []
     };
   });
@@ -121,6 +122,14 @@ export const examples: Example[] = exampleRows.map((row) => ({
 }));
 
 // ---- helpers ----
+/** The phrase an item answers (its `follows`), if any. */
+export function parentOf(item: Item) {
+  if (!item.follows) return undefined;
+  return items.find(
+    (other) => other.topicId === item.topicId && other.english === item.follows
+  );
+}
+
 export function itemsInTopic(topicId: string | undefined) {
   return items.filter((item) => item.topicId === topicId);
 }

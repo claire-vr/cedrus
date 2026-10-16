@@ -14,6 +14,8 @@ export type PracticeCard = {
   cue?: string;
   answer: string;
   note?: string;
+  /** Cards with the same group (a phrase and its replies) stay together, in order. */
+  group?: string;
 };
 
 type Mode = 'reveal' | 'type';

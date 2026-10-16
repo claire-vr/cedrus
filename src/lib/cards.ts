@@ -1,5 +1,5 @@
 import type { PracticeCard } from '@/components/practice/PracticeSession';
-import { items } from '@/data/database';
+import { items, parentOf } from '@/data/database';
 import { formLabel, tenseLabels } from '@/data/verbs';
 import type { Item, ItemForm } from '@/types/types';
 import type { Verb } from '@/types/verbs';
@@ -43,22 +43,89 @@ function formCard(item: Item, form: ItemForm): PracticeCard {
 }
 
 /**
- * All Review cards for a set of words: each word itself, plus one card per
- * possessive or addressee form. Phrases with addressee forms (to a man / a
- * woman / a group) and words in forms-only topics are asked only per form.
+ * The cards for one word: the word itself, plus one card per possessive or
+ * addressee form. Phrases with addressee forms (to a man / a woman / a group)
+ * and words in forms-only topics are asked only per form.
+ */
+function cardsForItem(item: Item): PracticeCard[] {
+  if (!item.lebanese) return [];
+  const practice = item.forms.filter(isPracticeForm);
+  const formsOnly =
+    practice.length > 0 &&
+    (FORMS_ONLY_TOPICS.includes(item.topicId) ||
+      practice.some((form) => form.form === 'addressee'));
+  return [
+    ...(formsOnly ? [] : [vocabularyCard(item)]),
+    ...practice.map((form) => formCard(item, form))
+  ];
+}
+
+/** The first phrase of a call-and-response chain ("peace be upon you"). */
+function rootOf(item: Item): Item {
+  const seen = new Set<string>();
+  let current = item;
+  for (
+    let parent = parentOf(current);
+    parent && !seen.has(parent.id);
+    parent = parentOf(current)
+  ) {
+    seen.add(current.id);
+    current = parent;
+  }
+  return current;
+}
+
+/** Which person an addressee card is for ("form:…:addressee:ente" → ente). */
+function addresseeOf(card: PracticeCard) {
+  const match = card.id.match(/:addressee:(\w+)$/);
+  return match?.[1];
+}
+
+/**
+ * All Review cards for a set of words. A phrase and its replies (the
+ * `follows` column) form a group: they are always asked together, the reply
+ * right after the phrase, showing what it answers ("↩ as salamo 3alaykom").
+ * When both have addressee forms, they alternate per person: to a man, the
+ * reply to a man, to a woman, …
  */
 export function reviewCards(words: Item[]): PracticeCard[] {
-  return words.flatMap((item) => {
-    if (!item.lebanese) return [];
-    const practice = item.forms.filter(isPracticeForm);
-    const formsOnly =
-      practice.length > 0 &&
-      (FORMS_ONLY_TOPICS.includes(item.topicId) ||
-        practice.some((form) => form.form === 'addressee'));
-    return [
-      ...(formsOnly ? [] : [vocabularyCard(item)]),
-      ...practice.map((form) => formCard(item, form))
-    ];
+  const groups = new Map<string, Item[]>();
+  for (const item of words) {
+    const root = rootOf(item);
+    groups.set(root.id, [...(groups.get(root.id) ?? []), item]);
+  }
+  return [...groups.entries()].flatMap(([rootId, members]) => {
+    if (members.length === 1) return cardsForItem(members[0]);
+    const perItem = members.map((item) => {
+      const parent = parentOf(item);
+      const parentCards = parent ? cardsForItem(parent) : [];
+      return cardsForItem(item).map((card) => {
+        if (!parent) return { ...card, group: `pair:${rootId}` };
+        // Show what this reply answers: the matching form, or the base phrase.
+        const person = addresseeOf(card);
+        const answered =
+          parentCards.find((c) => person && addresseeOf(c) === person)
+            ?.answer ?? parent.lebanese;
+        return {
+          ...card,
+          group: `pair:${rootId}`,
+          context: card.context
+            ? `${card.context} · ↩ ${answered}`
+            : `↩ ${answered}`
+        };
+      });
+    });
+    // Interleave per person when every member is asked per addressee form.
+    const people = ['enta', 'ente', 'entoo'];
+    const allAddressee = perItem.every(
+      (cards) => cards.length > 0 && cards.every((card) => addresseeOf(card))
+    );
+    if (!allAddressee) return perItem.flat();
+    return people.flatMap((person) =>
+      perItem.flatMap((cards) =>
+        cards.filter((card) => addresseeOf(card) === person)
+      )
+    );
   });
 }
 
