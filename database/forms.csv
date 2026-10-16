@@ -1951,9 +1951,9 @@ thank you,addressee,entoo,shukran elkon
 you’re welcome,addressee,enta,tekram
 you’re welcome,addressee,ente,tekrame
 you’re welcome,addressee,entoo,tekramoo
-you’re welcome (thank you for your eyes),addressee,enta,tekram 3yuunak
-you’re welcome (thank you for your eyes),addressee,ente,tekram 3yuunek
-you’re welcome (thank you for your eyes),addressee,entoo,tekram 3yuunkon
+you’re welcome (may your eyes be honoured),addressee,enta,tekram 3yuunak
+you’re welcome (may your eyes be honoured),addressee,ente,tekram 3yuunek
+you’re welcome (may your eyes be honoured),addressee,entoo,tekram 3yuunkon
 see you later,addressee,enta,bshuufak ba3dein
 see you later,addressee,ente,bshuufek ba3dein
 see you later,addressee,entoo,bshuufkon ba3dein
@@ -2032,3 +2032,9 @@ the rest,gender & number,"male, singular",lbei’ei
 the rest,gender & number,"female, singular",lba’iiyeh
 the rest,gender & number,"male, plural",lbei’yiin
 the rest,gender & number,"female, plural",lbei’yiin
+close to,gender & number,"male, singular",2ariib men
+close to,gender & number,"female, singular",2ariibeh men
+close to,gender & number,plural,2raab men
+far from,gender & number,"male, singular",b3iid 3an
+far from,gender & number,"female, singular",b3iideh 3an
+far from,gender & number,plural,b2aad 3an
