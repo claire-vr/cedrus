@@ -1,4 +1,4 @@
-topic,english,lebanese,forms,type,notes,follows
+topic,english,lebanese,forms,type,follows,notes
 Alphabet,ا,alef,0,letter,,
 Alphabet,ب,baa2,0,letter,,
 Alphabet,ت,taa2,0,letter,,
@@ -68,23 +68,23 @@ Greetings,2 hello's,bonjourein,0,expression,,
 Greetings,100 hello's,miiyet bonjour,0,expression,,
 Greetings,1000 hello's,alf bonjour,0,expression,,
 Greetings,peace be upon you,as salamo 3alaykom,0,expression,,
-Greetings,and upon you be peace,wa 3alaykome ssalaam,0,expression,,peace be upon you
+Greetings,and upon you be peace,wa 3alaykome ssalaam,0,expression,peace be upon you,
 Greetings,welcome,ahlan wa sahlan,0,expression,,
 Greetings,good morning (formal),Sabaa7 lkheir,0,expression,,
-Greetings,good light (formal),Sabaa7 nnuur,0,expression,,good morning (formal)
+Greetings,good light (formal),Sabaa7 nnuur,0,expression,good morning (formal),
 Greetings,good roses (informal),Sabaa7 lward,0,expression,,
 Greetings,good jasmine (informal),Sabaa7 lyaasmiin,0,expression,,
 Greetings,good night,tusba7 3ala kheir,3,expression,,
-Greetings,good night to you too,wu enta bkheir,3,expression,,good night
+Greetings,good night to you too,wu enta bkheir,3,expression,good night,
 Greetings,honoured/enchanté,tsharrafnaa (root = sharraf),0,expression,,
 Greetings,we were honoured to have you with us,sharrafetnaa,3,expression,,
-Greetings,and to me is the honour too,w elei shsharaf kamein,0,expression,,honoured/enchanté
-Greetings,and me too,w anaa kamein,0,expression,,honoured/enchanté
+Greetings,and to me is the honour too,w elei shsharaf kamein,0,expression,honoured/enchanté,
+Greetings,and me too,w anaa kamein,0,expression,honoured/enchanté,
 Greetings,honoured to know you,tsharrafet bema3reftak,3,expression,,
 Greetings,opportunity happy,FurSah Sa3iideh,0,expression,,
-Greetings,opportunity happier,FurSah as3ad,0,expression,,opportunity happy
+Greetings,opportunity happier,FurSah as3ad,0,expression,opportunity happy,
 Greetings,(have a) happy day,yoom sa3iid,0,expression,,
-Greetings,(have a) happier day,yoomak as3ad,3,expression,,(have a) happy day
+Greetings,(have a) happier day,yoomak as3ad,3,expression,(have a) happy day,
 Greetings,happy to see you,mabsuuT ktiir shuufak,4,expression,,
 Greetings,Is it ok? (going situation),meishei al-haal?,0,expression,,
 Greetings,What's the situation?,kayf al-haal?,0,expression,,
@@ -95,8 +95,8 @@ Greetings,"What's happening, what's not happening?",shuu fii ma fii,0,expression
 Greetings,there is nothing new,mafi shii jdiid,0,expression,,
 Greetings,everything is ok/good,kell shii tameim/mnii7,0,expression,,
 Greetings,thank you,shukran elak,3,expression,,
-Greetings,you’re welcome,tekram,3,expression,,thank you
-Greetings,you’re welcome (may your eyes be honoured),tekram 3yuunak,3,expression,,thank you
+Greetings,you’re welcome,tekram,3,expression,thank you,
+Greetings,you’re welcome (may your eyes be honoured),tekram 3yuunak,3,expression,thank you,
 Greetings,see you later,bshuufak ba3dein,3,expression,,
 Greetings,hopefully,nshallah,0,expression,,
 Greetings,I wish,yaa reit,0,expression,,
@@ -104,14 +104,14 @@ Greetings,your safety / health,saleimtak,0,expression,,
 Greetings,may god be with you,allah ma3ak,0,expression,,
 Greetings,I give you kisses,bawsak,0,expression,,
 Greetings,you have manners,kellak zoo2,0,expression,,
-Greetings,May God protect you,smallah,0,expression,,
+Greetings,may God protect you,smallah,0,expression,,
 Greetings,good job (may God give you health),ya3Tiik l3aafyeh,0,expression,,
-Greetings,anwer: idem to you,allah y3aafiik,0,expression,,good job (may God give you health)
+Greetings,anwer: idem to you,allah y3aafiik,0,expression,good job (may God give you health),
 Greetings,congratulations (blessed),mabruuk,0,expression,,
-Greetings,thank you (may god bless you),alla ybeirek fiik,3,expression,,congratulations (blessed)
+Greetings,thank you (may god bless you),alla ybeirek fiik,3,expression,congratulations (blessed),
 Greetings,"take it, it's yours (reply when complimented on looks)",m2adame,0,expression,,
 Greetings,happy birthday (every feast and you’ll be okay),kell 3iid w enta bkheir,0,expression,,
-Greetings,and a 100 years more (I wish you will reach 100),3a2beile lmiiyeh,0,expression,,happy birthday (every feast and you’ll be okay)
+Greetings,and a 100 years more (I wish you will reach 100),3a2beile lmiiyeh,0,expression,happy birthday (every feast and you’ll be okay),
 Questions,what,shuu,0,question word,,
 Questions,how,kiif,0,question word,,
 Questions,how much / many,addei(sh) / eddei(sh) (+ verb + plural noun),0,question word,,
@@ -129,57 +129,52 @@ Questions,from where (public place),men wein / mennein / mnein,0,question word,,
 Questions,from where (personal place),men 3end miin,0,question word,,
 Prepositions,from,men,8,preposition,,
 Prepositions,for / to (time),la,0,preposition,,
-Prepositions,on / to (destination),3ala / 3a,0,preposition,,
+Prepositions,on / to (destination),3ala / 3a,8,preposition,,
 Prepositions,with,ma3,8,preposition,,
-Prepositions,at,bi,0,preposition,,
 Prepositions,outside,barraa,0,preposition,,
 Prepositions,inside,juuwaa,0,preposition,,
 Prepositions,close to,2ariib men,3,preposition,,
 Prepositions,far from,b3iid 3an,3,preposition,,
-Prepositions,before,2abel / 2abl,0,preposition,,
-Prepositions,after / yet / still / more,ba3ed / ba3d,0,preposition,,
+Prepositions,before,2abl,0,preposition,,
+Prepositions,after / yet / still / more,ba3d,0,preposition,,
 Prepositions,between / among,bein,11,preposition,,
 Prepositions,behind,waraa,8,preposition,,
 Prepositions,in front of,2eddeim,8,preposition,,
-Prepositions,down / under / below,ta7et / ta7t,0,preposition,,
+Prepositions,down / under / below,ta7et,0,preposition,,
 Prepositions,up / above / over,foo2,8,preposition,,
-Prepositions,beside,7add / janb / janeb,0,preposition,,
+Prepositions,beside,7add / janeb,8,preposition,,
 Prepositions,facing / opposite,bewejj [bewish],0,preposition,,
 Prepositions,very close / sticking to,beleze2,0,preposition,,
-Prepositions,around / sorta,7aweilei / 7weila,0,preposition,,
+Prepositions,around / sorta,7aweilei,0,preposition,,
 Prepositions,close / near,2ariib,0,preposition,,
 Prepositions,soon,2ariiban,0,preposition,,
 Prepositions,approximately,ta2riiban,0,preposition,,
 Prepositions,about,3an,8,preposition,,
-Prepositions,until / not even,7atta,0,preposition,no possession,
+Prepositions,until / not even,7atta,0,preposition,,no possession
 Prepositions,except,ellaa,0,preposition,,
-Prepositions,except (maa 3addaa),maa 3addaa,8,preposition,,
-Prepositions,beside (7add),7add,8,preposition,,
-Prepositions,after / still,ba3d / ba3ed,8,preposition,,
+Prepositions,excluding,maa 3addaa,8,preposition,,
+Prepositions,after / still,ba3d,8,preposition,,
 Prepositions,around,7aweilei,8,preposition,,
 Prepositions,to,la,8,preposition,,
-Prepositions,on / to,3ala,8,preposition,,
 Prepositions,in / at / with / by,be,8,preposition,,
 Prepositions,all of,kell,8,pronoun,,
-Conjunctions & adverbs,that / which / who (after a noun),yallei,0,conjunction / adverb,,
-Conjunctions & adverbs,that (after a verb),ennoo,0,conjunction / adverb,,
+Conjunctions & adverbs,(noun + ) that / which / who,yallei,0,conjunction / adverb,,
+Conjunctions & adverbs,(verb + ) that,ennoo,0,conjunction / adverb,,
 Conjunctions & adverbs,because,le ennoo,0,conjunction / adverb,,
-Conjunctions & adverbs,that's why,3ashein heik,0,conjunction / adverb,,
-Conjunctions & adverbs,that's why,meshein heik,0,conjunction / adverb,,
-Conjunctions & adverbs,that's why,kermeil heik,0,conjunction / adverb,,
 Conjunctions & adverbs,to begin with,aslan,0,conjunction / adverb,,
 Conjunctions & adverbs,anymore,ba2a,0,conjunction / adverb,,
 Conjunctions & adverbs,anywhere,ma7all maa kein,0,conjunction / adverb,,
-Conjunctions & adverbs,everywhere,wein maa kein,0,conjunction / adverb,,
-Conjunctions & adverbs,from everywhere,men wein maa kein,0,conjunction / adverb,,
+Conjunctions & adverbs,everywhere,wein maa kein,0,conjunction / adverb,anywhere,
+Conjunctions & adverbs,from everywhere,men wein maa kein,0,conjunction / adverb,everywhere,
 Conjunctions & adverbs,neither … nor …,laa … wa laa …,0,conjunction / adverb,,
 Conjunctions & adverbs,either … or …,yaa … yaa …,0,conjunction / adverb,,
-Conjunctions & adverbs,maybe,yemken / mumken,0,conjunction / adverb,,
+Conjunctions & adverbs,maybe (uncertain),yemken,0,conjunction / adverb,,
+Conjunctions & adverbs,possibly,mumken,0,conjunction / adverb,maybe (uncertain),
 Conjunctions & adverbs,but,waleiken,0,conjunction / adverb,,
 Conjunctions & adverbs,but / only / enough / just,bass,0,conjunction / adverb,,
 Conjunctions & adverbs,when,bass (+ infinitive) / lammaa / wa2taa,0,conjunction / adverb,,
 Conjunctions & adverbs,any,walaa / ayya,0,conjunction / adverb,,
-Conjunctions & adverbs,none,walaa waa7ad / walaa wa7deh,0,conjunction / adverb,,
+Conjunctions & adverbs,none,walaa waa7ad,2,conjunction / adverb,,
 Conjunctions & adverbs,no one,maa 7adaa / 7adan,0,conjunction / adverb,,
 Conjunctions & adverbs,someone,7adaa,0,conjunction / adverb,,
 Conjunctions & adverbs,every,kell (+ indefinite noun),0,conjunction / adverb,,
@@ -1178,25 +1173,25 @@ Verbs,to throw,kabb,0,verb,,
 Verbs,to throw many times,kabkab,0,verb,,
 Verbs,to drag,jarr,0,verb,,
 Verbs,to drag many times,jarjar,0,verb,,
-Similarities,plural,jeme3,0,similar words,"compare: jeim3ah (university), jeime3 (mosque), jem3ah (week), jem3ah (Friday)",
-Similarities,university,jeim3ah,0,similar words,"compare: jeme3 (plural), jeime3 (mosque), jem3ah (week), jem3ah (Friday)",
-Similarities,mosque,jeime3,0,similar words,"compare: jeme3 (plural), jeim3ah (university), jem3ah (week), jem3ah (Friday)",
-Similarities,week,jem3ah,0,similar words,"compare: jeme3 (plural), jeim3ah (university), jeime3 (mosque), jem3ah (Friday)",
-Similarities,Friday,jem3ah,0,similar words,"compare: jeme3 (plural), jeim3ah (university), jeime3 (mosque), jem3ah (week)",
-Similarities,bottles,2aneinei,0,similar words,compare: aneinei (selfish (m)),
-Similarities,selfish (m),aneinei,0,similar words,compare: 2aneinei (bottles),
-Similarities,to carry,7emel,0,similar words,compare: 7aamel (pregnant),
-Similarities,pregnant,7aamel,0,similar words,compare: 7emel (to carry),
-Similarities,together,ma3 ba3eD,0,similar words,"compare: ba3ed (some), ba3ed (after), ba3dein (later)",
-Similarities,some,ba3ed,0,similar words,"compare: ma3 ba3eD (together), ba3ed (after), ba3dein (later)",
-Similarities,after,ba3ed,0,similar words,"compare: ma3 ba3eD (together), ba3ed (some), ba3dein (later)",
-Similarities,later,ba3dein,0,similar words,"compare: ma3 ba3eD (together), ba3ed (some), ba3ed (after)",
-Similarities,ambassador,safiir,0,similar words,"compare: safaarah (embassy), ssafar (the travels)",
-Similarities,embassy,safaarah,0,similar words,"compare: safiir (ambassador), ssafar (the travels)",
-Similarities,the travels,ssafar,0,similar words,"compare: safiir (ambassador), safaarah (embassy)",
-Similarities,noise,Dajjeh,0,similar words,"compare: Dayy2ah (narrow), Day3ah (village), 3aj2ah (traffic)",
-Similarities,narrow,Dayy2ah,0,similar words,"compare: Dajjeh (noise), Day3ah (village), 3aj2ah (traffic)",
-Similarities,village,Day3ah,0,similar words,"compare: Dajjeh (noise), Dayy2ah (narrow), 3aj2ah (traffic)",
-Similarities,traffic,3aj2ah,0,similar words,"compare: Dajjeh (noise), Dayy2ah (narrow), Day3ah (village)",
-Similarities,dessert,sa7raa,0,similar words,compare: sahrah (soirée),
-Similarities,soirée,sahrah,0,similar words,compare: sa7raa (dessert),
+Similarities,plural,jeme3,0,similar words,,"compare: jeim3ah (university), jeime3 (mosque), jem3ah (week), jem3ah (Friday)"
+Similarities,university,jeim3ah,0,similar words,,"compare: jeme3 (plural), jeime3 (mosque), jem3ah (week), jem3ah (Friday)"
+Similarities,mosque,jeime3,0,similar words,,"compare: jeme3 (plural), jeim3ah (university), jem3ah (week), jem3ah (Friday)"
+Similarities,week,jem3ah,0,similar words,,"compare: jeme3 (plural), jeim3ah (university), jeime3 (mosque), jem3ah (Friday)"
+Similarities,Friday,jem3ah,0,similar words,,"compare: jeme3 (plural), jeim3ah (university), jeime3 (mosque), jem3ah (week)"
+Similarities,bottles,2aneinei,0,similar words,,compare: aneinei (selfish (m))
+Similarities,selfish (m),aneinei,0,similar words,,compare: 2aneinei (bottles)
+Similarities,to carry,7emel,0,similar words,,compare: 7aamel (pregnant)
+Similarities,pregnant,7aamel,0,similar words,,compare: 7emel (to carry)
+Similarities,together,ma3 ba3eD,0,similar words,,"compare: ba3ed (some), ba3ed (after), ba3dein (later)"
+Similarities,some,ba3ed,0,similar words,,"compare: ma3 ba3eD (together), ba3ed (after), ba3dein (later)"
+Similarities,after,ba3ed,0,similar words,,"compare: ma3 ba3eD (together), ba3ed (some), ba3dein (later)"
+Similarities,later,ba3dein,0,similar words,,"compare: ma3 ba3eD (together), ba3ed (some), ba3ed (after)"
+Similarities,ambassador,safiir,0,similar words,,"compare: safaarah (embassy), ssafar (the travels)"
+Similarities,embassy,safaarah,0,similar words,,"compare: safiir (ambassador), ssafar (the travels)"
+Similarities,the travels,ssafar,0,similar words,,"compare: safiir (ambassador), safaarah (embassy)"
+Similarities,noise,Dajjeh,0,similar words,,"compare: Dayy2ah (narrow), Day3ah (village), 3aj2ah (traffic)"
+Similarities,narrow,Dayy2ah,0,similar words,,"compare: Dajjeh (noise), Day3ah (village), 3aj2ah (traffic)"
+Similarities,village,Day3ah,0,similar words,,"compare: Dajjeh (noise), Dayy2ah (narrow), 3aj2ah (traffic)"
+Similarities,traffic,3aj2ah,0,similar words,,"compare: Dajjeh (noise), Dayy2ah (narrow), Day3ah (village)"
+Similarities,dessert,sa7raa,0,similar words,,compare: sahrah (soirée)
+Similarities,soirée,sahrah,0,similar words,,compare: sa7raa (dessert)

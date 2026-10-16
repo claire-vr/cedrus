@@ -136,22 +136,22 @@ about,possessive,hiiye,3annaa
 about,possessive,nehna,3annaa
 about,possessive,entoo,3annkon
 about,possessive,henne,3annon
-except (maa 3addaa),possessive,anaa,maa 3adeiyei
-except (maa 3addaa),possessive,enta,maa 3adeik
-except (maa 3addaa),possessive,ente,maa 3adeike
-except (maa 3addaa),possessive,huuwe,maa 3adeih
-except (maa 3addaa),possessive,hiiye,maa 3adeihaa
-except (maa 3addaa),possessive,nehna,maa 3adeinaa
-except (maa 3addaa),possessive,entoo,maa 3adeiKon
-except (maa 3addaa),possessive,henne,maa 3adeihon
-beside (7add),possessive,anaa,7addei
-beside (7add),possessive,enta,7addak
-beside (7add),possessive,ente,7addek
-beside (7add),possessive,huuwe,7addoo
-beside (7add),possessive,hiiye,7addaa
-beside (7add),possessive,nehna,7addnaa
-beside (7add),possessive,entoo,7addkon
-beside (7add),possessive,henne,7addon
+excluding,possessive,anaa,maa 3adeiyei
+excluding,possessive,enta,maa 3adeik
+excluding,possessive,ente,maa 3adeike
+excluding,possessive,huuwe,maa 3adeih
+excluding,possessive,hiiye,maa 3adeihaa
+excluding,possessive,nehna,maa 3adeinaa
+excluding,possessive,entoo,maa 3adeiKon
+excluding,possessive,henne,maa 3adeihon
+beside,possessive,anaa,7addei
+beside,possessive,enta,7addak
+beside,possessive,ente,7addek
+beside,possessive,huuwe,7addoo
+beside,possessive,hiiye,7addaa
+beside,possessive,nehna,7addnaa
+beside,possessive,entoo,7addkon
+beside,possessive,henne,7addon
 after / still,possessive,anaa,ba3dei
 after / still,possessive,enta,ba3dak
 after / still,possessive,ente,ba3dek
@@ -176,14 +176,14 @@ to,possessive,hiiye,elaa
 to,possessive,nehna,elnaa
 to,possessive,entoo,elkon
 to,possessive,henne,elon
-on / to,possessive,anaa,3layyei
-on / to,possessive,enta,3leik
-on / to,possessive,ente,3layke
-on / to,possessive,huuwe,3leih / 3layoo
-on / to,possessive,hiiye,3layaa
-on / to,possessive,nehna,3laynaa
-on / to,possessive,entoo,3laykon
-on / to,possessive,henne,3layon
+on / to (destination),possessive,anaa,3layyei
+on / to (destination),possessive,enta,3leik
+on / to (destination),possessive,ente,3layke
+on / to (destination),possessive,huuwe,3leih / 3layoo
+on / to (destination),possessive,hiiye,3layaa
+on / to (destination),possessive,nehna,3laynaa
+on / to (destination),possessive,entoo,3laykon
+on / to (destination),possessive,henne,3layon
 in / at / with / by,possessive,anaa,benei
 in / at / with / by,possessive,enta,beik
 in / at / with / by,possessive,ente,beke
@@ -2038,3 +2038,5 @@ close to,gender & number,plural,2raab men
 far from,gender & number,"male, singular",b3iid 3an
 far from,gender & number,"female, singular",b3iideh 3an
 far from,gender & number,plural,b2aad 3an
+none,gender & number,"male, singular",walaa waa7ad
+none,gender & number,"female, singular",walaa wa7deh
