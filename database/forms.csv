@@ -348,10 +348,6 @@ wife (madaam),number,singular,madaam
 wife (madaam),number,plural,madaamtei
 woman / wife,number,singular,marraa
 woman / wife,number,plural,neswein
-married (m),number,singular,mzawwaj
-married (m),number,plural,mzawwajiin
-married (f),number,singular,mzawwajeh
-married (f),number,plural,mzawwajiin
 man (rejjeil),number,singular,rejjeil
 man (rejjeil),number,plural,rjeil
 man (zalamei),number,singular,zalamei
@@ -369,50 +365,18 @@ daughter in law,number,singular,kenneh
 daughter in law,number,plural,kenneit
 wife of my son,number,singular,maret ebnei
 wife of my son,number,plural,neswein wleidei
-divorced (m),number,singular,mTalla2
-divorced (m),number,plural,mTalla2iin
-divorced (f),number,singular,mTalla2ah
-divorced (f),number,plural,mTalla2eit
-friend (m),number,singular,rfii2
-friend (m),number,plural,rfei2
-friend (f),number,singular,rfii2ah
-friend (f),number,plural,rfii2aat
 (boy)friend / owner,number,singular,Saa7eb
 (boy)friend / owner,number,plural,as7aab
 (girl)friend / owner,number,singular,Saa7beh
 (girl)friend / owner,number,plural,Saa7beit
-mate (m),number,singular,Sadii2
-mate (m),number,plural,aSdeqaa2
-mate (f),number,singular,Sadii2ah
-mate (f),number,plural,Sadii2aat
 colleague (zamiil),number,singular,zamiil
 colleague (zamiil),number,plural,zumalaa
 colleague (zamiileh),number,singular,zamiileh
 colleague (zamiileh),number,plural,zamiileit
-partner (f) (shriik),number,singular,shriik
-partner (f) (shriik),number,plural,shurakaa
-partner (f) (shriikeh),number,singular,shriikeh
-partner (f) (shriikeh),number,plural,shriikeit
-neighbour (m),number,singular,jaar
-neighbour (m),number,plural,jiiraan
-neighbour (f),number,singular,jaarah
-neighbour (f),number,plural,jaareit
-famous (m),number,singular,mashhuur
-famous (m),number,plural,mashhuuriin
-famous (f),number,singular,mashhuurah
-famous (f),number,plural,mashhuureit
-baker (m),number,singular,furraan
-baker (m),number,plural,furraaneh
-baker (f),number,singular,furraaneh
-baker (f),number,plural,furraaneh
 prince,number,singular,2amiir
 princess,number,singular,2amiirah
 person,number,singular,shakheS
 person,number,plural,ashkhaaS
-the rest (m),number,singular,lbei’ei
-the rest (m),number,plural,lbei’yiin
-the rest (f),number,singular,lba’iiyeh
-the rest (f),number,plural,lbei’yiin
 Lebanon,nationality,"male, singular",lebneinei
 Lebanon,nationality,"female, singular",lebneiniiyeh
 Lebanon,nationality,"male, plural",lebneiniiyiin
@@ -2020,3 +1984,51 @@ please (allow me to torture you by asking something),addressee,entoo,bade 3azzeb
 we were honoured to have you with us,addressee,enta,sharrafetnaa
 we were honoured to have you with us,addressee,ente,sharraftiinaa
 we were honoured to have you with us,addressee,entoo,sharraftuunaa
+How is … ?,person,anaa,kiifnei
+How is … ?,person,enta,kiifak?
+How is … ?,person,ente,kiifik?
+How is … ?,person,huuwe,kiifoo?
+How is … ?,person,hiiye,kiifaa?
+How is … ?,person,nehna,kiifnaa?
+How is … ?,person,entoo,kiifkon?
+How is … ?,person,henne,kiifon?
+happy to see you,speaker & addressee,man to a man,mabsuuT ktiir shuufak
+happy to see you,speaker & addressee,man to a woman,mabsuuT ktiir shuufek
+happy to see you,speaker & addressee,woman to a man,mabsuuTah ktiir shuufak
+happy to see you,speaker & addressee,woman to a woman,mabsuuTah ktiir shuufek
+married,gender & number,"male, singular",mzawwaj
+married,gender & number,"female, singular",mzawwajeh
+married,gender & number,"male, plural",mzawwajiin
+married,gender & number,"female, plural",mzawwajiin
+divorced,gender & number,"male, singular",mTalla2
+divorced,gender & number,"female, singular",mTalla2ah
+divorced,gender & number,"male, plural",mTalla2iin
+divorced,gender & number,"female, plural",mTalla2eit
+friend,gender & number,"male, singular",rfii2
+friend,gender & number,"female, singular",rfii2ah
+friend,gender & number,"male, plural",rfei2
+friend,gender & number,"female, plural",rfii2aat
+mate,gender & number,"male, singular",Sadii2
+mate,gender & number,"female, singular",Sadii2ah
+mate,gender & number,"male, plural",aSdeqaa2
+mate,gender & number,"female, plural",Sadii2aat
+partner,gender & number,"male, singular",shriik
+partner,gender & number,"female, singular",shriikeh
+partner,gender & number,"male, plural",shurakaa
+partner,gender & number,"female, plural",shriikeit
+neighbour,gender & number,"male, singular",jaar
+neighbour,gender & number,"female, singular",jaarah
+neighbour,gender & number,"male, plural",jiiraan
+neighbour,gender & number,"female, plural",jaareit
+famous (person),gender & number,"male, singular",mashhuur
+famous (person),gender & number,"female, singular",mashhuurah
+famous (person),gender & number,"male, plural",mashhuuriin
+famous (person),gender & number,"female, plural",mashhuureit
+baker,gender & number,"male, singular",furraan
+baker,gender & number,"female, singular",furraaneh
+baker,gender & number,"male, plural",furraaneh
+baker,gender & number,"female, plural",furraaneh
+the rest,gender & number,"male, singular",lbei’ei
+the rest,gender & number,"female, singular",lba’iiyeh
+the rest,gender & number,"male, plural",lbei’yiin
+the rest,gender & number,"female, plural",lbei’yiin

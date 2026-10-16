@@ -20,9 +20,12 @@ export function vocabularyCard(item: Item): PracticeCard {
  */
 const FORMS_ONLY_TOPICS = ['possessive-pronouns'];
 
+/** Forms whose base is the answer for one of them, so only the forms are asked. */
+const SAY_TO_FORMS = ['addressee', 'speaker & addressee', 'person'];
+
 /** Forms that get their own Review cards. */
 function isPracticeForm(form: ItemForm) {
-  return form.form.startsWith('possessive') || form.form === 'addressee';
+  return form.form.startsWith('possessive') || SAY_TO_FORMS.includes(form.form);
 }
 
 /** One form as a Review card. */
@@ -31,9 +34,8 @@ function formCard(item: Item, form: ItemForm): PracticeCard {
   return {
     id: `form:${item.id}:${form.form}:${form.person}`,
     // Possessives show the base word to build from (beib → beibei);
-    // addressee phrases don't, since the base already is the answer for a man.
-    context:
-      form.form === 'addressee'
+    // addressee, speaker and person phrases don't: the base is one of the answers.
+    context: SAY_TO_FORMS.includes(form.form)
         ? item.english
         : `${item.english} · ${item.lebanese}`,
     prompt: label.main,
@@ -43,9 +45,10 @@ function formCard(item: Item, form: ItemForm): PracticeCard {
 }
 
 /**
- * The cards for one word: the word itself, plus one card per possessive or
- * addressee form. Phrases with addressee forms (to a man / a woman / a group)
- * and words in forms-only topics are asked only per form.
+ * The cards for one word: the word itself, plus one card per possessive,
+ * addressee, speaker or person form. Phrases with such forms (to a man / a
+ * woman, man to a woman, anaa / enta …) and words in forms-only topics are
+ * asked only per form.
  */
 function cardsForItem(item: Item): PracticeCard[] {
   if (!item.lebanese) return [];
@@ -53,7 +56,7 @@ function cardsForItem(item: Item): PracticeCard[] {
   const formsOnly =
     practice.length > 0 &&
     (FORMS_ONLY_TOPICS.includes(item.topicId) ||
-      practice.some((form) => form.form === 'addressee'));
+      practice.some((form) => SAY_TO_FORMS.includes(form.form)));
   return [
     ...(formsOnly ? [] : [vocabularyCard(item)]),
     ...practice.map((form) => formCard(item, form))
