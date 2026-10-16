@@ -1,8 +1,8 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { PracticeSession } from '@/components/practice/PracticeSession';
-import { getTopic, items } from '@/data/database';
-import { vocabularyCard } from '@/lib/cards';
+import { getTopic } from '@/data/database';
+import { topicCards } from '@/lib/cards';
 import { pickSession, statusOf } from '@/lib/progress';
 
 /** /review/:topicId, or /review/due for everything that is due. */
@@ -13,12 +13,9 @@ export default function ReviewPage() {
   const topic = getTopic(topicId);
 
   const session = useMemo(() => {
-    const pool = items
-      .filter((item) => item.lebanese)
-      .filter((item) =>
-        allDue ? statusOf(item.id) === 'due' : item.topicId === topicId
-      )
-      .map(vocabularyCard);
+    const pool = allDue
+      ? topicCards().filter((card) => statusOf(card.id) === 'due')
+      : topicCards(topicId);
     return pickSession(pool);
     // `round` makes "Another round" pick a fresh set.
     // eslint-disable-next-line react-hooks/exhaustive-deps

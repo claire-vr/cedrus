@@ -36,7 +36,8 @@ export function slugify(value: string) {
       .normalize('NFKD')
       .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-')
+      // Keep letters and digits of any script, so Arabic letters get their own id.
+      .replace(/[^\p{L}\p{N}\p{M}]+/gu, '-')
       .replace(/^-+|-+$/g, '') || 'item'
   );
 }
@@ -84,7 +85,6 @@ export const items: Item[] = vocabularyRows
       topic: row.topic,
       english: row.english,
       lebanese: row.lebanese,
-      arabic: row.arabic ?? '',
       type: row.type ?? '',
       notes: row.notes ?? '',
       forms: formsByItem.get(row.english) ?? []

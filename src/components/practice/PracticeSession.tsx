@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent, type Ref } from 'react';
 import { Link } from 'react-router-dom';
 import { checkAnswer, type Check } from '@/lib/answers';
 import { recordAnswer } from '@/lib/progress';
+import { isArabic } from '@/lib/script';
 
 export type PracticeCard = {
   id: string;
@@ -12,7 +13,6 @@ export type PracticeCard = {
   /** Small line under the question, e.g. "she · Present". */
   cue?: string;
   answer: string;
-  arabic?: string;
   note?: string;
 };
 
@@ -132,7 +132,17 @@ export function PracticeSession({
         {card.context && (
           <p className="text-base text-gray-500">{card.context}</p>
         )}
-        <p className="mt-1 text-4xl font-bold text-gray-900">{card.prompt}</p>
+        {isArabic(card.prompt) ? (
+          <p
+            lang="ar"
+            dir="auto"
+            className="mt-1 text-7xl leading-tight text-gray-900"
+          >
+            {card.prompt}
+          </p>
+        ) : (
+          <p className="mt-1 text-4xl font-bold text-gray-900">{card.prompt}</p>
+        )}
         {card.cue && <p className="mt-2 text-lg text-cedar-700">{card.cue}</p>}
 
         <div className="mt-10 min-h-[6rem]">
@@ -165,11 +175,6 @@ export function PracticeSession({
             <div className="mt-5">
               {check && <Verdict check={check} gaveUp={gaveUp} />}
               <div className="mt-2 flex items-baseline justify-center gap-4">
-                {card.arabic && (
-                  <span lang="ar" dir="rtl" className="text-4xl text-cedar-900">
-                    {card.arabic}
-                  </span>
-                )}
                 <span className="text-3xl text-lebanon-redDark">
                   {card.answer}
                 </span>

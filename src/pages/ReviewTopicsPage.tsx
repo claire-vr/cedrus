@@ -1,22 +1,15 @@
 import { Link } from 'react-router-dom';
-import { itemsInTopic, items, topics } from '@/data/database';
+import { topics } from '@/data/database';
+import { topicCards } from '@/lib/cards';
 import { summarize } from '@/lib/progress';
 
-// Only topics with words to review (not rules-only ones like Language rules).
-const reviewTopics = topics.filter((topic) =>
-  itemsInTopic(topic.id).some((item) => item.lebanese)
-);
-
-function idsOf(topicId: string) {
-  return itemsInTopic(topicId)
-    .filter((item) => item.lebanese)
-    .map((item) => item.id);
-}
+// Only topics with something to review (not rules-only ones like Language rules).
+const reviewTopics = topics
+  .map((topic) => ({ ...topic, ids: topicCards(topic.id).map((c) => c.id) }))
+  .filter((topic) => topic.ids.length > 0);
 
 export function ReviewTopicsPage() {
-  const totalDue = summarize(
-    items.filter((item) => item.lebanese).map((item) => item.id)
-  ).due;
+  const totalDue = summarize(reviewTopics.flatMap((topic) => topic.ids)).due;
 
   return (
     <main className="mx-auto max-w-xl px-5 py-10">
@@ -61,7 +54,7 @@ export function ReviewTopicsPage() {
       </h2>
       <div className="mt-3 space-y-3">
         {reviewTopics.map((topic) => {
-          const ids = idsOf(topic.id);
+          const ids = topic.ids;
           const counts = summarize(ids);
           const knownShare = ids.length ? counts.known / ids.length : 0;
           return (

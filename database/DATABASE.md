@@ -6,13 +6,15 @@ Four CSV files hold all of the app's content. Edit them through `Cedrus database
 
 One row per word or expression.
 
-| column   | meaning                                                                                                              |
-| -------- | -------------------------------------------------------------------------------------------------------------------- |
-| topic    | Section in Browse: Pronouns, Greetings, Questions, Prepositions, Adjectives, Verbs … A new name creates a new topic. |
-| english  | English meaning. For verbs: "to write". Must be unique when the item has forms.                                      |
-| lebanese | Lebanese in Latin script. For verbs, the base form (katab).                                                          |
-| type     | expression, question word, preposition, pronoun, adjective, verb …                                                   |
-| notes    | Optional remark shown under the word.                                                                                |
+| column   | meaning                                                                                                                                             |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| topic    | Section in Browse: Pronouns, Greetings, Questions, Prepositions, Adjectives, Verbs … A new name creates a new topic.                                |
+| english  | The question side: English meaning, or Arabic script (a letter, a digit) to be read. For verbs: "to write". Must be unique when the item has forms. |
+| lebanese | Lebanese in Latin script. For verbs, the base form (katab).                                                                                         |
+| type     | expression, question word, preposition, pronoun, adjective, verb …                                                                                  |
+| notes    | Optional remark shown under the word.                                                                                                               |
+
+Anything written in Arabic script in `english` is shown large and asked as the question (Alphabet: ب → baa2; Numbers: ٣ → 3 tleiteh).
 
 The topic "Verbs" opens the verbs section with conjugation tables. Topics appear in Browse in the order they first appear in this file; a topic that only has rules (like "Language rules") is listed first.
 

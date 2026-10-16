@@ -78,7 +78,7 @@ src/
 
 ## Practice
 
-- **Review** (`/review`): flashcards per topic, or "Everything due" across all topics. You reveal the answer and say whether you knew it.
+- **Review** (`/review`): flashcards per topic, or "Everything due" across all topics. You reveal the answer and say whether you knew it. Possessive forms get their own cards ("door · beib → anaa" = beibei); in Possessive pronouns only the forms are asked, not the base word.
 - **Conjugation drill** (`/verbs/drill`): type the right form of a verb for a person and tense. Alternatives written with "/" count, and a capitals-only mistake is flagged as "almost". "Drill this verb" on a verb page drills just that verb.
 - Both use spaced repetition (`src/lib/progress.ts`): a known card moves up a box and comes back after 1, 3, 7, 14, 30 and 60 days; a missed card goes back to box 1 and returns later in the same round. A round is up to 20 cards, due ones first.
 - Progress is saved in the browser's storage on each device (no account). Settings shows it and can reset it. Card ids are based on the topic and English text, so renaming a word in the CSV starts its progress over.

@@ -15,8 +15,6 @@ export type Item = {
   topic: string;
   english: string;
   lebanese: string;
-  /** Optional Arabic script (letters, digits). */
-  arabic: string;
   type: string;
   notes: string;
   forms: ItemForm[];

@@ -1,10 +1,10 @@
 item,form,person,lebanese
-this (near),gender & number,"male, singular",haydaa
-this (near),gender & number,"female, singular",haydei
-this (near),gender & number,plural,haydool / hool / hawdei
-that (far),gender & number,"male, singular",haydaak
-that (far),gender & number,"female, singular",haydiik
-that (far),gender & number,plural,haydooliik / hooliik / hawdiik
+this (m),gender & number,"male, singular",haydaa
+this (m),gender & number,"female, singular",haydei
+this (m),gender & number,plural,haydool / hool / hawdei
+that (m),gender & number,"male, singular",haydaak
+that (m),gender & number,"female, singular",haydiik
+that (m),gender & number,plural,haydooliik / hooliik / hawdiik
 door,possessive,anaa,beibei
 door,possessive,enta,beibak
 door,possessive,ente,beibek
