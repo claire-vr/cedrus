@@ -2,7 +2,7 @@ import type { Item } from '@/types/types';
 import { Badge } from '@/components/Badge';
 import { ConjugationTable } from '@/components/verbs/ConjugationTable';
 import { isArabic } from '@/lib/script';
-import { parentOf } from '@/data/database';
+import { examplesForItem, parentOf } from '@/data/database';
 
 type ItemCardProps = {
   item: Item;
@@ -10,6 +10,7 @@ type ItemCardProps = {
 
 export function ItemCard({ item }: ItemCardProps) {
   const formGroups = [...new Set(item.forms.map((form) => form.form))];
+  const itemExamples = examplesForItem(item);
 
   return (
     <div className="rounded-2xl border border-gray-200 bg-white px-5 py-4 shadow-sm">
@@ -37,6 +38,19 @@ export function ItemCard({ item }: ItemCardProps) {
       )}
       {item.notes && (
         <p className="mt-1 text-sm italic text-gray-500">{item.notes}</p>
+      )}
+
+      {itemExamples.length > 0 && (
+        <ul className="mt-3 space-y-2 border-l-2 border-cedar-300 pl-3">
+          {itemExamples.map((example, index) => (
+            <li key={index}>
+              <p className="text-sm text-gray-600">{example.english}</p>
+              <p className="text-base text-lebanon-redDark">
+                {example.lebanese}
+              </p>
+            </li>
+          ))}
+        </ul>
       )}
 
       {formGroups.length > 0 && (

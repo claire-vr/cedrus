@@ -142,8 +142,24 @@ export function rulesForTopic(topicName: string) {
   return rules.filter((rule) => rule.topic === topicName);
 }
 
+/** Example sentences linked to one word (their `item` is the word's English). */
+export function examplesForItem(item: Item) {
+  return examples.filter(
+    (example) => example.topic === item.topic && example.item === item.english
+  );
+}
+
+/**
+ * Example sentences of a topic that are not linked to one of its words
+ * (linked ones are shown under their word instead).
+ */
 export function examplesForTopic(topicName: string) {
-  return examples.filter((example) => example.topic === topicName);
+  const words = new Set(
+    items.filter((item) => item.topic === topicName).map((item) => item.english)
+  );
+  return examples.filter(
+    (example) => example.topic === topicName && !words.has(example.item)
+  );
 }
 
 function normalizePerson(person: string) {
