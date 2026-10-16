@@ -22,12 +22,12 @@ The topic "Verbs" opens the verbs section with conjugation tables. Topics appear
 
 Conjugations and other forms of a vocabulary item, one row per form.
 
-| column   | meaning                                                                                                                                                                                 |
-| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| item     | The `english` of the vocabulary row it belongs to (e.g. "to write", "with").                                                                                                            |
-| form     | Verbs: present continuous, present perfect, future, imperative, active participle. Prepositions: possessive. Adjectives: adjective, noun.                                               |
-| person   | anaa, enta, ente, huuwe, hiiye, nehna, entoo, henne; "infinitive" for a base form (e.g. the past base raa7); male, singular / female, singular / plural for participles and adjectives. |
-| lebanese | The form itself.                                                                                                                                                                        |
+| column   | meaning                                                                                                                                                                                                                                                                                                                                            |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| item     | The `english` of the vocabulary row it belongs to (e.g. "to write", "with").                                                                                                                                                                                                                                                                       |
+| form     | Verbs: present continuous, present perfect, future, imperative, active participle. Prepositions and possessive pronouns: possessive. Phrases said to a man / a woman / a group: addressee. Adjectives, professions, demonstratives, "sorry": gender & number. Countries: nationality. Nouns: number.                                               |
+| person   | anaa, enta, ente, huuwe, hiiye, nehna, entoo, henne (addressee: enta = to a man, ente = to a woman, entoo = to a group); "infinitive" for a base form (e.g. the past base raa7); male, singular / female, singular / male, plural / female, plural / plural for gender; singular / dual / plural / plural (general) / plural (counting) for nouns. |
+| lebanese | The form itself.                                                                                                                                                                                                                                                                                                                                   |
 
 ## rules.csv
 
