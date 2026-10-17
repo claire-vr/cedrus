@@ -16,7 +16,7 @@ export function vocabularyCard(item: Item): PracticeCard {
 
 /**
  * Topics where Review asks only the possessive forms, not the base word:
- * "door · beib → anaa (me · my)" → beibei, rather than "door" → beib.
+ * "my door" → beibei, rather than "door" → beib.
  */
 const FORMS_ONLY_TOPICS = ['possessive-pronouns'];
 
@@ -28,18 +28,62 @@ function isPracticeForm(form: ItemForm) {
   return form.form.startsWith('possessive') || SAY_TO_FORMS.includes(form.form);
 }
 
+/** English pronouns per person, to build the question of a possessive form. */
+const english: Record<string, { my: string; me: string; i: string }> = {
+  anaa: { my: 'my', me: 'me', i: 'I' },
+  enta: { my: 'your', me: 'you', i: 'you' },
+  ente: { my: 'your', me: 'you', i: 'you' },
+  huuwe: { my: 'his', me: 'him', i: 'he' },
+  hiiye: { my: 'her', me: 'her', i: 'she' },
+  nehna: { my: 'our', me: 'us', i: 'we' },
+  entoo: { my: 'your', me: 'you', i: 'you' },
+  henne: { my: 'their', me: 'them', i: 'they' }
+};
+
+/**
+ * The English of a possessive form, without giving the Lebanese away:
+ * door → "your door", with → "with him", at (someone’s place) → "at my place",
+ * for your sake → "for our sake", because (+ person) → "because they".
+ */
+export function possessiveQuestion(item: Item, person: string) {
+  const p = english[person];
+  if (!p) return item.english;
+  const text = item.english;
+  if (item.type === 'noun') return `${p.my} ${text}`;
+  if (/\(someone[’']s place\)/.test(text))
+    return text.replace(/\(someone[’']s place\)/, `${p.my} place`);
+  if (text.includes('(someone)')) return text.replace('(someone)', p.me);
+  if (text.includes('(+ person)')) return text.replace('(+ person)', p.i);
+  if (/\byour?\b/.test(text))
+    return text.replace(/\byour\b/g, p.my).replace(/\byou\b/g, p.me);
+  // A preposition: "with" → "with me", keeping a trailing "(destination)" last.
+  const match = text.match(/^(.*?)(\s*\([^)]*\))?$/);
+  return `${match?.[1] ?? text} ${p.me}${match?.[2] ?? ''}`;
+}
+
 /** One form as a Review card. */
 function formCard(item: Item, form: ItemForm): PracticeCard {
+  const id = `form:${item.id}:${form.form}:${form.person}`;
+  if (form.form.startsWith('possessive')) {
+    // "your door" in big, "enta" in small; the base word (beib) stays hidden.
+    const variant = form.form.match(/\((.+)\)/)?.[1];
+    return {
+      id,
+      prompt: possessiveQuestion(item, form.person),
+      cue: variant ? `${form.person} · ${variant}` : form.person,
+      answer: form.lebanese
+    };
+  }
+  // Addressee, speaker and person forms: the phrase in big, who it is for in
+  // small ("good night" · to a man, "How is … ?" · anaa · I).
   const label = formLabel({ tense: form.form, person: form.person });
   return {
-    id: `form:${item.id}:${form.form}:${form.person}`,
-    // Possessives show the base word to build from (beib → beibei);
-    // addressee, speaker and person phrases don't: the base is one of the answers.
-    context: SAY_TO_FORMS.includes(form.form)
-        ? item.english
-        : `${item.english} · ${item.lebanese}`,
-    prompt: label.main,
-    cue: label.hint || undefined,
+    id,
+    prompt: item.english,
+    cue:
+      form.form === 'person' && label.hint
+        ? `${label.main} · ${label.hint}`
+        : label.main,
     answer: form.lebanese
   };
 }
