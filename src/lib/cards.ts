@@ -183,7 +183,10 @@ export function topicCards(topicId?: string): PracticeCard[] {
   );
 }
 
-/** Every conjugated form of a verb in the chosen tenses as a drill card. */
+/**
+ * Every conjugated form of a verb in the chosen tenses as a drill card:
+ * "to fail" in big, "Present · huuwe" in small (the base form stays hidden).
+ */
 export function verbCards(verb: Verb, tenses: string[]): PracticeCard[] {
   return verb.forms
     .filter(
@@ -194,11 +197,12 @@ export function verbCards(verb: Verb, tenses: string[]): PracticeCard[] {
       const tense = tenseLabels[form.tense] ?? form.tense;
       return {
         id: `verb:${verb.id}:${form.tense}:${form.person}`,
-        context: verb.infinitive
-          ? `${verb.english} · ${verb.infinitive}`
-          : verb.english,
-        prompt: label.main,
-        cue: label.hint ? `${label.hint} · ${tense}` : tense,
+        prompt: verb.english,
+        // Participles keep their pronoun hint: "masculine (anaa / enta / huuwe)".
+        cue:
+          form.tense === 'active participle' && label.hint
+            ? `${tense} · ${label.main} (${label.hint})`
+            : `${tense} · ${label.main}`,
         answer: form.lebanese
       };
     });
