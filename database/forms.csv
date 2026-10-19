@@ -621,18 +621,12 @@ intensive,gender & number,plural,mukassafiin
 champion,gender & number,"male, singular",baTal
 champion,gender & number,"female, singular",baTaleh
 champion,gender & number,plural,abTaal
-day (yoom),number,singular,yoom
-day (yoom),number,dual,yawmein
-day (yoom),number,plural,eyyeim
-day (nhaar),number,singular,nhaar
-day (nhaar),number,dual,nhaarein
-day (nhaar),number,plural,nhaareit
-week (usbuu3),number,singular,usbuu3
-week (usbuu3),number,dual,usbuu3ein
-week (usbuu3),number,plural,asaabii3
-week (jeme3),number,singular,jeme3
-week (jeme3),number,dual,jeme3tein
-week (jeme3),number,plural,jema3 / jmei3
+day,number,singular,yoom / nhaar
+day,number,dual,yawmein / nhaarein
+day,number,plural,eyyeim / nhaareit
+week,number,singular,usbuu3 / jeme3
+week,number,dual,usbuu3ein / jeme3tein
+week,number,plural,asaabii3 / jema3 / jmei3
 month,number,singular,shaher
 month,number,dual,shahrein
 month,number,plural,ashhor / shhuur
@@ -2260,3 +2254,4 @@ nationality,possessive,anaa,jensiitei / jensiiyetei
 nationality,possessive,enta,jensiitak / jensiiyetak
 second,gender & number,"male, singular",teinei
 second,gender & number,"female, singular",teinyeh
+day,possessive,enta,yawmak
