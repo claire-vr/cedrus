@@ -632,10 +632,6 @@ thirsty,gender & number,plural,3eTshaaniin
 intensive,gender & number,"male, singular",mukassaf
 intensive,gender & number,"female, singular",mukassafeh
 intensive,gender & number,plural,mukassafiin
-sport (ryaaDah),noun,singular,ryaaDah
-sport (ryaaDah),adjective,"male, singular",ryaaDah
-sport (ryaaDah),adjective,"female, singular",ryaaDei
-sport (ryaaDah),adjective,plural,ryaaDiiyeh
 champion,adjective,"male, singular",baTal
 champion,adjective,"female, singular",baTaleh
 champion,adjective,plural,abTaal
@@ -2265,3 +2261,6 @@ coat,number,singular,kabbuut
 coat,number,plural,kabaabiit
 color,possessive,huuwe,lawnoo
 trip,possessive,hiiye,re7letaa
+sporty,gender & number,"male, singular",ryaaDei
+sporty,gender & number,"female, singular",ryaaDiiyeh
+sporty,gender & number,plural,ryaaDiiyiin
