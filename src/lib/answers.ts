@@ -2,7 +2,8 @@
  * Checks a typed answer against the expected Lebanese.
  *
  * - Alternatives written with "/" in your notes all count ("fiinei/fiiyei").
- * - Extra spaces and end punctuation are ignored.
+ * - Extra spaces, end punctuation and the dash after an article
+ *   ("sh-sheghel" = "shsheghel") are ignored.
  * - Capitals matter in the Latin spelling (T is a strong letter, t is not),
  *   so an answer that only differs in capitals is "close", not "correct".
  */
@@ -37,6 +38,7 @@ export function acceptedAnswers(expected: string): string[] {
 
 function tidy(value: string) {
   return value
+    .replace(/(\S)-(?=\S)/g, '$1')
     .replace(/\s+/g, ' ')
     .replace(/[.?!,;]+$/, '')
     .trim();
