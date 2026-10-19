@@ -228,40 +228,36 @@ nurse,gender & number,"male, singular",mumarreD
 nurse,gender & number,"female, singular",mumarreDah
 nurse,gender & number,"male, plural",mumarreDiin/aa
 nurse,gender & number,"female, plural",mumarreDeit
-manager/employer,gender & number,"male, singular",mudiir
-manager/employer,gender & number,"female, singular",mudiireh
-manager/employer,gender & number,"male, plural",mudiiriin/aa
-manager/employer,gender & number,"female, plural",mudiireit
+manager / employer,gender & number,"male, singular",mudiir
+manager / employer,gender & number,"female, singular",mudiireh
+manager / employer,gender & number,"male, plural",mudiiriin/aa
+manager / employer,gender & number,"female, plural",mudiireit
 organized man,gender & number,"male, singular",munaZZam
 organized man,gender & number,"female, singular",munaZZameh
 employee,gender & number,"male, singular",mwazzaf
 employee,gender & number,"female, singular",mwazzafeh
 employee,gender & number,"male, plural",mwazzafiin
 employee,gender & number,"female, plural",mwazzafeit
-teacher/handy man,gender & number,"male, singular",m3allem
-teacher/handy man,gender & number,"female, singular",m3allmeh
-teacher/handy man,gender & number,"male, plural",m3allmiin
-teacher/handy man,gender & number,"female, plural",m3allmeit
-teacher/prof/Mr.,gender & number,"male, singular",esteiz
-teacher/prof/Mr.,gender & number,"female, singular",esteizeh
-teacher/prof/Mr.,gender & number,"male, plural",aseitzeh
-teacher/prof/Mr.,gender & number,"female, plural",esteizeit
+teacher / handy man,gender & number,"male, singular",m3allem
+teacher / handy man,gender & number,"female, singular",m3allmeh
+teacher / handy man,gender & number,"male, plural",m3allmiin
+teacher / handy man,gender & number,"female, plural",m3allmeit
+teacher / prof / Mr.,gender & number,"male, singular",esteiz
+teacher / prof / Mr.,gender & number,"female, singular",esteizeh
+teacher / prof / Mr.,gender & number,"male, plural",aseitzeh
+teacher / prof / Mr.,gender & number,"female, plural",esteizeit
 student,gender & number,"male, singular",Taaleb
 student,gender & number,"female, singular",Taalbeh
 student,gender & number,"male, plural",Tullaab
 student,gender & number,"female, plural",Taalbeit
-doctor/wise person,gender & number,"male, singular",7akiim
-doctor/wise person,gender & number,"female, singular",7akiimeh
-doctor/wise person,gender & number,"male, plural",7ekamaa
-doctor/wise person,gender & number,"female, plural",7akiimeit
-doctor (Tabiib),gender & number,"male, singular",Tabiib
-doctor (Tabiib),gender & number,"female, singular",Tabiibeh
-doctor (Tabiib),gender & number,"male, plural",aTebbaa
-doctor (Tabiib),gender & number,"female, plural",Tabiibeit
-doctor (dokteur),gender & number,"male, singular",dokteur
-doctor (dokteur),gender & number,"female, singular",dokteurah
-doctor (dokteur),gender & number,"male, plural",dakeitrah
-doctor (dokteur),gender & number,"female, plural",dokteureit
+doctor / wise person,gender & number,"male, singular",7akiim
+doctor / wise person,gender & number,"female, singular",7akiimeh
+doctor / wise person,gender & number,"male, plural",7ekamaa
+doctor / wise person,gender & number,"female, plural",7akiimeit
+doctor,gender & number,"male, singular",Tabiib / dokteur
+doctor,gender & number,"female, singular",Tabiibeh / dokteurah
+doctor,gender & number,"male, plural",aTebbaa / dakeitrah
+doctor,gender & number,"female, plural",Tabiibeit / dokteureit
 famous,gender & number,"male, singular",mashhuur
 famous,gender & number,"female, singular",mashhuurah
 famous,gender & number,"male, plural",mashhuuriin
