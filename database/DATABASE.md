@@ -15,6 +15,7 @@ One row per word or expression.
 | type     | expression, question word, preposition, pronoun, adjective, verb …                                                                                                                                          |
 | notes    | Optional remark shown under the word.                                                                                                                                                                       |
 | follows  | Optional: the `english` of the phrase this one answers, in the same topic. Review then always asks the reply right after it (peace be upon you → and upon you be peace). A phrase can have several replies. |
+| related  | Optional: the `english` of the main word this one belongs to (slow and slowly (adverb) → slowness). Browse and Linked items show the whole family. |
 
 Anything written in Arabic script in `english` is shown large and asked as the question (Alphabet: ب → baa2; Numbers: ٣ → 3 tleiteh).
 

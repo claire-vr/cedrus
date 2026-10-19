@@ -30,6 +30,15 @@ function load(name: string, required: string[]) {
   return csvRecords(files[matches[0]], required, matches[0]);
 }
 
+/**
+ * Topics that were renamed keep their old id, so saved Review progress and
+ * links stay valid ("Adjectives" became "Adjectives & adverbs").
+ */
+const TOPIC_ID_NAMES: Record<string, string> = {
+  'Adjectives & adverbs': 'Adjectives'
+};
+const topicIdName = (name: string) => TOPIC_ID_NAMES[name] ?? name;
+
 export function slugify(value: string) {
   return (
     value
@@ -56,7 +65,7 @@ const rulesOnlyTopics = ruleRows
   .filter((topic) => topic && !vocabularyTopics.includes(topic));
 export const topics: Topic[] = [
   ...new Set([...rulesOnlyTopics, ...vocabularyTopics])
-].map((name) => ({ id: slugify(name), name }));
+].map((name) => ({ id: slugify(topicIdName(name)), name }));
 
 // ---- items with their forms ----
 const formsByItem = new Map<string, Item['forms']>();
@@ -75,19 +84,21 @@ const usedIds = new Set<string>();
 export const items: Item[] = vocabularyRows
   .filter((row) => row.topic && row.english)
   .map((row) => {
-    let id = slugify(`${row.topic} ${row.english}`);
+    const topicName = topicIdName(row.topic);
+    let id = slugify(`${topicName} ${row.english}`);
     for (let n = 2; usedIds.has(id); n++)
-      id = slugify(`${row.topic} ${row.english} ${n}`);
+      id = slugify(`${topicName} ${row.english} ${n}`);
     usedIds.add(id);
     return {
       id,
-      topicId: slugify(row.topic),
+      topicId: slugify(topicIdName(row.topic)),
       topic: row.topic,
       english: row.english,
       lebanese: row.lebanese,
       type: row.type ?? '',
       notes: row.notes ?? '',
       follows: row.follows ?? '',
+      related: row.related ?? '',
       forms: formsByItem.get(row.english) ?? []
     };
   });
@@ -127,6 +138,18 @@ export function parentOf(item: Item) {
   if (!item.follows) return undefined;
   return items.find(
     (other) => other.topicId === item.topicId && other.english === item.follows
+  );
+}
+
+/**
+ * Words linked through the `related` column: the main word and everything
+ * that points to it (slowness ↔ slow ↔ slowly (adverb)), without the word itself.
+ */
+export function relatedTo(item: Item) {
+  const root = item.related || item.english;
+  return items.filter(
+    (other) =>
+      other.id !== item.id && (other.english === root || other.related === root)
   );
 }
 

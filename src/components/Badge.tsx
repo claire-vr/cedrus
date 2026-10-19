@@ -10,6 +10,7 @@ const badgeStyles: Record<string, string> = {
   'subject pronoun': 'bg-purple-100 text-purple-700',
   'demonstrative pronoun': 'bg-purple-100 text-purple-700',
   adjective: 'bg-rose-100 text-rose-700',
+  adverb: 'bg-rose-100 text-rose-700',
   verb: 'bg-cedar-100 text-cedar-700',
   letter: 'bg-sky-100 text-sky-700',
   'vowel sign': 'bg-sky-100 text-sky-700',

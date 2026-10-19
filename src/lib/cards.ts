@@ -1,5 +1,5 @@
 import type { PracticeCard } from '@/components/practice/PracticeSession';
-import { items, parentOf } from '@/data/database';
+import { items, parentOf, relatedTo } from '@/data/database';
 import { formLabel, tenseLabels } from '@/data/verbs';
 import type { Item, ItemForm } from '@/types/types';
 import type { Verb } from '@/types/verbs';
@@ -16,8 +16,8 @@ export function vocabularyCard(item: Item): PracticeCard {
 }
 
 /**
- * The word and all its forms (plural, feminine, my …, to a woman …), shown
- * under "Linked items" once a card is answered. Verb conjugations are left
+ * The word, all its forms (plural, feminine, my …, to a woman …) and its
+ * related words (slow, slowly), shown under "Linked items" once answered. Verb conjugations are left
  * out: they have their own drill.
  */
 function linkedItems(item: Item): PracticeCard['linked'] {
@@ -26,12 +26,17 @@ function linkedItems(item: Item): PracticeCard['linked'] {
       !(form.form in tenseLabels) &&
       !(form.person === 'singular' && form.lebanese === item.lebanese)
   );
-  if (forms.length === 0) return undefined;
+  const related = relatedTo(item);
+  if (forms.length === 0 && related.length === 0) return undefined;
   return [
     { label: item.english, lebanese: item.lebanese },
     ...forms.map((form) => ({
       label: linkedLabel(item, form),
       lebanese: form.lebanese
+    })),
+    ...related.map((other) => ({
+      label: other.english,
+      lebanese: other.lebanese
     }))
   ];
 }

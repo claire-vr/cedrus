@@ -19,6 +19,8 @@ export type Item = {
   notes: string;
   /** English of the phrase this one answers ("and upon you be peace" follows "peace be upon you"). */
   follows: string;
+  /** English of the main word this one belongs to (slow → slowness). */
+  related: string;
   forms: ItemForm[];
 };
 
