@@ -21,6 +21,8 @@ export type Item = {
   follows: string;
   /** English of the main word this one belongs to (slow → slowness). */
   related: string;
+  /** Key shared by words that sound alike but aren't related (jem3ah, jeim3ah, jeime3). */
+  similar: string;
   forms: ItemForm[];
 };
 

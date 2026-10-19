@@ -1,5 +1,5 @@
 import type { PracticeCard } from '@/components/practice/PracticeSession';
-import { items, parentOf, relatedTo } from '@/data/database';
+import { items, parentOf, relatedTo, similarTo } from '@/data/database';
 import { formLabel, tenseLabels } from '@/data/verbs';
 import type { Item, ItemForm } from '@/types/types';
 import type { Verb } from '@/types/verbs';
@@ -27,7 +27,9 @@ function linkedItems(item: Item): PracticeCard['linked'] {
       !(form.person === 'singular' && form.lebanese === item.lebanese)
   );
   const related = relatedTo(item);
-  if (forms.length === 0 && related.length === 0) return undefined;
+  const similar = similarTo(item);
+  if (forms.length === 0 && related.length === 0 && similar.length === 0)
+    return undefined;
   return [
     { label: item.english, lebanese: item.lebanese },
     ...forms.map((form) => ({
@@ -36,6 +38,11 @@ function linkedItems(item: Item): PracticeCard['linked'] {
     })),
     ...related.map((other) => ({
       label: other.english,
+      lebanese: other.lebanese
+    })),
+    // Sound-alikes, marked so they're not mistaken for forms of the word.
+    ...similar.map((other) => ({
+      label: `≈ ${other.english} (sounds similar)`,
       lebanese: other.lebanese
     }))
   ];

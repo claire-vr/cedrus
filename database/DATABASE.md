@@ -16,6 +16,7 @@ One row per word or expression.
 | notes    | Optional remark shown under the word.                                                                                                                                                                       |
 | follows  | Optional: the `english` of the phrase this one answers, in the same topic. Review then always asks the reply right after it (peace be upon you → and upon you be peace). A phrase can have several replies. |
 | related  | Optional: the `english` of the main word this one belongs to (slow and slowly (adverb) → slowness). Browse and Linked items show the whole family. |
+| similar  | Optional: a key shared by words that sound alike but aren't related (jem3ah: week, Friday, university, mosque). Browse shows "≈ sounds like", Review lists them under Linked items. |
 
 Anything written in Arabic script in `english` is shown large and asked as the question (Alphabet: ب → baa2; Numbers: ٣ → 3 tleiteh).
 

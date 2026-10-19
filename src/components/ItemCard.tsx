@@ -2,7 +2,12 @@ import type { Item } from '@/types/types';
 import { Badge } from '@/components/Badge';
 import { ConjugationTable } from '@/components/verbs/ConjugationTable';
 import { isArabic } from '@/lib/script';
-import { examplesForItem, parentOf, relatedTo } from '@/data/database';
+import {
+  examplesForItem,
+  parentOf,
+  relatedTo,
+  similarTo
+} from '@/data/database';
 
 type ItemCardProps = {
   item: Item;
@@ -12,6 +17,7 @@ export function ItemCard({ item }: ItemCardProps) {
   const formGroups = [...new Set(item.forms.map((form) => form.form))];
   const itemExamples = examplesForItem(item);
   const related = relatedTo(item);
+  const similar = similarTo(item);
 
   return (
     <div className="rounded-2xl border border-gray-200 bg-white px-5 py-4 shadow-sm">
@@ -42,6 +48,14 @@ export function ItemCard({ item }: ItemCardProps) {
           ↔{' '}
           {related
             .map((other) => `${other.english} · ${other.lebanese}`)
+            .join('  ·  ')}
+        </p>
+      )}
+      {similar.length > 0 && (
+        <p className="mt-1 text-sm text-gray-500">
+          ≈ sounds like:{' '}
+          {similar
+            .map((other) => `${other.lebanese} (${other.english})`)
             .join('  ·  ')}
         </p>
       )}

@@ -99,6 +99,7 @@ export const items: Item[] = vocabularyRows
       notes: row.notes ?? '',
       follows: row.follows ?? '',
       related: row.related ?? '',
+      similar: row.similar ?? '',
       forms: formsByItem.get(row.english) ?? []
     };
   });
@@ -150,6 +151,14 @@ export function relatedTo(item: Item) {
   return items.filter(
     (other) =>
       other.id !== item.id && (other.english === root || other.related === root)
+  );
+}
+
+/** Words that sound like this one (same `similar` key), without the word itself. */
+export function similarTo(item: Item) {
+  if (!item.similar) return [];
+  return items.filter(
+    (other) => other.id !== item.id && other.similar === item.similar
   );
 }
 
