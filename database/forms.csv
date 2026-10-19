@@ -979,7 +979,7 @@ to be in pain,present continuous,hiiye,btuuja3
 to be in pain,present continuous,nehna,mnuuja3
 to be in pain,present continuous,entoo,btuuja3oo
 to be in pain,present continuous,henne,byuuja3oo
-we ski,present continuous,nehna,mnetzallaj
+to ski,present continuous,nehna,mnetzallaj
 to remember,present continuous,anaa,betzakkar
 to remember,present continuous,enta,btetzakkar
 to remember,present continuous,ente,btetzakkarei
@@ -1256,22 +1256,22 @@ to live,present continuous,henne,byeseknoo
 to live,active participle,"male, singular",seiken
 to live,active participle,"female, singular",seikneh
 to live,active participle,plural,seikniin
-to feel (deikh),present continuous,anaa,bduukh
-to feel (deikh),present continuous,enta,betduukh
-to feel (deikh),present continuous,ente,betduukhei
-to feel (deikh),present continuous,huuwe,beduukh
-to feel (deikh),present continuous,hiiye,betduukh
-to feel (deikh),present continuous,nehna,menduukh
-to feel (deikh),present continuous,entoo,betduukhoo
-to feel (deikh),present continuous,henne,beduukhoo
-to feel (7ass),present continuous,anaa,b7ess
-to feel (7ass),present continuous,enta,bet7ess
-to feel (7ass),present continuous,ente,bet7essei
-to feel (7ass),present continuous,huuwe,be7ess
-to feel (7ass),present continuous,hiiye,bet7ess
-to feel (7ass),present continuous,nehna,men7ess
-to feel (7ass),present continuous,entoo,bet7essoo
-to feel (7ass),present continuous,henne,be7essoo
+to feel (suffocated),present continuous,anaa,bduukh
+to feel (suffocated),present continuous,enta,betduukh
+to feel (suffocated),present continuous,ente,betduukhei
+to feel (suffocated),present continuous,huuwe,beduukh
+to feel (suffocated),present continuous,hiiye,betduukh
+to feel (suffocated),present continuous,nehna,menduukh
+to feel (suffocated),present continuous,entoo,betduukhoo
+to feel (suffocated),present continuous,henne,beduukhoo
+to feel (general),present continuous,anaa,b7ess
+to feel (general),present continuous,enta,bet7ess
+to feel (general),present continuous,ente,bet7essei
+to feel (general),present continuous,huuwe,be7ess
+to feel (general),present continuous,hiiye,bet7ess
+to feel (general),present continuous,nehna,men7ess
+to feel (general),present continuous,entoo,bet7essoo
+to feel (general),present continuous,henne,be7essoo
 to say,present continuous,anaa,b2uul
 to say,present continuous,enta,bet2uul
 to say,present continuous,ente,bet2uulei
@@ -1493,15 +1493,15 @@ to go ahead,present continuous,entoo,btetfaDDaloo
 to go ahead,imperative,enta,tfaDDal
 to go ahead,imperative,ente,tfaDDalei
 to go ahead,imperative,entoo,tfaDDaloo
-to try (jarrab),present continuous,anaa,bjarreb
-to try (7aawal),present continuous,anaa,b7aawel
-to try (7aawal),present continuous,enta,bet7aawel
-to try (7aawal),present continuous,ente,bet7aawlei
-to try (7aawal),present continuous,huuwe,be7aawel
-to try (7aawal),present continuous,hiiye,bet7aawel
-to try (7aawal),present continuous,nehna,men7aawel
-to try (7aawal),present continuous,entoo,bet7aawloo
-to try (7aawal),present continuous,henne,be7aawloo
+to try,present continuous,anaa,bjarreb
+to attempt,present continuous,anaa,b7aawel
+to attempt,present continuous,enta,bet7aawel
+to attempt,present continuous,ente,bet7aawlei
+to attempt,present continuous,huuwe,be7aawel
+to attempt,present continuous,hiiye,bet7aawel
+to attempt,present continuous,nehna,men7aawel
+to attempt,present continuous,entoo,bet7aawloo
+to attempt,present continuous,henne,be7aawloo
 to wake up,present continuous,anaa,bfii2
 to wake up,present continuous,enta,betfii2
 to wake up,present continuous,ente,betfii2ei
@@ -1566,22 +1566,22 @@ to see / to watch,present continuous,hiiye,betshuuf
 to see / to watch,present continuous,nehna,menshuuf
 to see / to watch,present continuous,entoo,betshuufoo
 to see / to watch,present continuous,henne,beshuufoo
-to finish (khalaS),present continuous,anaa,bukhlaS
-to finish (khalaS),present continuous,enta,btukhlaS
-to finish (khalaS),present continuous,ente,btukhlaSei
-to finish (khalaS),present continuous,huuwe,byukhlaS
-to finish (khalaS),present continuous,hiiye,btukhlaS
-to finish (khalaS),present continuous,nehna,mnukhlaS
-to finish (khalaS),present continuous,entoo,btukhlaSoo
-to finish (khalaS),present continuous,henne,byukhlaSoo
-to finish (khallaS),present continuous,anaa,bkhalleS
-to finish (khallaS),present continuous,enta,betkhalleS
-to finish (khallaS),present continuous,ente,betkhallSei
-to finish (khallaS),present continuous,huuwe,bekhalleS
-to finish (khallaS),present continuous,hiiye,betkhalleS
-to finish (khallaS),present continuous,nehna,menkhalleS
-to finish (khallaS),present continuous,entoo,betkhallSoo
-to finish (khallaS),present continuous,henne,bekhallSoo
+to end,present continuous,anaa,bukhlaS
+to end,present continuous,enta,btukhlaS
+to end,present continuous,ente,btukhlaSei
+to end,present continuous,huuwe,byukhlaS
+to end,present continuous,hiiye,btukhlaS
+to end,present continuous,nehna,mnukhlaS
+to end,present continuous,entoo,btukhlaSoo
+to end,present continuous,henne,byukhlaSoo
+to finish,present continuous,anaa,bkhalleS
+to finish,present continuous,enta,betkhalleS
+to finish,present continuous,ente,betkhallSei
+to finish,present continuous,huuwe,bekhalleS
+to finish,present continuous,hiiye,betkhalleS
+to finish,present continuous,nehna,menkhalleS
+to finish,present continuous,entoo,betkhallSoo
+to finish,present continuous,henne,bekhallSoo
 to be able to,present continuous,anaa,be2der
 to be able to,present continuous,enta,bte2der
 to be able to,present continuous,ente,bte2edrei

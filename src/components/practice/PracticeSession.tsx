@@ -46,6 +46,7 @@ export function PracticeSession({
   const [check, setCheck] = useState<Check | null>(null);
   const [gaveUp, setGaveUp] = useState(false);
   const [showLinked, setShowLinked] = useState(false);
+  const [showNote, setShowNote] = useState(false);
   // First answer per card in this round; only that one counts for progress.
   const [results, setResults] = useState<Record<string, boolean>>({});
   const inputRef = useRef<HTMLInputElement>(null);
@@ -99,6 +100,7 @@ export function PracticeSession({
     setCheck(null);
     setGaveUp(false);
     setShowLinked(false);
+    setShowNote(false);
   }
 
   const retry = card.id in results;
@@ -150,6 +152,28 @@ export function PracticeSession({
           <p className="mt-1 text-4xl font-bold text-gray-900">{card.prompt}</p>
         )}
         {card.cue && <p className="mt-2 text-lg text-cedar-700">{card.cue}</p>}
+        {card.note && (
+          // A hint you can open before or after revealing the answer.
+          <div className="mt-3" onClick={(event) => event.stopPropagation()}>
+            {showNote ? (
+              <button
+                type="button"
+                onClick={() => setShowNote(false)}
+                className="mx-auto max-w-sm text-sm italic text-gray-600"
+              >
+                {card.note}
+              </button>
+            ) : (
+              <button
+                type="button"
+                onClick={() => setShowNote(true)}
+                className="rounded-full px-3 py-1 text-xs font-semibold text-gray-500 ring-1 ring-gray-300 hover:bg-gray-50"
+              >
+                Tap for note
+              </button>
+            )}
+          </div>
+        )}
 
         <div className="mt-10 min-h-[6rem]">
           {mode === 'type' && (
@@ -185,9 +209,6 @@ export function PracticeSession({
                   {card.answer}
                 </span>
               </div>
-              {card.note && (
-                <p className="mt-2 text-sm italic text-gray-500">{card.note}</p>
-              )}
               {card.linked && (
                 <div
                   className="mt-4"
