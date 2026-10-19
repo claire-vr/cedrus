@@ -452,12 +452,12 @@ place,nationality,"male, singular",ma7allei
 place,nationality,"female, singular",ma7alliiyeh
 place,nationality,"male, plural",ma7alliiyiin
 place,nationality,"female, plural",ma7alliiyeit
-big / old (in age) *,gender & number,"male, singular",kbiir
-big / old (in age) *,gender & number,"female, singular",kbiireh
-big / old (in age) *,gender & number,plural,kbaar
-small / young (in age) *,gender & number,"male, singular",Zghiir
-small / young (in age) *,gender & number,"female, singular",Zghiireh
-small / young (in age) *,gender & number,plural,Zghaar
+big / old (in age),gender & number,"male, singular",kbiir
+big / old (in age),gender & number,"female, singular",kbiireh
+big / old (in age),gender & number,plural,kbaar
+small / young (in age),gender & number,"male, singular",Zghiir
+small / young (in age),gender & number,"female, singular",Zghiireh
+small / young (in age),gender & number,plural,Zghaar
 new (for objects),gender & number,"male, singular",jdiid
 new (for objects),gender & number,"female, singular",jdiideh
 new (for objects),gender & number,plural,jdeid
@@ -609,18 +609,18 @@ hungry,gender & number,plural,juu3aaniin
 open,gender & number,"male, singular",maftuu7
 open,gender & number,"female, singular",maftuu7ah
 open,gender & number,plural,maftuu7iin
-important (mhemm),gender & number,"male, singular",mhemm
-important (mhemm),gender & number,"female, singular",mhemmeh
-important (mhemm),gender & number,plural,mhemmiin
+importance,adjective,"male, singular",mhemm
+importance,adjective,"female, singular",mhemmeh
+importance,adjective,plural,mhemmiin
 thirsty,gender & number,"male, singular",3eTshaan
 thirsty,gender & number,"female, singular",3eTshaaneh
 thirsty,gender & number,plural,3eTshaaniin
 intensive,gender & number,"male, singular",mukassaf
 intensive,gender & number,"female, singular",mukassafeh
 intensive,gender & number,plural,mukassafiin
-champion,adjective,"male, singular",baTal
-champion,adjective,"female, singular",baTaleh
-champion,adjective,plural,abTaal
+champion,gender & number,"male, singular",baTal
+champion,gender & number,"female, singular",baTaleh
+champion,gender & number,plural,abTaal
 day (yoom),number,singular,yoom
 day (yoom),number,dual,yawmein
 day (yoom),number,plural,eyyeim
