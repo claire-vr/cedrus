@@ -597,9 +597,9 @@ savvy / competent,gender & number,plural,shaaTriin
 private,gender & number,"male, singular",khaaSS
 private,gender & number,"female, singular",khaaSSah
 private,gender & number,plural,khaaSSiin
-late (m2akhkhar),gender & number,"male, singular",m2akhkhar
-late (m2akhkhar),gender & number,"female, singular",m2akhkharah
-late (m2akhkhar),gender & number,plural,m2akhkhariin
+late,gender & number,"male, singular",m2akhkhar
+late,gender & number,"female, singular",m2akhkharah
+late,gender & number,plural,m2akhkhariin
 busy,gender & number,"male, singular",mashghuul
 busy,gender & number,"female, singular",mashghuuleh
 busy,gender & number,plural,mashghuuliin
