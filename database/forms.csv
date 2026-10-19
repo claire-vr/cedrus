@@ -696,14 +696,10 @@ date (dried),number,plural (general),tamer
 date (dried),number,singular,tamrah / 7abbet tamer
 date (dried),number,dual,tamertein
 date (dried),number,plural (counting),tamraat
-orange (laymuuneh),number,plural (general),laymuun
-orange (laymuuneh),number,singular,laymuuneh
-orange (laymuuneh),number,dual,laymuuntein
-orange (laymuuneh),number,plural (counting),laymuuneit
-orange (berd2aaneh),number,plural (general),berd2aan
-orange (berd2aaneh),number,singular,berd2aaneh
-orange (berd2aaneh),number,dual,berd2aantein
-orange (berd2aaneh),number,plural (counting),berd2aaneit
+orange (fruit),number,plural (general),laymuun / berd2aan
+orange (fruit),number,singular,laymuuneh / berd2aaneh
+orange (fruit),number,dual,laymuuntein / berd2aantein
+orange (fruit),number,plural (counting),laymuuneit / berd2aaneit
 lemon,number,plural (general),7aamuD
 lemon,number,singular,7aamDah
 lemon,number,dual,7aameDtein
@@ -1912,9 +1908,9 @@ good night,addressee,entoo,tusba7oo 3ala kheir
 good night to you too,addressee,enta,wu enta bkheir
 good night to you too,addressee,ente,wu ente bkheir
 good night to you too,addressee,entoo,wu entoo bkheir
-honoured to know you,addressee,enta,tsharrafet bema3reftak
-honoured to know you,addressee,ente,tsharrafet bema3reftek
-honoured to know you,addressee,entoo,tsharrafet bema3refetkon
+honoured to know you,addressee,enta,tsharrafet be ma3reftak
+honoured to know you,addressee,ente,tsharrafet be ma3reftek
+honoured to know you,addressee,entoo,tsharrafet be ma3refetkon
 (have a) happier day,addressee,enta,yoomak as3ad
 (have a) happier day,addressee,ente,yoomek as3ad
 (have a) happier day,addressee,entoo,yoomkon as3ad
