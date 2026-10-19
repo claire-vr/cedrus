@@ -330,10 +330,10 @@ single man (not married),number,singular,a3zab
 single man (not married),number,plural,3ezzeibei
 single woman (not married),number,singular,a3zbaa
 single woman (not married),number,plural,3ezzeibiiyeh
-engaged man / fiancé,number,singular,khaaTeb
-engaged man / fiancé,number,plural,khuTTaab
-engaged woman / fiancé,number,singular,khaaTbeh / makhTuubeh
-engaged woman / fiancé,number,plural,khaaTbiin / makhTuubiin
+fiancé,gender & number,"male, singular",khaaTeb
+fiancé,gender & number,"female, singular",khaaTbeh
+fiancé,gender & number,"male, plural",khuTTaab
+fiancé,gender & number,"female, plural",khaaTbiin
 husband,number,singular,zawj
 husband,number,plural,zweij
 wife,number,singular,zawjeh / madaam
