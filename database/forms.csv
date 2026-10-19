@@ -2251,3 +2251,10 @@ nationality,possessive,enta,jensiitak / jensiiyetak
 second,gender & number,"male, singular",teinei
 second,gender & number,"female, singular",teinyeh
 day,possessive,enta,yawmak
+meat,gender & number,"male, singular",la7em
+meat,gender & number,"female, singular",la7meh
+grilled,gender & number,"male, singular",meshwei
+grilled,gender & number,"female, singular",meshwiiyeh
+grilled,gender & number,plural,meshwiiyiin
+fried,gender & number,"male, singular",me3lei
+fried,gender & number,"female, singular",me3liiyeh
