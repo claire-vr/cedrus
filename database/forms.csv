@@ -262,8 +262,8 @@ famous,gender & number,"male, singular",mashhuur
 famous,gender & number,"female, singular",mashhuurah
 famous,gender & number,"male, plural",mashhuuriin
 famous,gender & number,"female, plural",mashhuureit
-ambassador (safiir),gender & number,"male, singular",safiir
-ambassador (safiir),gender & number,"female, singular",safiireh
+ambassador,gender & number,"male, singular",safiir
+ambassador,gender & number,"female, singular",safiireh
 journalist,gender & number,"male, singular",sa7aafei
 journalist,gender & number,"female, singular",sa7aafiiyeh
 journalist,gender & number,"male, plural",sa7aafiiyiin
@@ -332,22 +332,16 @@ single woman (not married),number,singular,a3zbaa
 single woman (not married),number,plural,3ezzeibiiyeh
 engaged man / fiancé,number,singular,khaaTeb
 engaged man / fiancé,number,plural,khuTTaab
-engaged woman / fiancé (khaaTbeh),number,singular,khaaTbeh
-engaged woman / fiancé (khaaTbeh),number,plural,khaaTbiin
-engaged woman / fiancé (makhTuubeh),number,singular,makhTuubeh
-engaged woman / fiancé (makhTuubeh),number,plural,makhTuubiin
+engaged woman / fiancé,number,singular,khaaTbeh / makhTuubeh
+engaged woman / fiancé,number,plural,khaaTbiin / makhTuubiin
 husband,number,singular,zawj
 husband,number,plural,zweij
-wife (zawjeh),number,singular,zawjeh
-wife (zawjeh),number,plural,zawjeit
-wife (madaam),number,singular,madaam
-wife (madaam),number,plural,madaamtei
+wife,number,singular,zawjeh / madaam
+wife,number,plural,zawjeit / madaamtei
 woman / wife,number,singular,marraa
 woman / wife,number,plural,neswein
-man (rejjeil),number,singular,rejjeil
-man (rejjeil),number,plural,rjeil
-man (zalamei),number,singular,zalamei
-man (zalamei),number,plural,zelem
+man,number,singular,rejjeil / zalamei
+man,number,plural,rjeil / zelem
 parents of my husband,number,singular,ahel zawjei
 parents of my wife,number,singular,ahel martei
 father in law,number,singular,3amm
@@ -365,10 +359,6 @@ wife of my son,number,plural,neswein wleidei
 (boy)friend / owner,number,plural,as7aab
 (girl)friend / owner,number,singular,Saa7beh
 (girl)friend / owner,number,plural,Saa7beit
-colleague (zamiil),number,singular,zamiil
-colleague (zamiil),number,plural,zumalaa
-colleague (zamiileh),number,singular,zamiileh
-colleague (zamiileh),number,plural,zamiileit
 prince,number,singular,2amiir
 princess,number,singular,2amiirah
 person,number,singular,shakheS
@@ -2171,8 +2161,8 @@ worker,number,singular,3aamel
 worker,number,plural,3ummeil
 car washing place,number,singular,maghsal
 car washing place,number,plural,maghaasel
-place/shop,number,singular,ma7all
-place/shop,number,plural,ma7alleit
+place / shop,number,singular,ma7all
+place / shop,number,plural,ma7alleit
 convenience store,number,singular,dekkein
 convenience store,number,plural,dakaakiin
 hospital,number,singular,meshtashfa
@@ -2262,3 +2252,7 @@ sport,adjective,"female, singular",ryaaDiiyeh
 sport,adjective,plural,ryaaDiiyiin
 profession,number,singular,mehneh
 profession,number,plural,mehon
+colleague,gender & number,"male, singular",zamiil
+colleague,gender & number,"female, singular",zamiileh
+colleague,gender & number,"male, plural",zumalaa
+colleague,gender & number,"female, plural",zamiileit
