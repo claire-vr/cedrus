@@ -322,14 +322,14 @@ daughter of uncle (mother's),number,singular,benet khaal
 daughter of uncle (mother's),number,plural,wleid khaal
 daughter of aunt (mother's),number,singular,benet khaaleh
 daughter of aunt (mother's),number,plural,wleid khaal
-young man,number,singular,shaab
-young man,number,plural,shabeib
-young woman,number,singular,sabiiyeh
-young woman,number,plural,sabaaya
-single man (not married),number,singular,a3zab
-single man (not married),number,plural,3ezzeibei
-single woman (not married),number,singular,a3zbaa
-single woman (not married),number,plural,3ezzeibiiyeh
+young person,gender & number,"male, singular",shaab
+young person,gender & number,"female, singular",sabiiyeh
+young person,gender & number,"male, plural",shabeib
+young person,gender & number,"female, plural",sabaaya
+single person,gender & number,"male, singular",a3zab
+single person,gender & number,"female, singular",a3zbaa
+single person,gender & number,"male, plural",3ezzeibei
+single person,gender & number,"female, plural",3ezzeibiiyeh
 fiancé,gender & number,"male, singular",khaaTeb
 fiancé,gender & number,"female, singular",khaaTbeh
 fiancé,gender & number,"male, plural",khuTTaab
@@ -355,10 +355,10 @@ daughter in law,number,singular,kenneh
 daughter in law,number,plural,kenneit
 wife of my son,number,singular,maret ebnei
 wife of my son,number,plural,neswein wleidei
-(boy)friend / owner,number,singular,Saa7eb
-(boy)friend / owner,number,plural,as7aab
-(girl)friend / owner,number,singular,Saa7beh
-(girl)friend / owner,number,plural,Saa7beit
+lover / friend / owner,gender & number,"male, singular",Saa7eb
+lover / friend / owner,gender & number,"female, singular",Saa7beh
+lover / friend / owner,gender & number,"male, plural",as7aab
+lover / friend / owner,gender & number,"female, plural",Saa7beit
 prince,number,singular,2amiir
 princess,number,singular,2amiirah
 person,number,singular,shakheS
