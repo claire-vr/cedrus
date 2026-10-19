@@ -493,9 +493,9 @@ low / mean,gender & number,plural,waaTyiin
 heavy,gender & number,"male, singular",t2iil
 heavy,gender & number,"female, singular",t2iileh
 heavy,gender & number,plural,t2eil / t2aal
-light,gender & number,"male, singular",khafiif
-light,gender & number,"female, singular",khafiifeh
-light,gender & number,plural,kheif
+lightweight,gender & number,"male, singular",khafiif
+lightweight,gender & number,"female, singular",khafiifeh
+lightweight,gender & number,plural,kheif
 spacious / broad / loose,gender & number,"male, singular",weise3
 spacious / broad / loose,gender & number,"female, singular",weis3ah
 spacious / broad / loose,gender & number,plural,weis3iin
@@ -2233,3 +2233,23 @@ napkin,number,singular,ma7rameh
 napkin,number,plural,ma7aarem
 meal,number,singular,wajbeh
 meal,number,plural,wajbeit
+door,number,singular,beib
+door,number,plural,bweib
+name,number,singular,esem
+name,number,plural,eseimei
+car,number,singular,siiyaarah
+car,number,plural,siiyaaraat
+school,number,singular,madraseh
+school,number,plural,madeires
+thing,number,singular,shii / gharaD
+thing,number,plural,eshyaa / ghraaD
+tour,number,singular,jawleh / barmeh
+tour,number,plural,jawleit / barmeit
+activity,number,singular,nashaaT
+activity,number,plural,nashaaTaat
+light,number,singular,Daww
+light,number,plural,uDuwyeh
+game,number,singular,le3beh
+game,number,plural,al3aab
+country,number,singular,balad
+country,number,plural,bleid/beldein

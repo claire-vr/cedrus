@@ -40,7 +40,9 @@ function linkedLabel(item: Item, form: ItemForm) {
   if (form.form.startsWith('possessive')) {
     const variant = form.form.match(/\((.+)\)/)?.[1];
     const question = possessiveQuestion(item, form.person);
-    return variant ? `${question} (${variant})` : question;
+    return variant
+      ? `${question} · ${form.person} (${variant})`
+      : `${question} · ${form.person}`;
   }
   const label = formLabel({ tense: form.form, person: form.person });
   return form.form === 'person' && label.hint
@@ -136,7 +138,14 @@ function formCard(item: Item, form: ItemForm): PracticeCard {
  */
 function cardsForItem(item: Item): PracticeCard[] {
   if (!item.lebanese) return [];
-  const practice = item.forms.filter(isPracticeForm);
+  // In Possessive pronouns only the possessives are asked; a plural there
+  // (door → bweib) shows under Linked items instead.
+  const practice = item.forms.filter(
+    (form) =>
+      isPracticeForm(form) &&
+      (!FORMS_ONLY_TOPICS.includes(item.topicId) ||
+        form.form.startsWith('possessive'))
+  );
   const formsOnly =
     practice.length > 0 &&
     (FORMS_ONLY_TOPICS.includes(item.topicId) ||
