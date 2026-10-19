@@ -2261,6 +2261,8 @@ coat,number,singular,kabbuut
 coat,number,plural,kabaabiit
 color,possessive,huuwe,lawnoo
 trip,possessive,hiiye,re7letaa
-sporty,gender & number,"male, singular",ryaaDei
-sporty,gender & number,"female, singular",ryaaDiiyeh
-sporty,gender & number,plural,ryaaDiiyiin
+sport,adjective,"male, singular",ryaaDei
+sport,adjective,"female, singular",ryaaDiiyeh
+sport,adjective,plural,ryaaDiiyiin
+profession,number,singular,mehneh
+profession,number,plural,mehon
