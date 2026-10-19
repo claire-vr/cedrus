@@ -10,8 +10,42 @@ export function vocabularyCard(item: Item): PracticeCard {
     id: item.id,
     prompt: item.english,
     answer: item.lebanese,
-    note: item.notes || undefined
+    note: item.notes || undefined,
+    linked: linkedItems(item)
   };
+}
+
+/**
+ * The word and all its forms (plural, feminine, my …, to a woman …), shown
+ * under "Linked items" once a card is answered. Verb conjugations are left
+ * out: they have their own drill.
+ */
+function linkedItems(item: Item): PracticeCard['linked'] {
+  const forms = item.forms.filter(
+    (form) =>
+      !(form.form in tenseLabels) &&
+      !(form.person === 'singular' && form.lebanese === item.lebanese)
+  );
+  if (forms.length === 0) return undefined;
+  return [
+    { label: item.english, lebanese: item.lebanese },
+    ...forms.map((form) => ({
+      label: linkedLabel(item, form),
+      lebanese: form.lebanese
+    }))
+  ];
+}
+
+function linkedLabel(item: Item, form: ItemForm) {
+  if (form.form.startsWith('possessive')) {
+    const variant = form.form.match(/\((.+)\)/)?.[1];
+    const question = possessiveQuestion(item, form.person);
+    return variant ? `${question} (${variant})` : question;
+  }
+  const label = formLabel({ tense: form.form, person: form.person });
+  return form.form === 'person' && label.hint
+    ? `${label.main} · ${label.hint}`
+    : label.main;
 }
 
 /**
@@ -23,9 +57,13 @@ const FORMS_ONLY_TOPICS = ['possessive-pronouns'];
 /** Forms whose base is the answer for one of them, so only the forms are asked. */
 const SAY_TO_FORMS = ['addressee', 'speaker & addressee', 'person'];
 
-/** Forms that get their own Review cards. */
+/** Forms that get their own Review cards (plurals too: "sentence" · plural). */
 function isPracticeForm(form: ItemForm) {
-  return form.form.startsWith('possessive') || SAY_TO_FORMS.includes(form.form);
+  return (
+    form.form.startsWith('possessive') ||
+    SAY_TO_FORMS.includes(form.form) ||
+    (form.form === 'number' && form.person !== 'singular')
+  );
 }
 
 /** English pronouns per person, to build the question of a possessive form. */
@@ -71,7 +109,8 @@ function formCard(item: Item, form: ItemForm): PracticeCard {
       id,
       prompt: possessiveQuestion(item, form.person),
       cue: variant ? `${form.person} · ${variant}` : form.person,
-      answer: form.lebanese
+      answer: form.lebanese,
+      linked: linkedItems(item)
     };
   }
   // Addressee, speaker and person forms: the phrase in big, who it is for in
@@ -84,7 +123,8 @@ function formCard(item: Item, form: ItemForm): PracticeCard {
       form.form === 'person' && label.hint
         ? `${label.main} · ${label.hint}`
         : label.main,
-    answer: form.lebanese
+    answer: form.lebanese,
+    linked: linkedItems(item)
   };
 }
 

@@ -1978,9 +1978,9 @@ please (do me a favor),addressee,entoo,3melo ma3rouf
 please (after your permission),addressee,enta,baa2d eznak
 please (after your permission),addressee,ente,baa2d eznek
 please (after your permission),addressee,entoo,baa2d eznkon
-please (allow me to torture you by asking something),addressee,enta,bade 3azzbak
-please (allow me to torture you by asking something),addressee,ente,bade 3azzbek
-please (allow me to torture you by asking something),addressee,entoo,bade 3azzebkon
+please (allow me to torture you),addressee,enta,bade 3azzbak
+please (allow me to torture you),addressee,ente,bade 3azzbek
+please (allow me to torture you),addressee,entoo,bade 3azzebkon
 we were honoured to have you with us,addressee,enta,sharrafetnaa
 we were honoured to have you with us,addressee,ente,sharraftiinaa
 we were honoured to have you with us,addressee,entoo,sharraftuunaa
@@ -2064,3 +2064,172 @@ because (+ person),possessive,hiiye,le annaa
 because (+ person),possessive,nehna,le annaa
 because (+ person),possessive,entoo,le annkon
 because (+ person),possessive,henne,le annon
+sentence,number,singular,jemleh
+sentence,number,plural,jemal
+word,number,singular,kelmeh
+word,number,plural,kelmeit
+verb,number,singular,fa3el
+verb,number,plural,af3aal
+question,number,singular,su2aal
+question,number,plural,as2elah
+answer,number,singular,jaweib
+answer,number,plural,ajwebeh
+leg,number,singular,ejer
+leg,number,dual,ejrein
+hair,number,singular,sha3er
+hair,number,plural,sha3raat
+shirt,number,singular,2amiis
+shirt,number,plural,2umsaan
+type,number,singular,noo3
+type,number,plural,anwei3
+gift,number,singular,hdiiyeh
+gift,number,plural,hadeiyaa
+dog,number,singular,kalb
+dog,number,plural,kleib
+cat,gender & number,"male, singular",bsein
+cat,gender & number,"female, singular",bsayneh
+cat,gender & number,plural,bsayneit
+animal,number,singular,7ayawein
+animal,number,plural,7ayaweineit
+hobby,number,singular,heweiyeh
+hobby,number,plural,heweiyeit
+key,number,singular,meftei7
+key,number,plural,mafaatii7
+backpack/suitcase,number,singular,shantah
+backpack/suitcase,number,plural,shanteit/shentat
+picture,number,singular,Suurah
+picture,number,plural,Suwar
+basket,number,singular,salleh
+basket,number,plural,salleit
+waste bin,number,singular,sallet zbeileh
+waste bin,number,plural,salleite zbeileh
+paper,number,singular,war2ah
+paper,number,plural,wraa2
+piece of news,number,singular,khabar
+piece of news,number,plural,khbaar
+street,number,singular,sheire3
+street,number,plural,shaweire3
+meter,number,singular,mter
+meter,number,plural,mtaar
+ball,number,singular,Taabeh
+ball,number,plural,Taabeit
+price,number,singular,se3er
+price,number,plural,as3aar
+money,number,singular,maSaarei
+money,number,plural,muSriiyeit
+responsibility,number,singular,mas2uuliiyeh
+responsibility,number,plural,mas2uuliiyeit
+building,number,singular,beneiyeh
+building,number,plural,beneiyeit
+house,number,singular,beit
+house,number,plural,byuut
+apartment,number,singular,she22ah
+apartment,number,plural,she22a2
+room,number,singular,uDah
+room,number,plural,uwaD
+bedroom,number,singular,uDet noom
+bedroom,number,plural,uwaD noom
+bed,number,singular,takhet
+bed,number,plural,tkhuut
+kitchen,number,singular,maTbakh
+kitchen,number,plural,maTaabeikh
+balcony,number,singular,balkoon
+balcony,number,plural,balaakiin
+garden,number,singular,jnayneh
+garden,number,plural,jnayneit
+tree,number,singular,shajrah
+tree,number,plural,shajar
+ceder,number,singular,arzeh
+ceder,number,plural,arez
+wall,number,singular,7eiT/7ayT
+wall,number,plural,7iitaan
+window,number,singular,shebbeik
+window,number,plural,shabaabiik
+chair,number,singular,kersei
+chair,number,plural,karaasei
+table,number,singular,Taawleh
+table,number,plural,Taawleit
+AC,number,singular,mukayyef
+AC,number,plural,mukayyefeit
+playground,number,singular,mal3ah
+playground,number,plural,malei3eb
+story,number,singular,2uSSah
+story,number,plural,2uSSaS
+organization / organized woman,number,singular,munaZZameh
+organization / organized woman,number,plural,munaZZameit
+office,number,singular,maktab
+office,number,plural,makeiteb
+library,number,singular,maktabeh
+library,number,plural,maktabeit
+writer,number,singular,keiteb
+writer,number,plural,keitteib
+book,number,singular,kteib
+book,number,plural,kutub
+lesson,number,singular,dars
+lesson,number,plural,druus
+notebook,number,singular,daftar
+notebook,number,plural,dafeiter
+class,number,singular,Saff
+class,number,plural,Sfuuf
+pen,number,singular,2alam
+pen,number,plural,2leim
+factory,number,singular,ma3mal
+factory,number,plural,ma3eimel
+worker,number,singular,3aamel
+worker,number,plural,3ummeil
+car washing place,number,singular,maghsal
+car washing place,number,plural,maghaasel
+place/shop,number,singular,ma7all
+place/shop,number,plural,ma7alleit
+convenience store,number,singular,dekkein
+convenience store,number,plural,dakaakiin
+hospital,number,singular,meshtashfa
+hospital,number,plural,mestashfayeit
+subject / matter / material,number,singular,meiddeh
+subject / matter / material,number,plural,maweid
+exercise,number,singular,tamriin
+exercise,number,plural,tamaariin
+exam,number,singular,emte7aan
+exam,number,plural,emte7aaneit
+province,number,singular,mu7aafaZah
+province,number,plural,mu7aafaZaat
+map,number,singular,khariiTah
+map,number,plural,kharaayeT
+region,number,singular,manTa2ah
+region,number,plural,manaaTe2
+1000,number,singular,alf
+1000,number,plural,2luuf(eh)
+1 000 000,number,singular,malyoon
+1 000 000,number,plural,malaayiin
+number,number,singular,ra2em
+number,number,plural,arqaam
+number (when we count),number,singular,3adad
+number (when we count),number,plural,3adeid
+watch / time (when specifying an hour),number,singular,sei3a
+watch / time (when specifying an hour),number,plural,Se3eit/Se3aat
+minute,number,singular,da2ii2ah
+minute,number,plural,da2aaye2
+appointment,number,singular,maw3ed
+appointment,number,plural,mawaa3iid
+vacation,number,singular,3eTleh
+vacation,number,plural,3uTal
+oil,number,singular,zeit
+oil,number,plural,zyuut
+glass,number,singular,kebbeiyeh
+glass,number,plural,kebbeiyeit
+cup,number,singular,fenjein
+cup,number,plural,fanaajiin
+bottle,number,singular,2anniinet
+bottle,number,plural,aneinei
+fork,number,singular,shawkeh
+fork,number,plural,shuwak
+knife,number,singular,sekkiin
+knife,number,plural,sakaakiin
+spoon,number,singular,mal3a2ah
+spoon,number,plural,mal3ae2
+plate,number,singular,sa7an
+plate,number,plural,Shuun
+napkin,number,singular,ma7rameh
+napkin,number,plural,ma7aarem
+meal,number,singular,wajbeh
+meal,number,plural,wajbeit

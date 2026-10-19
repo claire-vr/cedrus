@@ -16,6 +16,8 @@ export type PracticeCard = {
   note?: string;
   /** Cards with the same group (a phrase and its replies) stay together, in order. */
   group?: string;
+  /** The word and its other forms, shown under "Linked items" after answering. */
+  linked?: { label: string; lebanese: string }[];
 };
 
 type Mode = 'reveal' | 'type';
@@ -43,6 +45,7 @@ export function PracticeSession({
   const [typed, setTyped] = useState('');
   const [check, setCheck] = useState<Check | null>(null);
   const [gaveUp, setGaveUp] = useState(false);
+  const [showLinked, setShowLinked] = useState(false);
   // First answer per card in this round; only that one counts for progress.
   const [results, setResults] = useState<Record<string, boolean>>({});
   const inputRef = useRef<HTMLInputElement>(null);
@@ -95,6 +98,7 @@ export function PracticeSession({
     setTyped('');
     setCheck(null);
     setGaveUp(false);
+    setShowLinked(false);
   }
 
   const retry = card.id in results;
@@ -183,6 +187,42 @@ export function PracticeSession({
               </div>
               {card.note && (
                 <p className="mt-2 text-sm italic text-gray-500">{card.note}</p>
+              )}
+              {card.linked && (
+                <div
+                  className="mt-4"
+                  onClick={(event) => event.stopPropagation()}
+                >
+                  <button
+                    type="button"
+                    onClick={() => setShowLinked((open) => !open)}
+                    className="rounded-full px-4 py-1.5 text-sm font-semibold text-cedar-700 ring-1 ring-cedar-300 hover:bg-cedar-50"
+                  >
+                    {showLinked
+                      ? 'Hide linked items'
+                      : `Linked items (${card.linked.length})`}
+                  </button>
+                  {showLinked && (
+                    <ul className="mx-auto mt-3 max-w-sm divide-y divide-cedar-100 text-left">
+                      {card.linked.map((entry) => (
+                        <li
+                          key={`${entry.label}:${entry.lebanese}`}
+                          className={[
+                            'flex justify-between gap-4 px-2 py-1.5',
+                            entry.lebanese === card.answer
+                              ? 'bg-cedar-50 font-semibold'
+                              : ''
+                          ].join(' ')}
+                        >
+                          <span className="text-gray-600">{entry.label}</span>
+                          <span className="text-right text-lebanon-redDark">
+                            {entry.lebanese}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
               )}
             </div>
           ) : mode === 'reveal' ? (
