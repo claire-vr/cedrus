@@ -136,7 +136,7 @@ Prepositions,inside,juuwaa,0,preposition,,,,
 Prepositions,close to,2ariib men,3,preposition,,,,
 Prepositions,far from,b3iid 3an,3,preposition,,,,
 Prepositions,before,2abl,0,preposition,,,,
-Prepositions,after / yet / still / more,ba3ed,8,preposition,,,,ba3ed
+Prepositions,after,ba3ed,8,preposition,,,,ba3ed
 Prepositions,between / among,bein,11,preposition,,,,
 Prepositions,behind,waraa,8,preposition,,,,
 Prepositions,in front of,2eddeim,8,preposition,,,,
@@ -157,6 +157,7 @@ Prepositions,around,7aweilei,8,preposition,,,,
 Prepositions,to,la,8,preposition,,,,
 Prepositions,in / at / with / by,be,8,preposition,,,,
 Prepositions,all of,kell,8,pronoun,,,,
+Prepositions,still / yet / more,ba3ed,0,adverb,,,,ba3ed
 Conjunctions & adverbs,(noun +) that / which / who,yallei,0,conjunction / adverb,,,,
 Conjunctions & adverbs,(verb +) that,ennoo,0,conjunction / adverb,,,,
 Conjunctions & adverbs,because,le ennoo,0,conjunction / adverb,,,,
@@ -805,7 +806,6 @@ Times,first,awwal shii,0,adverb,,,,
 Times,during,kheleil,0,preposition,,,,
 Times,during the day,kheleil n-nhaar,0,adverb,,,,
 Times,later,ba3den,0,adverb,,,,ba3ed
-Times,after,ba3ed,0,preposition,,,,ba3ed
 Times,never,abadan (maa),0,adverb,,,,
 Times,not at all,be l-marrah maa,0,adverb,,,,
 Times,not once,wala marrah,0,adverb,,,,
