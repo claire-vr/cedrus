@@ -180,12 +180,12 @@ Conjunctions & adverbs,someone,7adaa,0,conjunction / adverb,,,,
 Conjunctions & adverbs,every,kell (+ indefinite noun),0,conjunction / adverb,,,,
 Conjunctions & adverbs,all,kell (+ definite noun),0,conjunction / adverb,,,,
 Conjunctions & adverbs,so,fa,0,conjunction / adverb,,,,
-Conjunctions & adverbs,about each other,3an ba3eD,0,conjunction / adverb,,,,
+Conjunctions & adverbs,about each other,3an ba3eD,0,conjunction / adverb,,,,ba3ed
 Conjunctions & adverbs,about you,3en 7aaleik,0,conjunction / adverb,,,,
 Conjunctions & adverbs,together,sawaa / ma3 ba3eD,0,conjunction / adverb,,,,ba3ed
-Conjunctions & adverbs,to each other,la ba3eD,0,conjunction / adverb,,,,
-Conjunctions & adverbs,from each other,men ba3eD,0,conjunction / adverb,,,,
-Conjunctions & adverbs,to each other's house,la3end ba3eD,0,conjunction / adverb,,,,
+Conjunctions & adverbs,to each other,la ba3eD,0,conjunction / adverb,,,,ba3ed
+Conjunctions & adverbs,from each other,men ba3eD,0,conjunction / adverb,,,,ba3ed
+Conjunctions & adverbs,to each other's house,la3end ba3eD,0,conjunction / adverb,,,,ba3ed
 Conjunctions & adverbs,for your sake / for you (muslims),3asheinak,8,conjunction / adverb,,,,
 Conjunctions & adverbs,for your sake / for you (christians),kermeilak,8,conjunction / adverb,,,,
 Conjunctions & adverbs,because (+ person),le ann,8,conjunction / adverb,,,,
@@ -227,7 +227,7 @@ Daily,there is nothing,mafi sh-shii,0,expression,,,,
 Daily,there is something,fi sh-shi,0,expression,,,,
 Daily,there is everything,fi kell sh-shi,0,expression,,,,
 Daily,something,shii / shaghle,0,noun,,,,
-Daily,some things,ba3eDel eshyaa,0,noun,,,,
+Daily,some things,ba3eDel eshyaa,0,noun,,,,ba3ed
 Daily,another,gheir / teinei,0,adjective,,,,
 Daily,second,teinei,2,adjective,,,another,
 Daily,again / one more time,marrah teinyeh / 3ane jdiid,0,adverb,,,,
@@ -798,7 +798,6 @@ Times,how many times,kam marrah,0,expression,,,,
 Times,a few times,kazaa marrah / kam marrah,0,adverb,,,,
 Times,3 times a day,tleit marraat kell yoom,0,adverb,,,,
 Times,once a month,marrah be sh-shaher,0,adverb,,,,
-Times,in 1 week,ba3ed jem3eh / ba3ed usbu3,0,adverb,,,,
 Times,the coming week,l-usbuu3e l-jeiye,0,noun,,,,
 Times,all week,kell haa l-usbuu3,0,adverb,,,,
 Times,at first,be l-awwal,0,adverb,,,,
