@@ -14,6 +14,8 @@ export type PracticeCard = {
   cue?: string;
   answer: string;
   note?: string;
+  /** Small line under the revealed answer, e.g. the infinitive "(katab)". */
+  answerHint?: string;
   /** Cards with the same group (a phrase and its replies) stay together, in order. */
   group?: string;
   /** The word and its other forms, shown under "Linked items" after answering. */
@@ -209,6 +211,9 @@ export function PracticeSession({
                   {card.answer}
                 </span>
               </div>
+              {card.answerHint && (
+                <p className="mt-1 text-lg text-gray-500">{card.answerHint}</p>
+              )}
               {card.linked && (
                 <div
                   className="mt-4"

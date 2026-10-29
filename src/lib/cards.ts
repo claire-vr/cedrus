@@ -264,7 +264,8 @@ export function verbCards(verb: Verb, tenses: string[]): PracticeCard[] {
           form.tense === 'active participle' && label.hint
             ? `${tense} · ${label.main} (${label.hint})`
             : `${tense} · ${label.main}`,
-        answer: form.lebanese
+        answer: form.lebanese,
+        answerHint: verb.infinitive ? `(${verb.infinitive})` : undefined
       };
     });
 }
